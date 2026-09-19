@@ -5,12 +5,14 @@ A mobile-friendly, static Pathfinder Second Edition rules quiz. Every exam conta
 ## Included exam themes
 
 - General Rules
+- Attack & Damage Rolls
+- Conditions
+- Death & Dying
 - Underwater Rules
 - Crafting
 - Stealth
 - Familiars & Pets
 - Aerial Rules
-- Conditions & Recovery
 - Spellcasting
 
 ## Run locally
