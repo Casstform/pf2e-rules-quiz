@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Twenty-question Pathfinder Second Edition rules exams with explanations and rules references.">
+  <meta name="theme-color" content="#101927">
+  <title>Rules Crucible — PF2e Rules Quiz</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to quiz</a>
+  <header class="site-header">
+    <button class="brand" id="home-button" type="button" aria-label="Return to exam selection">
+      <span class="brand-mark" aria-hidden="true">20</span>
+      <span><strong>Rules Crucible</strong><small>Pathfinder 2e</small></span>
+    </button>
+    <div class="header-meta" id="header-meta">Remaster rules</div>
+  </header>
+
+  <main id="main">
+    <section id="home-screen" class="screen home-screen" aria-labelledby="home-title">
+      <div class="intro-grid">
+        <div class="intro-copy">
+          <p class="eyebrow">Rules training for the table</p>
+          <h1 id="home-title">Know the rule.<br><span>Make the call.</span></h1>
+          <p class="lede">Choose a focused exam or draw from every discipline. Each attempt contains 20 multiple-choice questions, with the rule explained after every answer.</p>
+          <button class="primary-button" id="mixed-start" type="button">Begin the Grand Test <span aria-hidden="true">→</span></button>
+        </div>
+        <aside class="ledger" aria-label="Quiz overview">
+          <div><strong id="question-total">—</strong><span>rules questions</span></div>
+          <div><strong>20</strong><span>per exam</span></div>
+          <div><strong id="exam-count">0</strong><span>exams completed</span></div>
+        </aside>
+      </div>
+
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Focused examinations</p>
+          <h2>Choose your discipline</h2>
+        </div>
+        <p>Every category has a larger bank than one exam, so retakes produce a different set.</p>
+      </div>
+      <div class="category-grid" id="category-grid"></div>
+    </section>
+
+    <section id="quiz-screen" class="screen quiz-screen" hidden aria-labelledby="question-heading">
+      <div class="quiz-topline">
+        <button class="text-button" id="quit-button" type="button">← Leave exam</button>
+        <span id="quiz-theme">General Rules</span>
+        <span id="quiz-score">0 correct</span>
+      </div>
+      <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+      <div class="question-meta">
+        <span id="question-number">Question 1 of 20</span>
+        <span class="difficulty" id="difficulty">Foundational</span>
+      </div>
+      <article class="question-card">
+        <p class="category-kicker" id="question-category">General Rules</p>
+        <h1 id="question-heading"></h1>
+        <div class="answers" id="answers" role="group" aria-label="Answer choices"></div>
+        <div class="feedback" id="feedback" hidden aria-live="polite">
+          <p class="feedback-verdict" id="feedback-verdict"></p>
+          <p id="feedback-explanation"></p>
+          <a id="source-link" href="#" target="_blank" rel="noopener">Read the referenced rule ↗</a>
+        </div>
+      </article>
+      <div class="quiz-actions">
+        <span class="keyboard-hint">Keys A–D select · Enter continues</span>
+        <button class="primary-button compact" id="next-button" type="button" disabled>Next question <span aria-hidden="true">→</span></button>
+      </div>
+    </section>
+
+    <section id="result-screen" class="screen result-screen" hidden aria-labelledby="result-title">
+      <div class="result-hero">
+        <div class="score-seal"><strong id="result-score">0</strong><span>/ 20</span></div>
+        <div>
+          <p class="eyebrow">Examination complete</p>
+          <h1 id="result-title">Your verdict</h1>
+          <p id="result-message"></p>
+        </div>
+      </div>
+      <div class="result-grid">
+        <section class="result-panel">
+          <h2>By discipline</h2>
+          <div id="category-results"></div>
+        </section>
+        <section class="result-panel">
+          <h2>Review the misses</h2>
+          <div id="missed-review"></div>
+        </section>
+      </div>
+      <div class="result-actions">
+        <button class="secondary-button" id="results-home" type="button">Choose another exam</button>
+        <button class="primary-button" id="retry-button" type="button">Retake this theme <span aria-hidden="true">↻</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Unofficial fan-made learning tool. Pathfinder is a trademark of Paizo Inc. Rules summaries are paraphrased for study; linked references remain authoritative.</p>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
