@@ -168,6 +168,8 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
 .section-heading > p { max-width: 32rem; margin: 0; color: var(--muted); }
 
 .category-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.character-heading { margin-top: clamp(4rem, 8vw, 7rem); }
+.character-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .category-card {
   min-height: 16.5rem;
   padding: 1.6rem;
@@ -179,6 +181,8 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
   overflow: hidden;
   transition: background .18s ease;
 }
+.character-card { background: linear-gradient(145deg, rgba(196, 153, 65, .08), transparent 55%), var(--ink); }
+.character-card .category-icon { color: var(--gold); border-color: rgba(196, 153, 65, .42); }
 .category-card:hover, .category-card:focus-visible { background: var(--panel); outline: none; }
 .category-card::after { content: attr(data-number); position: absolute; right: 1rem; bottom: -.7rem; color: rgba(255,255,255,.035); font: 700 7rem/1 Georgia, serif; }
 .category-icon { display: block; margin-bottom: 2.6rem; color: var(--gold); font: 700 .82rem/1 Georgia, serif; letter-spacing: .08em; }

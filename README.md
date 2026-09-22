@@ -15,6 +15,13 @@ A mobile-friendly, static Pathfinder Second Edition rules quiz. Every exam conta
 - Aerial Rules
 - Spellcasting
 
+## Character examinations
+
+- Ritsa — animist attunement, dual casting, familiar, Medicine, and herbal fieldcraft
+- WE4LAND — pistolero reloads, firearms, alchemical ammunition, and automaton rules
+- Oziza — Cosmos oracle curses, spontaneous divine magic, focus spells, and azarketi rules
+- Sara — Tiger Stance, Flurry of Blows, climbing, breath control, and innate magic
+
 ## Run locally
 
 Because the site uses JavaScript modules, serve the folder with any small local web server rather than opening `index.html` directly. For example:

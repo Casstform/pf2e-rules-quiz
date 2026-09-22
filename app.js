@@ -11,6 +11,7 @@ const screens = {
 
 const els = {
   grid: document.querySelector("#category-grid"),
+  characterGrid: document.querySelector("#character-grid"),
   total: document.querySelector("#question-total"),
   examCount: document.querySelector("#exam-count"),
   mixedStart: document.querySelector("#mixed-start"),
@@ -90,18 +91,22 @@ function renderHome() {
   els.total.textContent = questions.length;
   els.examCount.textContent = progress.completed;
   els.headerMeta.textContent = "Remaster rules";
-  els.grid.innerHTML = categories.map((category, index) => {
+  const renderCards = (items, offset = 0) => items.map((category, index) => {
     const count = questions.filter((item) => item.category === category.id).length;
     const best = progress.best[category.id];
     const record = Number.isInteger(best) ? `Best ${best}/${EXAM_LENGTH}` : `${count} questions`;
-    return `<button class="category-card" type="button" data-theme="${category.id}" data-number="${String(index + 1).padStart(2, "0")}">
+    return `<button class="category-card${category.group === "characters" ? " character-card" : ""}" type="button" data-theme="${category.id}" data-number="${String(offset + index + 1).padStart(2, "0")}">
       <span class="category-icon">${category.sigil}</span>
       <h3>${category.name}</h3>
       <p>${category.description}</p>
       <span class="card-footer"><span>${record}</span><span>Begin →</span></span>
     </button>`;
   }).join("");
-  els.grid.querySelectorAll("[data-theme]").forEach((button) => {
+  const rulesCategories = categories.filter((category) => category.group !== "characters");
+  const characterCategories = categories.filter((category) => category.group === "characters");
+  els.grid.innerHTML = renderCards(rulesCategories);
+  els.characterGrid.innerHTML = renderCards(characterCategories, rulesCategories.length);
+  document.querySelectorAll("[data-theme]").forEach((button) => {
     button.addEventListener("click", () => startExam(button.dataset.theme));
   });
   showScreen("home");
