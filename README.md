@@ -1,6 +1,6 @@
 # Rules Crucible
 
-A mobile-friendly, static Pathfinder Second Edition rules quiz. Every exam contains 20 randomly selected multiple-choice questions and provides an explanation plus a linked rules reference after each answer.
+A mobile-friendly, static Pathfinder Second Edition rules quiz. Every exam contains 10 randomly selected multiple-choice questions and provides an explanation plus a linked rules reference after each answer.
 
 ## Included exam themes
 
@@ -15,7 +15,7 @@ A mobile-friendly, static Pathfinder Second Edition rules quiz. Every exam conta
 - Aerial Rules
 - Spellcasting
 
-## Character examinations
+## Player-focused examinations
 
 - Ritsa — animist attunement, dual casting, familiar, Medicine, and herbal fieldcraft
 - WE4LAND — pistolero reloads, firearms, alchemical ammunition, and automaton rules
@@ -42,7 +42,7 @@ Then open `http://localhost:8000`.
 
 ## Maintaining the question bank
 
-Questions live in `questions.js`. Each has a stable ID, category, difficulty, four choices, the zero-based index of its correct answer, an explanation, and a source key. Run `node validate.mjs` after changing the bank.
+Questions live in `questions.js` and `question-expansion.js`. Each has a stable ID, category, difficulty, four choices, the zero-based index of its correct answer, an explanation, and a source key. Run `node validate.mjs` after changing the bank.
 
 ## Notice
 
