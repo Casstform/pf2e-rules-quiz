@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Ten-question Pathfinder Second Edition rules exams with explanations and rules references.">
+  <meta name="description" content="Ten-question Pathfinder Second Edition rules and Gaileia campaign-lore exams with explanations and references.">
   <meta name="theme-color" content="#101927">
   <title>Rules Crucible — PF2e Rules Quiz</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -30,11 +30,11 @@
       <div class="intro-grid">
         <div class="intro-copy">
           <h1 id="home-title">Know the rule.<br><span>Make the call.</span></h1>
-          <p class="lede">Choose a focused exam below by topic or draw from every discipline in the Grand Test. Each attempt contains 10 multiple-choice questions, with the rule explained after every answer.</p>
+      <p class="lede">Choose a focused rules or lore exam below, or draw from every discipline in the Grand Test. Each attempt contains 10 multiple-choice questions, with the answer explained after every choice.</p>
           <button class="primary-button" id="mixed-start" type="button">Begin the Grand Test <span aria-hidden="true">→</span></button>
         </div>
         <aside class="ledger" aria-label="Quiz overview">
-          <div><strong id="question-total">—</strong><span>rules questions</span></div>
+          <div><strong id="question-total">—</strong><span>quiz questions</span></div>
           <div><strong>10</strong><span>per exam</span></div>
           <div><strong id="exam-count">0</strong><span>exams completed</span></div>
         </aside>
@@ -47,6 +47,14 @@
         <p>Every category has a larger bank than one exam, so retakes produce a different set.</p>
       </div>
       <div class="category-grid" id="category-grid"></div>
+
+      <div class="section-heading lore-heading">
+        <div>
+          <h2>Know your world</h2>
+        </div>
+        <p>Two spoiler-safe lore examinations drawn from the current Gaileia codices and the party's shared campaign record.</p>
+      </div>
+      <div class="category-grid lore-grid" id="lore-grid"></div>
 
       <div class="section-heading character-heading">
         <div>
@@ -111,7 +119,7 @@
   </main>
 
   <footer>
-    <p>Unofficial fan-made learning tool. Pathfinder is a trademark of Paizo Inc. Rules summaries are paraphrased for study; linked references remain authoritative.</p>
+    <p>Unofficial fan-made learning tool. Pathfinder is a trademark of Paizo Inc. Rules summaries are paraphrased for study; linked references remain authoritative. Campaign lore is drawn from the table's current codices and shared session record.</p>
   </footer>
   <script type="module" src="app.js"></script>
 </body>
