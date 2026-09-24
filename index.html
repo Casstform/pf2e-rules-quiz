@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Twenty-question Pathfinder Second Edition rules exams with explanations and rules references.">
+  <meta name="description" content="Ten-question Pathfinder Second Edition rules exams with explanations and rules references.">
   <meta name="theme-color" content="#101927">
   <title>Rules Crucible — PF2e Rules Quiz</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -13,7 +13,13 @@
   <a class="skip-link" href="#main">Skip to quiz</a>
   <header class="site-header">
     <button class="brand" id="home-button" type="button" aria-label="Return to exam selection">
-      <span class="brand-mark" aria-hidden="true">20</span>
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 100 112" role="presentation">
+          <path class="brand-die" d="M50 2 94 28 84 91 50 110 16 91 6 28Z" />
+          <path class="brand-facets" d="M50 2 29 38 6 28m23 10 21 72 21-72m0 0 23-10M29 38h42M16 91l13-53m55 53L71 38M16 91h68" />
+          <text x="50" y="67">20</text>
+        </svg>
+      </span>
       <span><strong>Rules Crucible</strong><small>Pathfinder 2e</small></span>
     </button>
     <div class="header-meta" id="header-meta">Remaster rules</div>
@@ -23,22 +29,20 @@
     <section id="home-screen" class="screen home-screen" aria-labelledby="home-title">
       <div class="intro-grid">
         <div class="intro-copy">
-          <p class="eyebrow">Rules training for the table</p>
           <h1 id="home-title">Know the rule.<br><span>Make the call.</span></h1>
-          <p class="lede">Choose a focused exam or draw from every discipline. Each attempt contains 20 multiple-choice questions, with the rule explained after every answer.</p>
+          <p class="lede">Choose a focused exam below by topic or draw from every discipline in the Grand Test. Each attempt contains 10 multiple-choice questions, with the rule explained after every answer.</p>
           <button class="primary-button" id="mixed-start" type="button">Begin the Grand Test <span aria-hidden="true">→</span></button>
         </div>
         <aside class="ledger" aria-label="Quiz overview">
           <div><strong id="question-total">—</strong><span>rules questions</span></div>
-          <div><strong>20</strong><span>per exam</span></div>
+          <div><strong>10</strong><span>per exam</span></div>
           <div><strong id="exam-count">0</strong><span>exams completed</span></div>
         </aside>
       </div>
 
       <div class="section-heading">
         <div>
-          <p class="eyebrow">Focused examinations</p>
-          <h2>Choose your discipline</h2>
+          <h2>Choose your topic</h2>
         </div>
         <p>Every category has a larger bank than one exam, so retakes produce a different set.</p>
       </div>
@@ -46,7 +50,6 @@
 
       <div class="section-heading character-heading">
         <div>
-          <p class="eyebrow">Character examinations</p>
           <h2>Know your adventurer</h2>
         </div>
         <p>Built from the current level-3 Pathbuilder exports, these questions train the rules most likely to matter for each character at the table.</p>
@@ -62,7 +65,7 @@
       </div>
       <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
       <div class="question-meta">
-        <span id="question-number">Question 1 of 20</span>
+        <span id="question-number">Question 1 of 10</span>
         <span class="difficulty" id="difficulty">Foundational</span>
       </div>
       <article class="question-card">
@@ -83,7 +86,7 @@
 
     <section id="result-screen" class="screen result-screen" hidden aria-labelledby="result-title">
       <div class="result-hero">
-        <div class="score-seal"><strong id="result-score">0</strong><span>/ 20</span></div>
+        <div class="score-seal"><strong id="result-score">0</strong><span>/ 10</span></div>
         <div>
           <p class="eyebrow">Examination complete</p>
           <h1 id="result-title">Your verdict</h1>
