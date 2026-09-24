@@ -1,4 +1,5 @@
 import { additionalQuestions, additionalSources } from "./question-expansion.js";
+import { loreQuestions, loreSources } from "./lore-questions.js";
 
 export const categories = [
   { id: "general", name: "General Rules", description: "Actions, checks, movement, cover, Hero Points, and encounter fundamentals." },
@@ -11,6 +12,8 @@ export const categories = [
   { id: "familiars", name: "Familiars & Pets", description: "Commands, abilities, senses, movement, communication, and companion targeting." },
   { id: "aerial", name: "Aerial Rules", description: "Flying, hovering, climbing, descending, falling, maneuvers, and 3D combat." },
   { id: "spellcasting", name: "Spellcasting", description: "Traditions, preparations, saves, areas, focus spells, sustaining, and counteracting." },
+  { id: "gaileia", name: "Gaileia Lore", group: "lore", description: "The Dreamer, cosmology, magic, history, institutions, currency, and the modern world." },
+  { id: "campaign", name: "Envoys of the Fall", group: "lore", description: "Your guild, companions, completed contracts, recurring allies, and the current voyage." },
   { id: "ritsa", name: "Ritsa", group: "characters", description: "Animist attunement, dual casting, Morty, Medicine, and herbal fieldcraft." },
   { id: "we4land", name: "WE4LAND", group: "characters", description: "Pistolero reloads, firearm traits, alchemical ammunition, and automaton physiology." },
   { id: "oziza", name: "Oziza", group: "characters", description: "Cosmos curses, spontaneous divine magic, focus spells, and azarketi adaptations." },
@@ -59,6 +62,7 @@ export const sources = {
   breathControl: { label: "Player Core — Breath Control", url: "https://2e.aonprd.com/Feats.aspx?ID=5129" },
   tigerStance: { label: "Player Core 2 — Tiger Stance", url: "https://2e.aonprd.com/Feats.aspx?ID=5983" },
   stunningBlows: { label: "Player Core 2 — Stunning Blows", url: "https://2e.aonprd.com/Feats.aspx?ID=5989" },
+  ...loreSources,
   ...additionalSources
 };
 
@@ -433,5 +437,6 @@ export const questions = [
   q("sar-22", "sara", "Applied", "What circumstance bonus does Breath Control give Sara against inhaled threats?", ["+1", "+2", "+3", "+4"], 0, "Breath Control grants a +1 circumstance bonus to saves against inhaled threats and upgrades a success to a critical success.", "breathControl"),
   q("sar-23", "sara", "Applied", "What happens to Sara's held air if she speaks?", ["Nothing", "She loses all remaining air", "She loses 1 round", "She attempts a flat check"], 1, "Speaking expels Sara's held air, which can push her into suffocation rules immediately.", "drowning"),
   q("sar-24", "sara", "Applied", "Bone Magic grants Sara guidance as an occult innate cantrip. How often can she normally cast that cantrip?", ["Once per day", "Once per hour", "At will", "Only during daily preparations"], 2, "Innate cantrips can normally be cast at will and automatically heighten like other cantrips.", "spells"),
-  ...additionalQuestions
+  ...additionalQuestions,
+  ...loreQuestions
 ];
