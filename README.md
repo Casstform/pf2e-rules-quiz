@@ -15,6 +15,13 @@ A mobile-friendly, static Pathfinder Second Edition rules quiz. Every exam conta
 - Aerial Rules
 - Spellcasting
 
+## Lore examinations
+
+- Gaileia Lore — the Dreamer, cosmology, magic, history, institutions, currency, and the modern world
+- Envoys of the Fall — the party's guild, companions, completed contracts, recurring allies, and current voyage
+
+Lore questions are spoiler-safe: they draw on established current canon and events already encountered by the party. Unresolved setting contradictions and GM-only material are excluded.
+
 ## Player-focused examinations
 
 - Ritsa — animist attunement, dual casting, familiar, Medicine, and herbal fieldcraft
@@ -42,7 +49,7 @@ Then open `http://localhost:8000`.
 
 ## Maintaining the question bank
 
-Questions live in `questions.js` and `question-expansion.js`. Each has a stable ID, category, difficulty, four choices, the zero-based index of its correct answer, an explanation, and a source key. Run `node validate.mjs` after changing the bank.
+Questions live in `questions.js`, `question-expansion.js`, and `lore-questions.js`. Each has a stable ID, category, difficulty, four choices, the zero-based index of its correct answer, an explanation, and a source key. Run `node validate.mjs` after changing the bank.
 
 ## Notice
 
