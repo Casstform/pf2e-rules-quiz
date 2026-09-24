@@ -12,6 +12,7 @@ const screens = {
 
 const els = {
   grid: document.querySelector("#category-grid"),
+  loreGrid: document.querySelector("#lore-grid"),
   characterGrid: document.querySelector("#character-grid"),
   total: document.querySelector("#question-total"),
   examCount: document.querySelector("#exam-count"),
@@ -94,21 +95,24 @@ function renderHome() {
   const progress = loadProgress();
   els.total.textContent = questions.length;
   els.examCount.textContent = progress.completed;
-  els.headerMeta.textContent = "Remaster rules";
+  els.headerMeta.textContent = "Rules & lore";
   const renderCards = (items, offset = 0) => items.map((category, index) => {
     const count = questions.filter((item) => item.category === category.id).length;
     const best = progress.best[category.id];
     const record = Number.isInteger(best) ? `Best ${best}/${EXAM_LENGTH}` : `${count} questions`;
-    return `<button class="category-card${category.group === "characters" ? " character-card" : ""}" type="button" data-theme="${category.id}" data-number="${String(offset + index + 1).padStart(2, "0")}">
+    const cardClass = category.group === "characters" ? " character-card" : category.group === "lore" ? " lore-card" : "";
+    return `<button class="category-card${cardClass}" type="button" data-theme="${category.id}" data-number="${String(offset + index + 1).padStart(2, "0")}">
       <h3>${category.name}</h3>
       <p>${category.description}</p>
       <span class="card-footer"><span>${record}</span><span>Begin →</span></span>
     </button>`;
   }).join("");
-  const rulesCategories = categories.filter((category) => category.group !== "characters");
+  const rulesCategories = categories.filter((category) => !category.group);
+  const loreCategories = categories.filter((category) => category.group === "lore");
   const characterCategories = categories.filter((category) => category.group === "characters");
   els.grid.innerHTML = renderCards(rulesCategories);
-  els.characterGrid.innerHTML = renderCards(characterCategories, rulesCategories.length);
+  els.loreGrid.innerHTML = renderCards(loreCategories, rulesCategories.length);
+  els.characterGrid.innerHTML = renderCards(characterCategories, rulesCategories.length + loreCategories.length);
   document.querySelectorAll("[data-theme]").forEach((button) => {
     button.addEventListener("click", () => startExam(button.dataset.theme));
   });
@@ -163,8 +167,16 @@ function answerQuestion(selected) {
   const source = sources[item.source];
   els.verdict.textContent = correct ? "Correct." : `Not quite. The answer is ${item.choices[item.correct]}.`;
   els.explanation.textContent = item.explanation;
-  els.source.textContent = `${source.label} ↗`;
-  els.source.href = source.url;
+  els.source.textContent = source.url ? `${source.label} ↗` : `Source: ${source.label}`;
+  if (source.url) {
+    els.source.href = source.url;
+    els.source.target = "_blank";
+    els.source.rel = "noopener";
+  } else {
+    els.source.removeAttribute("href");
+    els.source.removeAttribute("target");
+    els.source.removeAttribute("rel");
+  }
   els.feedback.hidden = false;
   els.next.disabled = false;
   els.next.focus({ preventScroll: true });
@@ -210,7 +222,10 @@ function renderResults() {
   const misses = state.responses.filter((response) => !response.correct);
   els.missedReview.innerHTML = misses.length ? misses.map(({ item }) => {
     const source = sources[item.source];
-    return `<article class="missed-item"><h3>${item.prompt}</h3><p><strong>Answer:</strong> ${item.choices[item.correct]}. ${item.explanation}</p><a href="${source.url}" target="_blank" rel="noopener">${source.label} ↗</a></article>`;
+    const sourceMarkup = source.url
+      ? `<a href="${source.url}" target="_blank" rel="noopener">${source.label} ↗</a>`
+      : `<span class="source-note">Source: ${source.label}</span>`;
+    return `<article class="missed-item"><h3>${item.prompt}</h3><p><strong>Answer:</strong> ${item.choices[item.correct]}. ${item.explanation}</p>${sourceMarkup}</article>`;
   }).join("") : `<p class="perfect">No misses. The rules tribunal has no notes.</p>`;
   els.headerMeta.textContent = "Exam complete";
   showScreen("result");
