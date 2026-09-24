@@ -17,10 +17,10 @@ A mobile-friendly, static Pathfinder Second Edition rules quiz. Every exam conta
 
 ## Lore examinations
 
-- Gaileia Lore — the Dreamer, cosmology, magic, history, institutions, currency, and the modern world
-- Envoys of the Fall — the party's guild, companions, completed contracts, recurring allies, and current voyage
+- Gaileia Lore — 1,000 question forms covering the Dreamer, cosmology, theology, magic, history, government, law, institutions, geography, education, technology, ancestries, currency, and everyday life
+- Envoys of the Fall — 1,000 question forms covering the party's origins, guild life, contracts, investigations, Gaius City, recurring allies, character memories, and current voyage
 
-Lore questions are spoiler-safe: they draw on established current canon and events already encountered by the party. Unresolved setting contradictions and GM-only material are excluded.
+Each lore bank is built from 100 independently testable facts with ten validated question forms per fact. Exams select distinct facts, so one attempt never asks the same underlying question twice. Lore questions are spoiler-safe: they draw on established current canon and events already encountered by the party. Unresolved setting contradictions and GM-only material are excluded. Session-record questions use Ritsa's perspective explicitly.
 
 ## Player-focused examinations
 
