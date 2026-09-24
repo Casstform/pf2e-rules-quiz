@@ -64,15 +64,15 @@ button { color: inherit; }
 }
 
 .brand-mark {
-  width: 2.65rem;
-  height: 2.65rem;
-  display: grid;
-  place-items: center;
-  color: var(--ink);
-  background: var(--gold);
-  font: 800 .82rem/1 Georgia, serif;
-  clip-path: polygon(50% 0, 91% 20%, 100% 64%, 72% 100%, 28% 100%, 0 64%, 9% 20%);
+  display: inline-block;
+  width: 2.8rem;
+  height: 3.15rem;
+  flex: 0 0 2.8rem;
 }
+.brand-mark svg { width: 100%; height: 100%; overflow: visible; }
+.brand-die { fill: var(--gold); }
+.brand-facets { fill: none; stroke: rgba(22, 17, 12, .5); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.brand-mark text { fill: var(--ink); font: 900 27px/1 Georgia, serif; text-anchor: middle; }
 
 .brand strong, .brand small { display: block; }
 .brand strong { font: 700 1.05rem/1.15 Georgia, serif; letter-spacing: .02em; }
@@ -171,7 +171,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
 .character-heading { margin-top: clamp(4rem, 8vw, 7rem); }
 .character-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .category-card {
-  min-height: 16.5rem;
+  min-height: 13.75rem;
   padding: 1.6rem;
   border: 0;
   background: var(--ink-2);
@@ -182,11 +182,9 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
   transition: background .18s ease;
 }
 .character-card { background: linear-gradient(145deg, rgba(196, 153, 65, .08), transparent 55%), var(--ink); }
-.character-card .category-icon { color: var(--gold); border-color: rgba(196, 153, 65, .42); }
 .category-card:hover, .category-card:focus-visible { background: var(--panel); outline: none; }
 .category-card::after { content: attr(data-number); position: absolute; right: 1rem; bottom: -.7rem; color: rgba(255,255,255,.035); font: 700 7rem/1 Georgia, serif; }
-.category-icon { display: block; margin-bottom: 2.6rem; color: var(--gold); font: 700 .82rem/1 Georgia, serif; letter-spacing: .08em; }
-.category-card h3 { margin: 0 0 .65rem; font-size: 1.55rem; font-weight: 600; }
+.category-card h3 { margin: .15rem 0 .65rem; font-size: 1.55rem; font-weight: 600; }
 .category-card p { margin: 0; max-width: 28ch; color: var(--muted); font-size: .92rem; }
 .card-footer { position: absolute; left: 1.6rem; right: 1.6rem; bottom: 1.4rem; display: flex; justify-content: space-between; color: #d5dce4; font-size: .76rem; text-transform: uppercase; letter-spacing: .09em; }
 
@@ -275,7 +273,7 @@ footer p { max-width: 70rem; margin: 0; }
   .intro-grid { margin: 0; padding: 1.5rem; }
   .intro-copy h1 { font-size: clamp(3rem, 16vw, 4.7rem); }
   .category-grid { grid-template-columns: 1fr; }
-  .category-card { min-height: 14.5rem; }
+  .category-card { min-height: 13rem; }
   .question-card { min-height: 0; padding: 1.25rem; }
   .quiz-topline span:nth-child(2) { display: none; }
   .quiz-actions, .result-actions { align-items: stretch; flex-direction: column; }
