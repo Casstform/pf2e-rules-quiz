@@ -71,9 +71,20 @@ function shuffle(items) {
   return copy;
 }
 
+function drawDistinctFacts(categoryId) {
+  const grouped = new Map();
+  questions.filter((item) => item.category === categoryId).forEach((item) => {
+    const factId = item.fact || item.id;
+    const variants = grouped.get(factId) || [];
+    variants.push(item);
+    grouped.set(factId, variants);
+  });
+  return shuffle([...grouped.values()]).map((variants) => shuffle(variants)[0]);
+}
+
 function buildExam(theme) {
-  if (theme !== "mixed") return shuffle(questions.filter((item) => item.category === theme)).slice(0, EXAM_LENGTH);
-  const groups = shuffle(categories).map((category) => shuffle(questions.filter((item) => item.category === category.id)));
+  if (theme !== "mixed") return drawDistinctFacts(theme).slice(0, EXAM_LENGTH);
+  const groups = shuffle(categories).map((category) => drawDistinctFacts(category.id));
   const mixed = [];
   let round = 0;
   while (mixed.length < EXAM_LENGTH) {
