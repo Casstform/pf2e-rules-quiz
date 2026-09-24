@@ -4,23 +4,25 @@ A mobile-friendly, static Pathfinder Second Edition rules quiz. Every exam conta
 
 ## Included exam themes
 
-- General Rules
-- Attack & Damage Rolls
+- General Rules — 1,000 distinct action, feat, background, and foundational rules facts
+- Attack & Damage Rolls — 1,000 distinct attack, weapon, ammunition, damage, and attack-option facts
 - Conditions
 - Death & Dying
 - Underwater Rules
-- Crafting
+- Crafting — 1,000 distinct crafting, formula-relevant, item-level, price, usage, and equipment facts
 - Stealth
 - Familiars & Pets
 - Aerial Rules
-- Spellcasting
+- Spellcasting — 1,000 distinct casting and spell-catalog facts
 
 ## Lore examinations
 
-- Gaileia Lore — 1,000 question forms covering the Dreamer, cosmology, theology, magic, history, government, law, institutions, geography, education, technology, ancestries, currency, and everyday life
-- Envoys of the Fall — 1,000 question forms covering the party's origins, guild life, contracts, investigations, Gaius City, recurring allies, character memories, and current voyage
+- Gaileia Lore — 100 independently testable canon facts covering the Dreamer, cosmology, theology, magic, history, government, law, institutions, geography, education, technology, ancestries, currency, and everyday life
+- Envoys of the Fall — 100 independently testable campaign facts covering the party's origins, guild life, contracts, investigations, Gaius City, recurring allies, character memories, and current voyage
 
-Each lore bank is built from 100 independently testable facts with ten validated question forms per fact. Exams select distinct facts, so one attempt never asks the same underlying question twice. Lore questions are spoiler-safe: they draw on established current canon and events already encountered by the party. Unresolved setting contradictions and GM-only material are excluded. Session-record questions use Ritsa's perspective explicitly.
+One question equals one distinct tested fact. The bank never inflates its counts with alternate wording, prompt prefixes, or reordered choices. Lore questions are spoiler-safe: they draw on established current canon and events already encountered by the party. Unresolved setting contradictions and GM-only material are excluded. Questions derived from Kiera's session record explicitly use Ritsa's perspective.
+
+The 1,000-question banks are limited to topics with enough genuine breadth to support them. Narrow subsystems and individual level-3 characters keep smaller, focused banks rather than padding their totals with variations of the same rule. The large rules catalogs use remastered entries from PF2e system data release 8.5.1 and link back to the appropriate Archives of Nethys index.
 
 ## Player-focused examinations
 
@@ -49,7 +51,7 @@ Then open `http://localhost:8000`.
 
 ## Maintaining the question bank
 
-Questions live in `questions.js`, `question-expansion.js`, and `lore-questions.js`. Each has a stable ID, category, difficulty, four choices, the zero-based index of its correct answer, an explanation, and a source key. Run `node validate.mjs` after changing the bank.
+Questions live in `questions.js`, `question-expansion.js`, `lore-questions.js`, and the `catalog-*.js` modules. Each has a stable ID, category, difficulty, four choices, the zero-based index of its correct answer, an explanation, and a source key. Catalog entries also carry a stable semantic fact key. The validator rejects duplicate IDs, prompts, fact keys, and repeated catalog entities. Run `node validate.mjs` after changing the bank.
 
 ## Notice
 

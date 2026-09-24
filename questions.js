@@ -1,17 +1,22 @@
 import { additionalQuestions, additionalSources } from "./question-expansion.js";
 import { loreQuestions, loreSources } from "./lore-questions.js";
+import { catalogSources } from "./catalog-sources.js";
+import { generalCatalogQuestions } from "./catalog-general.js";
+import { attacksCatalogQuestions } from "./catalog-attacks.js";
+import { craftingCatalogQuestions } from "./catalog-crafting.js";
+import { spellcastingCatalogQuestions } from "./catalog-spellcasting.js";
 
 export const categories = [
-  { id: "general", name: "General Rules", description: "Actions, checks, movement, cover, Hero Points, and encounter fundamentals." },
-  { id: "attacks", name: "Attack & Damage Rolls", description: "Attack modifiers, AC, critical hits, damage, immunities, weaknesses, and resistances." },
+  { id: "general", name: "General Rules", description: "Actions, checks, feats, backgrounds, movement, cover, Hero Points, and encounter fundamentals." },
+  { id: "attacks", name: "Attack & Damage Rolls", description: "Attack rules, weapon and ammunition profiles, damage, critical hits, weaknesses, and resistances." },
   { id: "conditions", name: "Conditions", description: "Common conditions, detection states, action restrictions, and persistent damage." },
   { id: "death", name: "Death & Dying", description: "Knockouts, recovery checks, wounded, doomed, Heroic Recovery, and instant death." },
   { id: "underwater", name: "Underwater Rules", description: "Aquatic combat, drowning, attacks through water, and three-dimensional movement." },
-  { id: "crafting", name: "Crafting", description: "Requirements, formulas, materials, downtime, batches, and degrees of success." },
+  { id: "crafting", name: "Crafting", description: "Requirements, formulas, materials, item levels, equipment profiles, downtime, and degrees of success." },
   { id: "stealth", name: "Stealth", description: "Hide, Sneak, Seek, detection states, cover, concealment, and ambushes." },
   { id: "familiars", name: "Familiars & Pets", description: "Commands, abilities, senses, movement, communication, and companion targeting." },
   { id: "aerial", name: "Aerial Rules", description: "Flying, hovering, climbing, descending, falling, maneuvers, and 3D combat." },
-  { id: "spellcasting", name: "Spellcasting", description: "Traditions, preparations, saves, areas, focus spells, sustaining, and counteracting." },
+  { id: "spellcasting", name: "Spellcasting", description: "Casting rules plus distinct spell ranks, traditions, ranges, targets, areas, traits, and rarities." },
   { id: "gaileia", name: "Gaileia Lore", group: "lore", description: "The Dreamer, cosmology, magic, history, institutions, currency, and the modern world." },
   { id: "campaign", name: "Envoys of the Fall", group: "lore", description: "Your guild, companions, completed contracts, recurring allies, and the current voyage." },
   { id: "ritsa", name: "Ritsa", group: "characters", description: "Animist attunement, dual casting, Morty, Medicine, and herbal fieldcraft." },
@@ -63,7 +68,8 @@ export const sources = {
   tigerStance: { label: "Player Core 2 — Tiger Stance", url: "https://2e.aonprd.com/Feats.aspx?ID=5983" },
   stunningBlows: { label: "Player Core 2 — Stunning Blows", url: "https://2e.aonprd.com/Feats.aspx?ID=5989" },
   ...loreSources,
-  ...additionalSources
+  ...additionalSources,
+  ...catalogSources
 };
 
 const q = (id, category, difficulty, prompt, choices, correct, explanation, source) => ({
@@ -438,5 +444,9 @@ export const questions = [
   q("sar-23", "sara", "Applied", "What happens to Sara's held air if she speaks?", ["Nothing", "She loses all remaining air", "She loses 1 round", "She attempts a flat check"], 1, "Speaking expels Sara's held air, which can push her into suffocation rules immediately.", "drowning"),
   q("sar-24", "sara", "Applied", "Bone Magic grants Sara guidance as an occult innate cantrip. How often can she normally cast that cantrip?", ["Once per day", "Once per hour", "At will", "Only during daily preparations"], 2, "Innate cantrips can normally be cast at will and automatically heighten like other cantrips.", "spells"),
   ...additionalQuestions,
-  ...loreQuestions
+  ...loreQuestions,
+  ...generalCatalogQuestions,
+  ...attacksCatalogQuestions,
+  ...craftingCatalogQuestions,
+  ...spellcastingCatalogQuestions
 ];

@@ -213,36 +213,6 @@ const loreBaseQuestions = [
   q("cam-100", "campaign", "Foundational", "From Ritsa's perspective, what name did the prophetic apparition aboard ship give her?", ["Ayha", "Mira", "Jiffa", "Collete"], 0, "The unsettling apparition who spoke in contradictory omens identified herself as Ayha.", "campaignRecord")
 ];
 
-const promptOpeners = [
-  "",
-  "Archive recall — ",
-  "Canon check — ",
-  "Lorekeeper's test — ",
-  "Field guide review — ",
-  "Chronicle check — ",
-  "Setting recall — ",
-  "At the table — ",
-  "Scholar's question — ",
-  "Campaign archive — "
-];
-
-const choiceOrders = [
-  [0, 1, 2, 3], [1, 0, 3, 2], [2, 3, 0, 1], [3, 2, 1, 0], [0, 2, 3, 1],
-  [1, 3, 2, 0], [2, 0, 1, 3], [3, 1, 0, 2], [0, 3, 1, 2], [2, 1, 3, 0]
-];
-
-function expandQuestion(item) {
-  return promptOpeners.map((opener, index) => {
-    const order = choiceOrders[index];
-    return {
-      ...item,
-      id: `${item.id}-v${index + 1}`,
-      fact: item.id,
-      prompt: `${opener}${item.prompt}`,
-      choices: order.map((choiceIndex) => item.choices[choiceIndex]),
-      correct: order.indexOf(item.correct)
-    };
-  });
-}
-
-export const loreQuestions = loreBaseQuestions.flatMap(expandQuestion);
+// One entry equals one independently testable fact. The bank count must never
+// be inflated with alternate wordings or reordered answers.
+export const loreQuestions = loreBaseQuestions.map((item) => ({ ...item, fact: item.id }));
