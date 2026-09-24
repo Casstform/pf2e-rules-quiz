@@ -1,18 +1,20 @@
+import { additionalQuestions, additionalSources } from "./question-expansion.js";
+
 export const categories = [
-  { id: "general", name: "General Rules", sigil: "CORE", description: "Actions, checks, movement, cover, Hero Points, and encounter fundamentals." },
-  { id: "attacks", name: "Attack & Damage Rolls", sigil: "HIT", description: "Attack modifiers, AC, critical hits, damage, immunities, weaknesses, and resistances." },
-  { id: "conditions", name: "Conditions", sigil: "STATE", description: "Common conditions, detection states, action restrictions, and persistent damage." },
-  { id: "death", name: "Death & Dying", sigil: "DOOM", description: "Knockouts, recovery checks, wounded, doomed, Heroic Recovery, and instant death." },
-  { id: "underwater", name: "Underwater Rules", sigil: "TIDE", description: "Aquatic combat, drowning, attacks through water, and three-dimensional movement." },
-  { id: "crafting", name: "Crafting", sigil: "FORGE", description: "Requirements, formulas, materials, downtime, batches, and degrees of success." },
-  { id: "stealth", name: "Stealth", sigil: "VEIL", description: "Hide, Sneak, Seek, detection states, cover, concealment, and ambushes." },
-  { id: "familiars", name: "Familiars & Pets", sigil: "BOND", description: "Commands, abilities, senses, movement, communication, and companion targeting." },
-  { id: "aerial", name: "Aerial Rules", sigil: "SKY", description: "Flying, hovering, climbing, descending, falling, maneuvers, and 3D combat." },
-  { id: "spellcasting", name: "Spellcasting", sigil: "ARC", description: "Traditions, preparations, saves, areas, focus spells, sustaining, and counteracting." },
-  { id: "ritsa", name: "Ritsa", sigil: "SPIRIT", group: "characters", description: "Animist attunement, dual casting, Morty, Medicine, and herbal fieldcraft." },
-  { id: "we4land", name: "WE4LAND", sigil: "PISTOL", group: "characters", description: "Pistolero reloads, firearm traits, alchemical ammunition, and automaton physiology." },
-  { id: "oziza", name: "Oziza", sigil: "COSMOS", group: "characters", description: "Cosmos curses, spontaneous divine magic, focus spells, and azarketi adaptations." },
-  { id: "sara", name: "Sara", sigil: "TIGER", group: "characters", description: "Tiger Stance, Flurry of Blows, cliff climbing, breath control, and innate magic." }
+  { id: "general", name: "General Rules", description: "Actions, checks, movement, cover, Hero Points, and encounter fundamentals." },
+  { id: "attacks", name: "Attack & Damage Rolls", description: "Attack modifiers, AC, critical hits, damage, immunities, weaknesses, and resistances." },
+  { id: "conditions", name: "Conditions", description: "Common conditions, detection states, action restrictions, and persistent damage." },
+  { id: "death", name: "Death & Dying", description: "Knockouts, recovery checks, wounded, doomed, Heroic Recovery, and instant death." },
+  { id: "underwater", name: "Underwater Rules", description: "Aquatic combat, drowning, attacks through water, and three-dimensional movement." },
+  { id: "crafting", name: "Crafting", description: "Requirements, formulas, materials, downtime, batches, and degrees of success." },
+  { id: "stealth", name: "Stealth", description: "Hide, Sneak, Seek, detection states, cover, concealment, and ambushes." },
+  { id: "familiars", name: "Familiars & Pets", description: "Commands, abilities, senses, movement, communication, and companion targeting." },
+  { id: "aerial", name: "Aerial Rules", description: "Flying, hovering, climbing, descending, falling, maneuvers, and 3D combat." },
+  { id: "spellcasting", name: "Spellcasting", description: "Traditions, preparations, saves, areas, focus spells, sustaining, and counteracting." },
+  { id: "ritsa", name: "Ritsa", group: "characters", description: "Animist attunement, dual casting, Morty, Medicine, and herbal fieldcraft." },
+  { id: "we4land", name: "WE4LAND", group: "characters", description: "Pistolero reloads, firearm traits, alchemical ammunition, and automaton physiology." },
+  { id: "oziza", name: "Oziza", group: "characters", description: "Cosmos curses, spontaneous divine magic, focus spells, and azarketi adaptations." },
+  { id: "sara", name: "Sara", group: "characters", description: "Tiger Stance, Flurry of Blows, cliff climbing, breath control, and innate magic." }
 ];
 
 export const sources = {
@@ -56,7 +58,8 @@ export const sources = {
   combatClimber: { label: "Player Core — Combat Climber", url: "https://2e.aonprd.com/Feats.aspx?ID=5134" },
   breathControl: { label: "Player Core — Breath Control", url: "https://2e.aonprd.com/Feats.aspx?ID=5129" },
   tigerStance: { label: "Player Core 2 — Tiger Stance", url: "https://2e.aonprd.com/Feats.aspx?ID=5983" },
-  stunningBlows: { label: "Player Core 2 — Stunning Blows", url: "https://2e.aonprd.com/Feats.aspx?ID=5989" }
+  stunningBlows: { label: "Player Core 2 — Stunning Blows", url: "https://2e.aonprd.com/Feats.aspx?ID=5989" },
+  ...additionalSources
 };
 
 const q = (id, category, difficulty, prompt, choices, correct, explanation, source) => ({
@@ -336,7 +339,7 @@ export const questions = [
   q("rit-06", "ritsa", "Applied", "Can Ritsa spend an apparition spell slot to cast Bless from her prepared animist slots?", ["Yes, the slots are interchangeable", "No, the two sets of spell slots are separate", "Only if Bless is a cantrip", "Only while Morty is flying"], 1, "Animist and apparition spell slots are separate resources even though both cast divine spells.", "animist"),
   q("rit-07", "ritsa", "Foundational", "Which attribute powers both sides of Ritsa's animist spellcasting?", ["Intelligence", "Wisdom", "Charisma", "Constitution"], 1, "The animist's key spellcasting attribute is Wisdom for both animist and apparition spells.", "animist"),
   q("rit-08", "ritsa", "Applied", "Ritsa is level 3, trained in divine spellcasting, and has Wisdom +4. What is her spell attack modifier?", ["+5", "+7", "+9", "+11"], 2, "Her modifier is level 3 + trained 2 + Wisdom 4 = +9.", "animist"),
-  q("rit-09", "ritsa", "Applied", "Using the same level, proficiency, and Wisdom, what is Ritsa's spell DC?", ["17", "18", "19", "21"], 2, "A spell DC is 10 + spell attack modifier, giving Ritsa DC 19.", "animist"),
+  q("rit-09", "ritsa", "Applied", "At level 3, Ritsa is trained in spellcasting and has Wisdom +4. What is her spell DC?", ["17", "18", "19", "21"], 2, "Her spell modifier is 3 (level) + 2 (trained) + 4 (Wisdom) = +9, so her spell DC is 19.", "animist"),
   q("rit-10", "ritsa", "Foundational", "How are spells granted by Ritsa's apparitions treated for heightening?", ["None can be heightened", "All are signature spells", "Only cantrips can heighten", "Only her primary apparition's spells are signature"], 1, "Every spell granted by an apparition is a signature spell for the animist.", "animist"),
   q("rit-11", "ritsa", "Applied", "At level 3, to what rank do Ritsa's Needle Darts and other cantrips automatically heighten?", ["Rank 1", "Rank 2", "Rank 3", "They do not heighten"], 1, "Cantrips heighten to half the caster's level rounded up, so a level-3 caster uses rank 2.", "spells"),
   q("rit-12", "ritsa", "Foundational", "From which apparition can Ritsa cast a vessel spell?", ["Any apparition ever encountered", "Only her current primary apparition", "Only a dispersed apparition", "Only Morty"], 1, "An animist can cast the vessel spell granted by the current primary apparition.", "animist"),
@@ -383,7 +386,7 @@ export const questions = [
   q("ozi-01", "oziza", "Foundational", "What magical tradition does Oziza use as an oracle?", ["Arcane", "Divine", "Occult", "Primal"], 1, "Oracles are spontaneous divine spellcasters.", "oracle"),
   q("ozi-02", "oziza", "Foundational", "Which attribute powers Oziza's oracle spellcasting?", ["Intelligence", "Wisdom", "Charisma", "Constitution"], 2, "Charisma is the oracle's key spellcasting attribute.", "oracle"),
   q("ozi-03", "oziza", "Applied", "Oziza is level 3, trained in divine spellcasting, and has Charisma +4. What is her spell attack modifier?", ["+5", "+7", "+9", "+11"], 2, "Level 3 + trained 2 + Charisma 4 gives Oziza a +9 spell attack modifier.", "oracle"),
-  q("ozi-04", "oziza", "Applied", "What is Oziza's spell DC with that modifier?", ["17", "18", "19", "20"], 2, "Spell DC is 10 + the spell attack modifier, so Oziza's DC is 19.", "oracle"),
+  q("ozi-04", "oziza", "Applied", "At level 3, Oziza is trained in spellcasting and has Charisma +4. What is her spell DC?", ["17", "18", "19", "20"], 2, "Her spell modifier is 3 (level) + 2 (trained) + 4 (Charisma) = +9, so her spell DC is 19.", "oracle"),
   q("ozi-05", "oziza", "Applied", "At level 3, what is Oziza's maximum cursebound value?", ["1", "2", "3", "4"], 1, "A level-3 oracle can be no more than cursebound 2.", "oracle"),
   q("ozi-06", "oziza", "Applied", "When does using a cursebound ability normally raise Oziza's cursebound value?", ["Before she chooses targets", "After the ability resolves", "At the end of the encounter", "Only after a failed save"], 1, "The cursebound value increases after the cursebound ability resolves.", "oracle"),
   q("ozi-07", "oziza", "Applied", "Oziza is already cursebound 2. Can she use another cursebound ability at level 3?", ["Yes, with no limit", "No, she is at her maximum cursebound value", "Only as a reaction", "Only if she spends a spell slot"], 1, "An oracle can't use a cursebound ability while already at the maximum cursebound value.", "oracle"),
@@ -429,5 +432,6 @@ export const questions = [
   q("sar-21", "sara", "Applied", "With Constitution +1, Sara can normally hold her breath for 6 rounds. How long does Breath Control extend that before other air loss?", ["12 rounds", "30 rounds", "60 rounds", "150 rounds"], 3, "Breath Control multiplies the normal duration by 25, so 6 rounds becomes 150 rounds.", "breathControl"),
   q("sar-22", "sara", "Applied", "What circumstance bonus does Breath Control give Sara against inhaled threats?", ["+1", "+2", "+3", "+4"], 0, "Breath Control grants a +1 circumstance bonus to saves against inhaled threats and upgrades a success to a critical success.", "breathControl"),
   q("sar-23", "sara", "Applied", "What happens to Sara's held air if she speaks?", ["Nothing", "She loses all remaining air", "She loses 1 round", "She attempts a flat check"], 1, "Speaking expels Sara's held air, which can push her into suffocation rules immediately.", "drowning"),
-  q("sar-24", "sara", "Applied", "Bone Magic grants Sara guidance as an occult innate cantrip. How often can she normally cast that cantrip?", ["Once per day", "Once per hour", "At will", "Only during daily preparations"], 2, "Innate cantrips can normally be cast at will and automatically heighten like other cantrips.", "spells")
+  q("sar-24", "sara", "Applied", "Bone Magic grants Sara guidance as an occult innate cantrip. How often can she normally cast that cantrip?", ["Once per day", "Once per hour", "At will", "Only during daily preparations"], 2, "Innate cantrips can normally be cast at will and automatically heighten like other cantrips.", "spells"),
+  ...additionalQuestions
 ];
