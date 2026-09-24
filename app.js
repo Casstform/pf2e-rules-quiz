@@ -1,7 +1,8 @@
 import { categories, questions, sources } from "./questions.js";
 
-const EXAM_LENGTH = 20;
-const STORAGE_KEY = "rules-crucible-progress-v1";
+const EXAM_LENGTH = 10;
+const STORAGE_KEY = "rules-crucible-progress-v2";
+const LEGACY_STORAGE_KEY = "rules-crucible-progress-v1";
 
 const screens = {
   home: document.querySelector("#home-screen"),
@@ -44,7 +45,10 @@ let state = { theme: "mixed", exam: [], index: 0, score: 0, answered: false, res
 
 function loadProgress() {
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || { completed: 0, best: {} };
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) return JSON.parse(saved);
+    const legacy = JSON.parse(localStorage.getItem(LEGACY_STORAGE_KEY));
+    return { completed: Number(legacy?.completed) || 0, best: {} };
   } catch {
     return { completed: 0, best: {} };
   }
@@ -68,7 +72,7 @@ function shuffle(items) {
 
 function buildExam(theme) {
   if (theme !== "mixed") return shuffle(questions.filter((item) => item.category === theme)).slice(0, EXAM_LENGTH);
-  const groups = categories.map((category) => shuffle(questions.filter((item) => item.category === category.id)));
+  const groups = shuffle(categories).map((category) => shuffle(questions.filter((item) => item.category === category.id)));
   const mixed = [];
   let round = 0;
   while (mixed.length < EXAM_LENGTH) {
@@ -96,7 +100,6 @@ function renderHome() {
     const best = progress.best[category.id];
     const record = Number.isInteger(best) ? `Best ${best}/${EXAM_LENGTH}` : `${count} questions`;
     return `<button class="category-card${category.group === "characters" ? " character-card" : ""}" type="button" data-theme="${category.id}" data-number="${String(offset + index + 1).padStart(2, "0")}">
-      <span class="category-icon">${category.sigil}</span>
       <h3>${category.name}</h3>
       <p>${category.description}</p>
       <span class="card-footer"><span>${record}</span><span>Begin →</span></span>
