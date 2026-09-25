@@ -1,4 +1,4 @@
-# Perioperative Study Lab
+# Perioperative Study Site
 
 An independent, static question bank for CNA CPN(C) exam preparation, published at
 `https://casstform.github.io/pf2e-rules-quiz/cpn-study/`.
@@ -11,10 +11,13 @@ This is not affiliated with CNA or ORNAC and contains no official exam items.
 ## Maintain the bank
 
 Edit `questions.tsv`, `cases.tsv`, and `case-contexts.json`. Each question
-has a source code, four answer choices (the correct choice first), and an
-explanation. Run `python3 build-bank.py` to regenerate `bank.json`.
+has a source code, four answer choices (the correct choice first), and a brief
+explanation. `learning.tsv` supplies a specific reason for each of the three
+incorrect choices and maps each question to a note in
+`learning-concepts.json`. Run `python3 build-bank.py` to regenerate `bank.json`.
 The site shuffles answer choices at display time. The script checks field
-counts, categories, sources, distinct choices, duplicate prompts and IDs.
+counts, categories, sources, distinct choices, duplicate prompts and IDs, and
+complete teaching notes for every question.
 
 The source-code mapping and exact links are in `build-bank.py`. The source
 link shown after each answer is a starting point for study, not a replacement

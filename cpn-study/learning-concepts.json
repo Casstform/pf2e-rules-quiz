@@ -1,0 +1,157 @@
+{
+  "advocacy": {
+    "title": "Patient advocacy and professional practice",
+    "text": "Perioperative advocacy continues while the patient is awake, sedated, or anesthetized. Protect privacy and dignity, respond to individual beliefs and communication needs, and speak up when care or conduct creates risk. A capable patient's preferences remain central; family members and visitors do not automatically speak for them.",
+    "source": "B"
+  },
+  "documentation": {
+    "title": "A useful perioperative record",
+    "text": "The record should show what happened, when it happened, the assessments and interventions made, and whom the team informed. Counts, positioning, medications, equipment, specimens, and unusual events matter. Correct errors transparently through the record's amendment process; do not silently replace or reconstruct care after the fact.",
+    "source": "B"
+  },
+  "handoff": {
+    "title": "Continuity across care transitions",
+    "text": "A handoff transfers clinical information and responsibility, not merely a chart. Include the procedure and anesthesia course, current physiology, medications and allergies, positioning or skin concerns, equipment or count issues, specimens, and anticipated recovery needs as relevant. Use the receiving team's standardized process and invite questions.",
+    "source": "B"
+  },
+  "conscience": {
+    "title": "Surgical conscience",
+    "text": "Surgical conscience means noticing and disclosing a possible safety or aseptic break even when nobody else sees it. The practical sequence is to speak up, stop the affected step if needed, correct the problem, and document or report according to policy. Silence does not make a contaminated item safe.",
+    "source": "B"
+  },
+  "communication": {
+    "title": "Communication that supports consent and care",
+    "text": "Match teaching to the patient's language, sensory needs, cognition, and immediate phase of care. Confirm understanding through an appropriate interpreter or communication aid when needed. Explain realistic expectations without promises. Escalate an unresolved mismatch in identity, site, procedure, or consent before proceeding.",
+    "source": "B"
+  },
+  "scope": {
+    "title": "Scope, visitors, and equipment",
+    "text": "A request from a surgeon or vendor does not extend a nurse's authorized scope. Confirm training, competence, facility policy, and applicable licensure before performing a task. Visitors require permission to enter the surgical suite and should not assume a clinical role because they know a device.",
+    "source": "B"
+  },
+  "quality": {
+    "title": "Reporting and improvement",
+    "text": "Reporting a near miss or system weakness allows review before the next patient is harmed. Quality improvement looks for patterns, tests changes, and checks whether outcomes improve. CNA names surgical site infection prevention, wound classification, and checklist performance as examples; accurate records make these efforts possible.",
+    "source": "B"
+  },
+  "checklist": {
+    "title": "The three WHO checklist pauses",
+    "text": "Sign In occurs before anesthesia induction and checks patient, site, procedure, consent, anesthesia readiness, pulse oximetry, allergies, airway, and blood-loss risk. Time Out occurs before incision with the surgeon, anesthesia professional, and nurse. Sign Out occurs before the patient leaves the OR and covers counts, specimens, equipment issues, and recovery concerns.",
+    "source": "W"
+  },
+  "counts": {
+    "title": "Surgical counts and discrepancies",
+    "text": "Counts help detect retained items, but they depend on controlled handling and communication. CNA identifies initial, before-closure, completion, and permanent-relief counts. A discrepancy calls for a recount, surgeon notification, search and imaging as indicated, and accurate documentation. An emergency that prevents an initial count still needs a documented safety response.",
+    "source": "B"
+  },
+  "positioning": {
+    "title": "Positioning is an ongoing assessment",
+    "text": "Assess the patient's skin, mobility, anatomy, comorbidities, and procedure before positioning. Duration, pressure points, devices, temperature, and hemodynamic status can change risk during and after surgery. The nurse collaborates with the surgeon and anesthesia professional, uses suitable supports, reassesses, and hands off any concern.",
+    "source": "B"
+  },
+  "electrosurgery": {
+    "title": "Electrosurgery basics",
+    "text": "Monopolar electrosurgery sends current through the patient to a dispersive electrode; safe pad contact, site, size, and device compatibility matter. Bipolar current travels between the instrument's tips. Protect against alternate current paths, damaged insulation, inadvertent activation, plume, and ignition of flammable prep or oxygen-enriched material.",
+    "source": "B"
+  },
+  "fire": {
+    "title": "The surgical fire triangle",
+    "text": "A fire needs an oxidizer such as oxygen, an ignition source such as electrosurgery or a laser, and fuel such as dry drapes or alcohol-based prep. Head and neck procedures can place all three close together. A team briefing coordinates oxygen delivery, drying and draping, and safe energy-device use.",
+    "source": "F"
+  },
+  "hazards": {
+    "title": "Hazards in the perioperative environment",
+    "text": "Hazards may be biological, chemical, physical, environmental, or psychological. Controls depend on the hazard: for example, radiation protection, ventilation and plume evacuation, safe sharps and cylinder handling, laser eye protection, ergonomics, or a response to harassment. WHMIS supports communication about hazardous workplace products.",
+    "source": "B"
+  },
+  "specimens": {
+    "title": "Specimen identity and preservation",
+    "text": "Match every specimen to the patient, site, test, container, preservative, and destination before it leaves the room. Some tissue must be fresh, while other tissue is fixed; the wrong medium can make a test impossible. Readback at Sign Out and a clear handoff help catch labelling and equipment problems.",
+    "source": "B"
+  },
+  "medications": {
+    "title": "Medication safety in the OR",
+    "text": "Verification includes the patient, drug or solution, concentration, route, dose, timing, and documentation as applicable. Label every medication or solution transferred to a sterile field and communicate with the administering clinician. Appearance alone cannot identify the contents of an unlabeled syringe or basin.",
+    "source": "B"
+  },
+  "spaulding": {
+    "title": "The Spaulding classification",
+    "text": "Spaulding classifies reusable devices by infection risk and the body surface they contact. Critical devices enter sterile tissue or the vascular system and require sterilization. Semicritical devices touch mucous membranes or nonintact skin and need at least high-level disinfection. Noncritical devices touch intact skin and usually need low-level disinfection. Follow the device's validated instructions and local policy.",
+    "source": "D"
+  },
+  "sterilization": {
+    "title": "What sterilization monitoring tells you",
+    "text": "Cleaning comes before sterilization. A validated process follows the device and sterilizer instructions. Mechanical records check cycle conditions; chemical indicators show exposure to specified process parameters; biological indicators challenge microbial inactivation. No single external tape change proves that an instrument's interior is sterile. Failed indicators or a compromised package require investigation and disposition.",
+    "source": "D"
+  },
+  "asepsis": {
+    "title": "Maintaining an aseptic field",
+    "text": "Sterility is maintained continuously, not just at setup. Inspect packaging and indicators, open and handle supplies correctly, watch the field during the procedure, and replace any item whose sterility is uncertain. A wet or torn barrier, dropped instrument, contaminated gown, or contact with a nonsterile surface calls for corrective action.",
+    "source": "B"
+  },
+  "hand": {
+    "title": "Surgical hand antisepsis and gloves",
+    "text": "Surgical hand antisepsis reduces hand flora before sterile gloves. Remove hand and wrist jewellery, clean under nails, follow the selected product's instructions, and let an alcohol-based surgical rub dry before gloving. Gloves are a barrier that can tear; change damaged or contaminated gloves and perform hand hygiene when indicated.",
+    "source": "H"
+  },
+  "ssi": {
+    "title": "A bundle of SSI prevention measures",
+    "text": "Surgical site infection prevention spans preoperative preparation, the operation, and follow-up. Avoid routine razor shaving; clip hair only if necessary. Use appropriate prophylactic antibiotics before surgery, maintain normothermia and glycemic control, and preserve asepsis. Antibiotics are not a substitute for other measures, and prolonged prophylaxis after surgery is generally not beneficial.",
+    "source": "I"
+  },
+  "precautions": {
+    "title": "Routine and additional precautions",
+    "text": "Routine practices apply to every patient. Add transmission-based precautions when the suspected organism or mode of spread calls for them: airborne, droplet, or contact. Plan room traffic, PPE, transport, environmental controls, and instrument handling with infection prevention and local policy; induction of anesthesia does not cancel the precaution.",
+    "source": "B"
+  },
+  "preop": {
+    "title": "The preoperative verification picture",
+    "text": "A preoperative assessment joins two unique identifiers with procedure, site, consent, allergies, fasting, relevant test results, medications and supplements, implants, airway or anatomical issues, blood-product needs, and psychosocial concerns. Resolve discrepancies with the patient and team before the next irreversible step.",
+    "source": "B"
+  },
+  "anesthesia": {
+    "title": "Adapting to the anesthesia plan",
+    "text": "General and regional techniques have different equipment, positioning, monitoring, and complication considerations. The perioperative nurse stays aware of the plan and current physiological findings, communicates changes promptly with the anesthesia professional, and adapts supplies and nursing care when the technique or procedure changes.",
+    "source": "B"
+  },
+  "monitoring": {
+    "title": "Monitoring is a team signal",
+    "text": "Pulse oximetry estimates peripheral oxygen saturation; ECG displays cardiac electrical activity. Neither measures every aspect of ventilation or perfusion. An unexpected monitor finding needs assessment and prompt communication, not simply a silenced alarm. Trends, patient context, and the anesthesia professional's assessment guide action.",
+    "source": "B"
+  },
+  "urgent": {
+    "title": "Responding to an intraoperative crisis",
+    "text": "A sudden airway, circulatory, neurologic, allergic, or bleeding event requires recognition, immediate communication, and coordinated use of the applicable emergency pathway. The circulating nurse helps obtain staff, equipment, medication, and blood products within role, while continuing to record meaningful times, interventions, and handoff needs.",
+    "source": "B"
+  },
+  "mh": {
+    "title": "Malignant hyperthermia",
+    "text": "Malignant hyperthermia is a life-threatening reaction to certain anesthesia triggers. The team should activate its MH protocol at suspicion, stop triggering agents under anesthesia direction, obtain dantrolene and the MH cart, and provide coordinated supportive care. Waiting for a very high temperature can delay treatment.",
+    "source": "M"
+  },
+  "cardiac": {
+    "title": "Cardiac events and escalation",
+    "text": "A new severe dysrhythmia or arrest changes priorities immediately. Alert the anesthesia and surgical team, activate the local resuscitation protocol, obtain the required staff and equipment, and communicate the event through subsequent handoff. A routine checklist or note cannot replace time-critical clinical action.",
+    "source": "B"
+  },
+  "forensic": {
+    "title": "Medicolegal evidence",
+    "text": "Evidence handling requires the correct authorized pathway, accurate identification, preservation, documentation, and controlled transfer. Routine disposal or an undocumented handoff can compromise the specimen's integrity. Follow institutional and jurisdictional requirements when a surgical item may have forensic significance.",
+    "source": "B"
+  },
+  "transplant": {
+    "title": "Organ and tissue procurement",
+    "text": "Procurement and transplantation involve specific consent, identification, timing, preservation, documentation, and authorized-team requirements. The circulating nurse follows the hospital's pathway and applicable Canadian regulatory and standards framework rather than improvising from an ordinary specimen workflow.",
+    "source": "B"
+  },
+  "resources": {
+    "title": "Resources are part of the care plan",
+    "text": "Staffing, rooms, instruments, implants, transfer devices, time, and supplies are clinical constraints. Anticipate them before the patient is committed to a procedure, confirm availability and suitability, escalate gaps, and agree on a safe alternative. Competing urgent cases require explicit prioritization and team communication.",
+    "source": "B"
+  },
+  "sustainability": {
+    "title": "Sustainable, safe use of supplies",
+    "text": "Reduce unnecessary opening and waste, reuse only when the item and reprocessing pathway permit it, and recycle within facility rules. A trial of new equipment should evaluate safety, performance, usability, and resource impact. Efficiency never justifies bypassing sterility or device instructions.",
+    "source": "B"
+  }
+}

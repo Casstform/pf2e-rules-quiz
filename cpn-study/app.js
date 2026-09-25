@@ -1,14 +1,6 @@
 const $ = (selector) => document.querySelector(selector);
 const STORAGE_KEY = "perioperative-study-lab-v1";
 const THEME_KEY = "perioperative-study-lab-theme";
-const descriptions = {
-  "Ethical & professional": "Advocacy, scope, communication and documentation",
-  "Safety": "Counts, checklists, positioning, equipment and fire",
-  "Infection prevention": "Asepsis, sterilization and surgical site infection",
-  "Perioperative phases & anesthesia": "Assessment, anesthesia and care transitions",
-  "Exceptional clinical events": "Recognition, escalation and urgent response",
-  "Managing resources": "Staffing, supplies and quality improvement"
-};
 const icons = ["✧", "⊕", "✳", "◌", "⌁", "◈"];
 const state = {
   bank: null, pool: "all", length: 20, categories: new Set(),
@@ -104,11 +96,7 @@ function sampleWeighted(pool, count) {
 function updateDashboard() {
   if (!state.bank) return;
   const records = Object.values(state.progress);
-  const attempts = records.reduce((sum, p) => sum + (p.attempts || 0), 0);
-  const correct = records.reduce((sum, p) => sum + (p.correct || 0), 0);
   $("#bank-size").textContent = state.bank.questions.length;
-  $("#case-size").textContent = state.bank.questions.filter(q => q.case).length;
-  $("#accuracy-stat").textContent = attempts ? `${Math.round(correct / attempts * 100)}%` : "—";
   $("#missed-count").textContent = records.filter(p => p.missed).length;
   $("#saved-count").textContent = records.filter(p => p.saved).length;
   const pool = poolQuestions();
@@ -136,23 +124,6 @@ function renderHome() {
     });
     holder.append(button);
   });
-  const cards = $("#domain-cards");
-  cards.replaceChildren();
-  state.bank.categories.forEach((category, i) => {
-    const card = document.createElement("button");
-    card.className = "domain-card";
-    card.type = "button";
-    card.innerHTML = `<span class="domain-number">0${i + 1} / 06</span><span class="domain-symbol">${icons[i]}</span><strong></strong><span class="domain-description"></span><span class="domain-end"><span></span><span>↗</span></span>`;
-    card.children[2].textContent = category;
-    card.children[3].textContent = descriptions[category];
-    card.querySelector(".domain-end span").textContent = `${state.bank.questions.filter(q => q.category === category).length} questions`;
-    card.addEventListener("click", () => {
-      state.pool = "all"; state.categories = new Set([category]); state.length = 20;
-      syncControls(); updateDashboard();
-      $("#setup").scrollIntoView({behavior: "smooth"});
-    });
-    cards.append(card);
-  });
   syncControls();
   updateDashboard();
 }
@@ -169,8 +140,7 @@ function show(screen) {
   for (const id of ["home", "quiz", "results"]) $("#" + id).classList.toggle("hidden", id !== screen);
   window.scrollTo({top: 0, behavior: "instant"});
 }
-function startSession(quick = false) {
-  if (quick) { state.pool = "all"; state.categories.clear(); state.length = 20; syncControls(); }
+function startSession() {
   const pool = poolQuestions();
   if (!pool.length) {
     $("#setup-message").textContent = "No questions in that selection yet. Try another pool or domain.";
@@ -182,7 +152,7 @@ function startSession(quick = false) {
   state.session = {
     questions: sampleWeighted(pool, count).map(q => {
       const order = shuffle([0, 1, 2, 3]);
-      return {...q, displayed: order.map(i => q.options[i]), correctIndex: order.indexOf(q.answer)};
+      return {...q, displayed: order.map(i => q.options[i]), displayOrder: order, correctIndex: order.indexOf(q.answer)};
     }),
     index: 0, answers: [], revealed: false
   };
@@ -244,7 +214,41 @@ function answer(index) {
   source.href = state.bank.sources[q.source].url;
   source.target = "_blank"; source.rel = "noopener";
   source.textContent = `Read source: ${state.bank.sources[q.source].name} ↗`;
-  feedback.append(title, explanation, source);
+  feedback.append(title, explanation);
+
+  const why = document.createElement("details");
+  why.className = "learning-detail";
+  const whySummary = document.createElement("summary");
+  whySummary.textContent = "Why the other answers are incorrect";
+  const wrongList = document.createElement("ul");
+  wrongList.className = "wrong-list";
+  q.displayed.forEach((option, displayedIndex) => {
+    const originalIndex = q.displayOrder[displayedIndex];
+    if (originalIndex === q.answer) return;
+    const item = document.createElement("li");
+    const optionLabel = document.createElement("strong");
+    optionLabel.textContent = option;
+    const reason = document.createElement("span");
+    reason.textContent = q.whyOthers[originalIndex - 1];
+    item.append(optionLabel, reason);
+    wrongList.append(item);
+  });
+  why.append(whySummary, wrongList);
+
+  const concept = state.bank.concepts[q.concept];
+  const basics = document.createElement("details");
+  basics.className = "learning-detail";
+  const basicsSummary = document.createElement("summary");
+  basicsSummary.textContent = `Concept basics: ${concept.title}`;
+  const basicsBody = document.createElement("p");
+  basicsBody.textContent = concept.text;
+  const basicsSource = document.createElement("a");
+  basicsSource.href = state.bank.sources[concept.source].url;
+  basicsSource.target = "_blank"; basicsSource.rel = "noopener";
+  basicsSource.textContent = `Explore: ${state.bank.sources[concept.source].name} ↗`;
+  basics.append(basicsSummary, basicsBody, basicsSource);
+
+  feedback.append(why, basics, source);
   feedback.className = `feedback ${correct ? "good" : "needs-review"}`;
   $("#session-correct").textContent = s.answers.filter(a => a.correct).length;
   $("#session-answered").textContent = s.answers.length;
@@ -277,8 +281,6 @@ function showResults() {
   updateDashboard(); show("results");
 }
 function bind() {
-  $("#start-quick").addEventListener("click", () => startSession(true));
-  $("#jump-setup").addEventListener("click", () => $("#setup").scrollIntoView({behavior: "smooth"}));
   $("#start-custom").addEventListener("click", () => startSession());
   $("#next-question").addEventListener("click", nextQuestion);
   $("#exit-quiz").addEventListener("click", () => {state.session = null; updateDashboard(); show("home");});
@@ -324,7 +326,6 @@ async function init() {
   } catch (error) {
     $("#bank-size").textContent = "—";
     $("#setup-message").textContent = "The question bank could not load. Refresh this page or try again later.";
-    $("#start-quick").disabled = true;
     $("#start-custom").disabled = true;
     console.error("Question bank error:", error);
   }

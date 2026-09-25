@@ -30,6 +30,10 @@ SOURCES = {
     "F": {
         "name": "AHRQ PSNet: Operating Room Fires",
         "url": "https://psnet.ahrq.gov/issue/operating-room-fires"
+    },
+    "M": {
+        "name": "MHAUS: Managing an MH Crisis",
+        "url": "https://www.mhaus.org/healthcare-professionals/managing-a-crisis/"
     }
 }
 CATEGORIES = [
@@ -63,11 +67,29 @@ def parse(path, with_case=False):
 questions = parse(ROOT / "questions.tsv") + parse(ROOT / "cases.tsv", True)
 assert len({q["prompt"].casefold() for q in questions}) == len(questions)
 assert len({q["id"] for q in questions}) == len(questions)
+concepts = json.loads((ROOT / "learning-concepts.json").read_text())
+assert all(item["source"] in SOURCES for item in concepts.values())
+learning = {}
+for line_number, line in enumerate((ROOT / "learning.tsv").read_text().splitlines(), 1):
+    if not line.strip() or line.startswith("#"):
+        continue
+    bits = line.split("|")
+    assert len(bits) == 5, ("learning.tsv", line_number, len(bits))
+    question_id, concept, *reasons = bits
+    assert question_id not in learning, ("duplicate learning ID", question_id)
+    assert concept in concepts and all(reasons), ("incomplete learning note", question_id)
+    learning[question_id] = {"concept": concept, "whyOthers": reasons}
+assert set(learning) == {q["id"] for q in questions}, (
+    "missing", {q["id"] for q in questions} - set(learning),
+    "extra", set(learning) - {q["id"] for q in questions}
+)
+for question in questions:
+    question.update(learning[question["id"]])
 contexts = json.loads((ROOT / "case-contexts.json").read_text())
 assert {q["case"] for q in questions if "case" in q} == set(contexts)
 bank = {
     "version": "2026-09-25", "questions": questions, "cases": contexts,
-    "sources": SOURCES, "categories": CATEGORIES,
+    "sources": SOURCES, "concepts": concepts, "categories": CATEGORIES,
     "blueprintWeights": {
         "Ethical & professional": 12.5, "Safety": 25,
         "Infection prevention": 22.5, "Perioperative phases & anesthesia": 20,

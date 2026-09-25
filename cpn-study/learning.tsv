@@ -1,0 +1,185 @@
+# id|concept|reason for original option 2|reason for original option 3|reason for original option 4
+CPN-001|scope|Attire does not grant access.|Case urgency does not establish permission.|Device familiarity does not authorize observation.
+CPN-002|advocacy|A family relationship does not override this patient's wishes.|The receiving team still needs relevant clinical facts.|The visitor cannot set a capable patient's disclosure preferences.
+CPN-003|conscience|Closure could conceal or worsen the break.|A note alone does not correct current contamination.|Do not rely on someone else noticing an unseen risk.
+CPN-004|communication|Louder speech does not overcome a language barrier.|A child is not an appropriate substitute for qualified language support for complex consent.|The patient's understanding matters before the procedure.
+CPN-005|documentation|Delayed recollection is less reliable than timely charting.|A surgeon's note does not replace nursing documentation.|Those times omit counts, medications, positioning and other nursing care.
+CPN-006|handoff|A chart alone may not convey urgent concerns or invite questions.|Diagnosis alone misses the course and current risks.|Delay leaves the receiving team without needed information.
+CPN-007|advocacy|It dismisses a concern the patient considers important.|Body-image concerns can be addressed before and after surgery.|The nurse should respond, while including family only with the patient's wishes.
+CPN-008|advocacy|An anesthetized patient still deserves a respectful, safe environment.|Public posting breaches professionalism and may expose private information.|Retaliation escalates conflict and disrupts care.
+CPN-009|scope|Similar controls do not prove identical operation or risk.|Vendors can teach about products but do not direct nursing care.|Use and relevant findings still require documentation.
+CPN-010|scope|A request does not change legal scope or competence.|Delegating an unauthorized act to a student does not make it safe.|False routine charting conceals the scope issue.
+CPN-011|quality|A near miss should be preserved for review, even without injury.|Disclosure and reporting follow policy; waiting until discharge alone is insufficient.|Delay loses details and defers prevention.
+CPN-012|advocacy|Beliefs and preferences vary within every group.|Explore a safe accommodation rather than dismissing it.|A capable patient can speak for themselves.
+CPN-013|advocacy|Continuing the argument exposes the patient to distress and risk.|Recording alone does not de-escalate the immediate situation.|The patient should not mediate staff conflict.
+CPN-014|specimens|Container suitability matters but does not establish research authorization.|Preservation choice does not replace consent and protocol checks.|Transport requires authorized chain of handling.
+CPN-015|quality|Consent changes require the patient's informed process, not a QI shortcut.|Surgical counts require accountable clinical personnel.|Suppressing reports hides safety signals.
+CPN-016|communication|No clinician can guarantee a painless recovery.|Teaching is useful before surgery and in immediate recovery.|Teaching should fit the patient and procedure.
+CPN-017|advocacy|Dignity continues under anesthesia.|Unnecessary observation increases exposure without benefit.|A public hallway does not protect confidential information.
+CPN-018|scope|Sales experience is not clinical authorization.|Anesthesia does not remove scope and consent obligations.|Speed cannot justify an unauthorized task.
+CPN-019|handoff|A preference card describes setup, not this patient's skin findings.|Staff numbers do not describe the patient's condition.|Marketing material is irrelevant to this patient's recovery risk.
+CPN-020|documentation|Deleting the record erases the audit trail.|Another clinician must not chart under a false identity.|Known errors should be corrected transparently.
+CPN-021|checklist|That is the Time Out phase.|Closure is near Sign Out, not Sign In.|Recovery discharge occurs after the OR checklist.
+CPN-022|checklist|The surgeon's name alone does not confirm the patient and planned procedure.|Discharge timing is not the Sign In identity check.|Counts are addressed later, particularly at Sign Out.
+CPN-023|checklist|Specimens are confirmed at Sign Out.|A recovery bed is not the anesthesia equipment check.|Count completion is a Sign Out item.
+CPN-024|checklist|An order does not verify a working device on this patient.|A discharge prescription is unrelated to induction readiness.|A bed alarm does not monitor oxygenation.
+CPN-025|checklist|This is far below the adult threshold on the WHO form.|This is also below the stated adult threshold.|This exceeds the prompt's threshold; it is not the trigger value.
+CPN-026|checklist|This is below the WHO pediatric threshold.|This is above the checklist's stated trigger.|This is much higher than the checklist's trigger.
+CPN-027|checklist|Risk prompts preparation, not automatic cancellation in every case.|A count does not address airway management.|Specimen preservation does not manage aspiration risk.
+CPN-028|checklist|This precedes the operation, but is not the Time Out immediately before incision.|Specimen fixation is not the preincision pause.|This is after the patient leaves the OR.
+CPN-029|checklist|A nurse alone cannot share the whole team's anticipated risks.|The anesthetist and nurse must participate too.|Recovery staff are not the intraoperative team for this pause.
+CPN-030|checklist|Room number is not a reliable patient or site identifier.|Purchase paperwork does not verify the incision site.|Discharge planning does not verify patient or operation.
+CPN-031|ssi|Prophylaxis is timed around surgery, not routinely prescribed for a month.|Giving it after closure misses the intended preincision timing.|Some procedures warrant prophylaxis; omission is not universal.
+CPN-032|checklist|Incision length alone omits critical steps, duration and blood loss.|The next day's schedule is not a current critical event.|A vendor's name does not describe the surgical risk.
+CPN-033|checklist|Break coverage is not the sterility and equipment check.|Paint colour has no bearing on current equipment readiness.|Address does not confirm sterile indicators.
+CPN-034|checklist|Imaging must be available when needed for the operation.|The first count does not replace a preincision imaging check.|The team must verify needed imaging regardless of a request.
+CPN-035|checklist|This is well before the operation.|Before induction is Sign In.|A follow-up visit is too late to resolve OR counts or equipment issues.
+CPN-036|counts|Linen inventory is not the surgical count.|Medication stock is a different safety process.|Staff numbers do not account for instruments, sponges and needles.
+CPN-037|specimens|Delayed labelling risks mix-ups.|The OR team must verify identity before handoff.|Room number is not an adequate patient identifier.
+CPN-038|handoff|Scheduling does not replace clinical recovery discussion.|Transport may need instructions but does not replace the three clinical disciplines.|A representative is not accountable for the recovery plan.
+CPN-039|counts|An earlier count cannot resolve a new discrepancy.|Closing may leave an item unaccounted for.|Falsifying a count conceals a potential retained item.
+CPN-040|counts|The personnel change warrants its own count.|A shift-end count is too late to establish handover accountability.|The ongoing case still requires a documented count.
+CPN-041|counts|Discharge is too late for an intraoperative discrepancy.|Before arrival alone does not verify used items.|Specimen receipt is not the surgical closing phase.
+CPN-042|counts|A count that was not done cannot be recorded as normal.|Discarding items later does not establish what remains in the patient.|Emergency conditions alter the response; they do not erase the risk.
+CPN-043|counts|Loading supports retrieval, not altered absorption.|Small-sponge control complements, rather than replaces, counts.|Loading an instrument is not a sterilization process.
+CPN-044|positioning|Staff height is not a patient pressure-risk assessment.|Room number does not describe anatomy or mobility.|Music preference does not address immobility or comorbidity.
+CPN-045|positioning|The calendar day does not create pressure injury risk.|Drape colour does not determine pressure exposure.|A set name does not measure time or position.
+CPN-046|positioning|The scheduler does not assess final patient position.|A vendor does not replace the clinical team's assessment.|Recovery clerical staff are not the positioning team.
+CPN-047|positioning|Convenience does not account for anatomy and pressure risk.|Another patient's supports may not fit this one.|Turnover speed cannot override positioning safety.
+CPN-048|positioning|The next case does not determine this patient's transfer readiness.|A surgeon's departure time is not a physiological assessment.|Route planning alone does not assess skin or safe transfer equipment.
+CPN-049|electrosurgery|Metal and pad placement require assessment, not a blanket rule.|Alarms may signal a poor circuit or equipment fault.|An active pencil on drapes can injure or ignite.
+CPN-050|electrosurgery|Battery brand alone does not assess interference risk.|Drape colour has no effect on device compatibility.|Availability of another instrument does not establish an agreed plan.
+CPN-051|electrosurgery|A towel does not isolate the active electrode safely.|Metal may conduct energy or heat.|Patient skin is not a storage surface for an active device.
+CPN-052|fire|Extra prep can increase the available fuel.|Prep drying has no relation to retained-item counts.|Oxygen monitoring remains necessary.
+CPN-053|hazards|Noise does not capture plume and can impede communication.|A surgical mask alone is not a complete plume control strategy.|Disabling local evacuation removes a control.
+CPN-054|hazards|Exposure to vapour is a chemical, not solely interpersonal, hazard.|Radiation is a different exposure mechanism.|Electrical hazards involve current, not vapour.
+CPN-055|hazards|Thermal hazards involve heat or cold.|Biological hazards involve infectious materials or organisms.|Mechanical hazards involve physical equipment or motion.
+CPN-056|hazards|Patient ID is a separate safety process.|Counting items is unrelated to chemical hazard communication.|Specimen fixation is a separate handling decision.
+CPN-057|positioning|Cuff colour does not measure pressure or ischemia risk.|Room temperature is not tourniquet occlusion pressure.|Instrument count does not track tourniquet time.
+CPN-058|hazards|General eyewear may not match the laser wavelength or required protection.|Closing eyes is not reliable protection for staff and observers.|Lower power does not remove eye and fire hazards.
+CPN-059|hazards|Cylinders can tip or leak and require secure handling.|A full tank can still have an unsafe connection.|A loosely fitting or incompatible regulator is unsafe.
+CPN-060|resources|Conversion changes instrument and staffing needs.|Specimens still follow identification and preservation requirements.|Counts remain necessary as the procedure changes.
+CPN-061|specimens|Labelling after transport creates identity risk.|Incision site alone is not sufficient patient identification.|An undocumented transfer loses accountability.
+CPN-062|specimens|Formalin may ruin tests requiring fresh tissue.|Freezing is not universally appropriate either.|A specimen is not waste because the count is complete.
+CPN-063|medications|Unlabeled contents invite medication error.|Clear appearance cannot distinguish solutions.|Chart administration when it actually occurs.
+CPN-064|fire|These are not the three fire-triangle roles.|Gown and drape can be fuels, but the list lacks oxidizer and ignition.|Temperature, pressure and humidity are not the fire triangle.
+CPN-065|fire|A reading is information, not combustible material.|A chart is not the operative-field fuel in this scenario.|A display is a measurement, not fuel.
+CPN-066|fire|A saline bag is not an energy source.|Unpowered forceps do not ignite fuel by themselves.|A checklist is not an ignition device.
+CPN-067|fire|Billing does not mitigate ignition near oxygen.|Diet is unrelated to an intraoperative fire risk.|A count matters for retention, not control of all fire elements.
+CPN-068|spaulding|Semicritical devices contact mucosa or nonintact skin, without entering sterile tissue.|Noncritical devices contact intact skin.|Environmental is not one of the three Spaulding device classes.
+CPN-069|spaulding|Low-level disinfection is insufficient for mucosal contact.|Visible cleanliness does not show microbial safety.|Room-air treatment does not reprocess the device.
+CPN-070|spaulding|Critical devices enter sterile tissue or the vascular system; a cuff does not.|Implantable describes a device use, not a fourth Spaulding class.|The word “cuff” does not determine class; intact-skin contact does.
+CPN-071|spaulding|An alcohol wipe does not sterilize a critical device.|Low-level disinfection does not eliminate the risk of entry into sterile tissue.|Rinsing is cleaning, not sterilization.
+CPN-072|sterilization|The shortest cycle may not be validated for that device or load.|An older tray label does not override current instructions.|Wrap colour does not determine process parameters.
+CPN-073|asepsis|Moisture can compromise the sterile barrier.|Towel drying does not restore validated package integrity.|External tape exposure does not prove a wet pack is safe.
+CPN-074|sterilization|Intact wrapping cannot override a failed indicator.|Adding an indicator after processing cannot test the completed cycle.|Antiseptic soaking is not the validated sterilization process.
+CPN-075|sterilization|A process indicator does not directly prove all organisms were killed.|External exposure does not verify conditions inside a complex tray.|Indicators do not establish whether soil was removed before processing.
+CPN-076|sterilization|Lighting and noise do not monitor the sterilizer's process.|Wrapper appearance alone cannot show cycle conditions.|A surgical count tracks items, not microbial inactivation.
+CPN-077|sterilization|External tape does not replace the implant-load biological indicator.|Urgency requires an approved exception pathway, not simply skipping monitoring.|Pulse oximetry monitors a patient, not a sterilization load.
+CPN-078|asepsis|Whether it was witnessed does not change contamination.|Saline rinsing does not sterilize the item.|A drape over contamination does not restore sterility.
+CPN-079|asepsis|Continued use leaves the contaminated gown near the field.|Alcohol spray is not an approved way to re-sterilize a worn gown.|Silence prevents correction of the break.
+CPN-080|asepsis|Contamination can occur after incision.|Items require verification and correct handling before entering the field.|The surgical team, not the patient, maintains the field.
+CPN-081|hand|Necklaces are not the hand and wrist jewellery named for removal.|Earrings do not replace removal of rings and watches.|Jewellery can interfere with effective hand antisepsis.
+CPN-082|hand|A glove does not remove soil beneath a nail.|Short nails may still have debris.|Cleaning only the glove exterior misses the hands.
+CPN-083|hand|A universal ten-minute scrub is unnecessary and may harm skin.|Another person's timing may not fit the product.|The selected product supplies a validated time.
+CPN-084|hand|Wet rub can affect glove integrity and antiseptic action.|Gloves go on after, not before, antisepsis.|Rinsing alone is not the completed alcohol-based protocol.
+CPN-085|hand|Gloves are barriers, but may puncture or tear.|Hand antisepsis cannot sterilize surgical instruments.|A clean gown remains part of the sterile barrier.
+CPN-086|hand|The used gloves can carry organisms into the clean site.|Wiping gloves on a drape contaminates the field.|Covering soiled gloves does not substitute for changing them and hand hygiene.
+CPN-087|ssi|A blade can cause microscopic cuts.|Routine removal adds skin trauma without a need.|An earlier razor shave still creates skin injury.
+CPN-088|ssi|Shaving does not sterilize skin.|Prep drying and shaving injury are different issues.|Wound classification describes the procedure's contamination, not shaving.
+CPN-089|ssi|Warming complements, not replaces, prophylaxis.|No single measure guarantees zero infection.|Skin antisepsis remains part of prevention.
+CPN-090|ssi|Prolonged prophylaxis adds exposure and resistance risk without proven prevention benefit.|Postclosure dosing misses the useful preincision window.|Antibiotics cannot replace aseptic technique.
+CPN-091|precautions|Airborne risk requires an additional plan beyond routine practices.|Open doors can undermine environmental controls.|Precautions do not end when the patient is anesthetized.
+CPN-092|precautions|Prion handling is a different infection-control issue.|Radiation is a physical exposure.|Chemical exposure is not influenza transmission.
+CPN-093|precautions|Radiation is not an organism's contact-transmission route.|Laser safety is unrelated to MDRO spread.|Thermal exposure is not a contact precaution.
+CPN-094|precautions|Noise may matter operationally, but is not the infection concern.|Carbon dioxide is unrelated to construction dust in this question.|Hypoglycemia is a patient condition, not renovation-related environmental contamination.
+CPN-095|ssi|Each listed alternative reverses a prevention measure.|A drape alone cannot replace preparation, warming and prophylaxis.|Irrigation after closure cannot substitute for the full prevention bundle.
+CPN-096|asepsis|Uncovered transport can contaminate clean areas and expose staff.|A used instrument is not immediately sterile in a clean tray.|Direct reuse bypasses cleaning and reprocessing.
+CPN-097|sterilization|Routine shortages should be solved through inventory planning.|A late schedule is not an emergency indication for IUSS.|Steam exposure cannot replace prior cleaning.
+CPN-098|sterilization|The schedule does not explain a failed process.|Clothing colour is irrelevant to sterilizer performance.|A prior diagnosis does not validate the load.
+CPN-099|asepsis|Tint alone does not measure room environmental controls.|Parking does not affect sterile-air management.|A preference card does not replace temperature, humidity and air-exchange assessment.
+CPN-100|asepsis|Even brief contact can contaminate an item.|Tape cannot restore its sterile state.|Dry rubbing is not reprocessing.
+CPN-101|ssi|Wound classification does not replace patient assessment.|Identity is verified separately with patient identifiers.|Visitor permission is a separate access issue.
+CPN-102|hand|A torn glove has lost barrier integrity regardless of visible blood.|Tape is not a reliable sterile glove repair.|Rinsing does not repair the breach.
+CPN-103|ssi|Bathing reduces burden but does not replace surgical skin antisepsis.|Living skin is not made sterile by a shower.|Barrier protection remains necessary.
+CPN-104|preop|A bed can be reassigned and is not a unique identifier.|Time identifies a slot, not a person.|A surgeon may operate on many patients.
+CPN-105|preop|The allergy can affect care before recovery.|A patient's new report may update an older chart.|The clinical team, not only transport, needs the information.
+CPN-106|preop|The schedule may contain the very error being investigated.|Guessing is unsafe when documents disagree.|Correction after surgery is too late for a wrong-site risk.
+CPN-107|preop|The next case does not assess this patient.|Visitor parking does not address anesthesia or surgery.|Room paint is not a physiological or consent check.
+CPN-108|electrosurgery|Internal devices can interact with energy equipment.|The nurse should not independently remove an implanted device.|Compatibility depends on the device and planned energy use.
+CPN-109|preop|Supplements may affect care and belong in medication review.|They add to rather than replace an allergy history.|Wound class is not determined by supplement use.
+CPN-110|preop|Inventory does not describe the patient's airway.|Specimen destination is a separate workflow.|Pad colour does not reveal dental or airway issues.
+CPN-111|preop|A music preference does not describe neck mobility.|Start time does not address airway access.|The next case's schedule is unrelated to this patient's anatomy.
+CPN-112|anesthesia|Unrequested loud music can increase distress and mask communication.|Unrelated talk does not create a supportive environment.|The awake patient needs explanation before induction.
+CPN-113|monitoring|Carbon dioxide is measured with other tools, not directly by pulse oximetry.|A glucose test measures blood sugar.|Intracranial pressure requires different monitoring.
+CPN-114|monitoring|Pulse oximetry estimates oxygen saturation, not the ECG tracing.|Urine output is a fluid or perfusion observation.|A count sheet tracks surgical items.
+CPN-115|monitoring|Silencing an alarm without assessing may miss deterioration.|Sign Out may be too late for an acute finding.|A note alone does not alert clinicians who can intervene.
+CPN-116|anesthesia|A change in technique can change monitoring, airway and supplies.|Monitoring remains essential.|The nurse has an active role in preparing and adapting care.
+CPN-117|anesthesia|Comorbidities are not required for the listed special population.|Local anesthesia does not define the patient group.|Care setting alone does not define bariatric considerations.
+CPN-118|anesthesia|Start time is only one event in ongoing care.|Glove size is not patient physiology.|Container brand does not reflect blood loss or skin condition.
+CPN-119|urgent|A count cannot take priority over an acute airway problem.|Movement without anesthesia coordination may worsen instability.|The circulator can obtain help and supplies while anesthesia manages the airway.
+CPN-120|urgent|Anaphylaxis needs immediate team action, not an elective count first.|Unverified independent drug delivery risks another error.|Waiting for recovery delays treatment.
+CPN-121|resources|The schedule board alone does not provide instruments or updated care.|Lighting may change, but is not the full clinical response.|The change should be documented and addressed while it happens.
+CPN-122|handoff|Turnover time is an operational measure, not the patient's condition.|Vendor attendance does not assess pain or physiology.|Another case does not determine safe transfer.
+CPN-123|preop|Blood-product needs should be anticipated before major bleeding.|Waiting for an unsolicited product is not planning.|Instrument cleaning is unrelated to blood availability.
+CPN-124|urgent|A routine request is not an urgent clinical event.|A planned dressing change is expected care.|A scheduled break is not patient deterioration.
+CPN-125|urgent|Turnover can wait during major bleeding.|A nonurgent form does not control hemorrhage.|The circulator should anticipate and coordinate needed support.
+CPN-126|urgent|Reflux is not an embolus.|Dehiscence is a wound problem.|Hypothermia is a thermal condition.
+CPN-127|urgent|Waiting may allow toxicity to progress.|More local anesthetic can worsen suspected toxicity.|Documentation follows immediate recognition and response.
+CPN-128|urgent|Uncoordinated restraint can injure the patient and staff.|Monitoring is especially important during a seizure.|The team needs to know about the change.
+CPN-129|urgent|Electrical shock is an equipment injury, not this circulatory shock category.|Vasovagal syncope is not the named example here.|Cardiogenic shock exists but is not the specific example listed in this blueprint item.
+CPN-130|urgent|A note alone cannot restore an airway.|Counts do not solve acute ventilation compromise.|Airway support cannot wait for routine suturing.
+CPN-131|urgent|Emergency supplies complement, not replace, anesthesia checks.|The equipment is for selected emergencies, not every case.|Wound classification is a different process.
+CPN-132|documentation|Deleting data removes clinically relevant evidence.|Stabilization does not erase reporting obligations.|Family members do not chart nursing interventions.
+CPN-133|urgent|Discharge timing does not explain a rapid reaction.|Count status is not the suspected trigger or current physiology.|Humidity is not the key clinical information.
+CPN-134|positioning|Body size and anatomy may need different equipment.|Emergency conversion increases, not removes, risk assessment.|The prior case's setup may be unsuitable or incomplete.
+CPN-135|fire|More oxygen increases the oxidizer near ignition and fuel.|Dry gauze adds fuel.|Dry prep reduces one risk but does not remove oxygen or ignition hazards.
+CPN-136|urgent|Sudden deterioration is not automatically an expected block effect.|Immediate action precedes complete charting.|Anesthesia must know before transfer.
+CPN-137|urgent|Silence and delayed charting miss the chance to respond.|A routine pause does not replace crisis management.|A vendor does not hold clinical responsibility.
+CPN-138|resources|An unprocessed instrument is unsafe for a sterile procedure.|A missing item does not justify skipping checks.|A hidden shortage prevents a team plan.
+CPN-139|resources|Speed is not equipment competence.|A vendor cannot independently assume a clinical role.|Equipment use and patient effects still need documentation.
+CPN-140|positioning|Arrival time alone does not ensure enough help or a suitable device.|Bed colour does not affect transfer capability.|Travel distance is not the key handling risk.
+CPN-141|resources|An alternative implant requires verification and agreement.|Concealment prevents informed planning.|An expired implant is not a safe substitute.
+CPN-142|asepsis|Tape does not restore a validated sterile barrier.|Urgency does not make compromised contents sterile.|Heat does not repair a torn wrapper.
+CPN-143|resources|Starting without a needed item creates avoidable risk.|A used, unverified item is not ready for patient use.|False documentation hides the actual shortage.
+CPN-144|sterilization|Fastest is not necessarily compatible or validated.|Start time cannot determine reprocessing conditions.|Package colour does not define the device's instructions.
+CPN-145|positioning|Planning after unsafe movement is too late.|Transport may not know all clinical transfer needs.|A later meeting cannot protect this transfer.
+CPN-146|resources|Equipment problems need documentation and follow-up.|Reporting aims to correct risk, not automatically assign blame.|Equipment review does not replace surgical counts.
+CPN-147|resources|New complexity can change staffing and supply needs.|Stopping communication blocks coordination.|Opening every tray wastes supplies and may not meet actual needs.
+CPN-148|mh|A high temperature can be a late sign; do not wait for that number.|Treatment should start while the team addresses the procedure.|MH is a systemic anesthesia crisis, not just field contamination.
+CPN-149|cardiac|A preference card is not a resuscitation protocol.|Discharge steps cannot guide an arrest response.|The next room's schedule is irrelevant to the emergency.
+CPN-150|urgent|DIC can progress and needs prompt team assessment.|Blood products require appropriate orders, checks and coordination.|Unexpected bleeding should not be dismissed as routine.
+CPN-151|documentation|Records must be preserved, not discarded.|Another case's workflow may not meet death-related requirements.|An unverified visitor cannot determine disposition.
+CPN-152|forensic|Routine disposal destroys possible evidence.|Unverified transfer breaks control of custody.|Changing a label after transfer undermines identity integrity.
+CPN-153|transplant|Linen replacement is routine resource work.|Turnover is not a procurement activity.|Staff assignment does not itself invoke transplantation requirements.
+CPN-154|transplant|The schedule does not authorize procurement.|A count sheet does not establish consent or the pathway.|A vendor preference is not regulatory guidance.
+CPN-155|mh|Recognition, medication preparation and support involve the team.|Documentation cannot treat a physiological crisis.|Monitoring remains essential for recognition and response.
+CPN-156|resources|Volume does not determine clinical priority.|Withholding information obstructs a safe plan.|One device cannot serve two rooms at the same time.
+CPN-157|resources|Preferences are only one input to planning.|Meals do not cover staffing, implants, rooms or equipment.|Parking is not a perioperative clinical resource category here.
+CPN-158|sustainability|Single-use device reuse needs an approved validated pathway, if permitted.|Skipping processing sacrifices safety.|Unneeded open trays create waste and reprocessing work.
+CPN-159|sustainability|Marketing is not a structured clinical evaluation.|Training and checks precede use.|Problem reporting is essential to evaluating a trial.
+CPN-160|quality|A blame-only response does not identify process causes.|Opening every tray wastes resources and may not solve missing items.|Without data, the team cannot measure whether changes help.
+CASE-001|counts|An expected number cannot be recorded without a completed count.|Closure should pause while an item is unaccounted for.|A correct initial count does not erase the current discrepancy.
+CASE-002|counts|The initial count does not account for a missing item later.|The patient cannot resolve an intraoperative discrepancy in recovery.|Adding a sponge does not locate the missing one.
+CASE-003|documentation|Resolution does not remove the need to document actions taken.|A personal notebook is not the clinical record.|A normal count alone omits the discrepancy and response.
+CASE-004|checklist|Discharge address is not a Sign Out safety check.|Scheduling is unrelated to retained-item risk.|Dressing brand is not the requested count confirmation.
+CASE-005|preop|The printed schedule can be erroneous.|A representative is not the patient or authorized verifying clinician.|Marking both sides leaves the discrepancy unresolved.
+CASE-006|checklist|Closing counts occur later in the operation.|Specimen readback occurs at Sign Out.|Equipment problems are reviewed at Sign Out, not before induction.
+CASE-007|checklist|A room number does not identify the patient and site.|Initials alone do not confirm the incision location.|Transport route is not the preincision verification.
+CASE-008|quality|Deleting the error prevents review and learning.|Discussion outside the reporting process does not address system risk.|Credential renewal is too late and unrelated to this event.
+CASE-009|asepsis|Looking clean does not prove the barrier remained sterile.|A towel cannot repair torn packaging.|Saline rinse is not sterilization.
+CASE-010|spaulding|Low-level disinfection is insufficient for entry into sterile tissue.|Water rinsing does not sterilize a critical device.|New packaging alone does not establish validated sterility.
+CASE-011|sterilization|External tape cannot overrule a failed internal result.|A later glance does not change conditions of the completed cycle.|Putting an indicator near the patient cannot test the load.
+CASE-012|resources|Using the failed set compromises the sterile supply.|Moving the patient before a plan increases pressure to use unsafe equipment.|Implant changes require team verification, not a unilateral fix.
+CASE-013|fire|These are hazards, not three monitor types.|Supplies alone do not explain oxidizer and ignition.|Identification checks do not form a fire triangle.
+CASE-014|fire|Dim lights do not remove fuel or ignition.|A blank count sheet has no bearing on prep flammability.|More oxygen can increase combustion risk.
+CASE-015|electrosurgery|Drapes may be fuel near an active tip.|The patient's gown does not isolate the electrode.|Pooled prep is potential fuel.
+CASE-016|fire|A near miss is an opportunity to remove the hazard before ignition.|Dry gauze adds fuel.|Time Out completion does not neutralize a newly noticed fire risk.
+CASE-017|positioning|Instruments alone omit patient handling and pressure risks.|Start time alone does not individualize the plan.|Anesthesia does not eliminate need for positioning assessment.
+CASE-018|positioning|The calendar date does not determine skin pressure.|Wall colour is unrelated to pressure duration.|Marker brand does not determine positioning risk.
+CASE-019|resources|An open conversion usually increases preparation needs.|Closing counts remain important.|The change and related care should be documented.
+CASE-020|handoff|A billing code does not convey skin, pain or thermal status.|Tray inventory is a resource record, not this patient's physiology.|The next case's time does not establish safe recovery transfer.
+CASE-021|cardiac|Sign Out is not an acute cardiac resuscitation protocol.|The next case's resources cannot guide the current emergency.|Delayed charting does not treat a dysrhythmia.
+CASE-022|resources|Break coverage alone is insufficient in an emergency.|Specimen labels do not provide resuscitation support.|Next patient transport is not the current priority.
+CASE-023|handoff|“Surgery is over” omits the complication and ongoing needs.|The receiving team needs an active verbal transfer, not discovery later.|Family cannot replace a clinical handoff.
+CASE-024|documentation|Reconstructing a normal course would be inaccurate.|The diagnosis alone omits nursing observations and interventions.|Survival does not erase the need to document the event.

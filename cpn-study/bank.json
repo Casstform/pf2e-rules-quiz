@@ -13,7 +13,13 @@
         "Whether the surgeon has used that device before"
       ],
       "answer": 0,
-      "explanation": "The CNA competency includes verifying authorization for visitors, including industry representatives."
+      "explanation": "The CNA competency includes verifying authorization for visitors, including industry representatives.",
+      "concept": "scope",
+      "whyOthers": [
+        "Attire does not grant access.",
+        "Case urgency does not establish permission.",
+        "Device familiarity does not authorize observation."
+      ]
     },
     {
       "id": "CPN-002",
@@ -27,7 +33,13 @@
         "Ask the visitor to decide what may be shared"
       ],
       "answer": 0,
-      "explanation": "Advocacy includes privacy and confidentiality, while care transitions still require relevant clinical information."
+      "explanation": "Advocacy includes privacy and confidentiality, while care transitions still require relevant clinical information.",
+      "concept": "advocacy",
+      "whyOthers": [
+        "A family relationship does not override this patient's wishes.",
+        "The receiving team still needs relevant clinical facts.",
+        "The visitor cannot set a capable patient's disclosure preferences."
+      ]
     },
     {
       "id": "CPN-003",
@@ -41,7 +53,13 @@
         "Assume the scrub person will notice"
       ],
       "answer": 0,
-      "explanation": "Surgical conscience calls for acting on an observed risk even when unnoticed."
+      "explanation": "Surgical conscience calls for acting on an observed risk even when unnoticed.",
+      "concept": "conscience",
+      "whyOthers": [
+        "Closure could conceal or worsen the break.",
+        "A note alone does not correct current contamination.",
+        "Do not rely on someone else noticing an unseen risk."
+      ]
     },
     {
       "id": "CPN-004",
@@ -55,7 +73,13 @@
         "Skip teaching until recovery"
       ],
       "answer": 0,
-      "explanation": "The blueprint requires addressing communication needs, including language barriers."
+      "explanation": "The blueprint requires addressing communication needs, including language barriers.",
+      "concept": "communication",
+      "whyOthers": [
+        "Louder speech does not overcome a language barrier.",
+        "A child is not an appropriate substitute for qualified language support for complex consent.",
+        "The patient's understanding matters before the procedure."
+      ]
     },
     {
       "id": "CPN-005",
@@ -69,7 +93,13 @@
         "A note limited to incision and closing times"
       ],
       "answer": 0,
-      "explanation": "Documentation should be complete, accurate and contemporaneous."
+      "explanation": "Documentation should be complete, accurate and contemporaneous.",
+      "concept": "documentation",
+      "whyOthers": [
+        "Delayed recollection is less reliable than timely charting.",
+        "A surgeon's note does not replace nursing documentation.",
+        "Those times omit counts, medications, positioning and other nursing care."
+      ]
     },
     {
       "id": "CPN-006",
@@ -83,7 +113,13 @@
         "Wait for the next shift to relay concerns"
       ],
       "answer": 0,
-      "explanation": "CNA identifies communication and accountability at care transitions."
+      "explanation": "CNA identifies communication and accountability at care transitions.",
+      "concept": "handoff",
+      "whyOthers": [
+        "A chart alone may not convey urgent concerns or invite questions.",
+        "Diagnosis alone misses the course and current risks.",
+        "Delay leaves the receiving team without needed information."
+      ]
     },
     {
       "id": "CPN-007",
@@ -97,7 +133,13 @@
         "Ask the patient to discuss it only with family"
       ],
       "answer": 0,
-      "explanation": "The competency explicitly includes psychosocial needs such as altered body image."
+      "explanation": "The competency explicitly includes psychosocial needs such as altered body image.",
+      "concept": "advocacy",
+      "whyOthers": [
+        "It dismisses a concern the patient considers important.",
+        "Body-image concerns can be addressed before and after surgery.",
+        "The nurse should respond, while including family only with the patient's wishes."
+      ]
     },
     {
       "id": "CPN-008",
@@ -111,7 +153,13 @@
         "Retaliate in front of the team"
       ],
       "answer": 0,
-      "explanation": "The blueprint includes a respectful workplace and reporting unprofessional behaviour."
+      "explanation": "The blueprint includes a respectful workplace and reporting unprofessional behaviour.",
+      "concept": "advocacy",
+      "whyOthers": [
+        "An anesthetized patient still deserves a respectful, safe environment.",
+        "Public posting breaches professionalism and may expose private information.",
+        "Retaliation escalates conflict and disrupts care."
+      ]
     },
     {
       "id": "CPN-009",
@@ -125,7 +173,13 @@
         "Avoid documenting its use"
       ],
       "answer": 0,
-      "explanation": "CNA identifies adaptation to technology and continuing learning within scope."
+      "explanation": "CNA identifies adaptation to technology and continuing learning within scope.",
+      "concept": "scope",
+      "whyOthers": [
+        "Similar controls do not prove identical operation or risk.",
+        "Vendors can teach about products but do not direct nursing care.",
+        "Use and relevant findings still require documentation."
+      ]
     },
     {
       "id": "CPN-010",
@@ -139,7 +193,13 @@
         "Document it as a routine nursing task"
       ],
       "answer": 0,
-      "explanation": "Scope is governed by provincial or territorial licensure and competence."
+      "explanation": "Scope is governed by provincial or territorial licensure and competence.",
+      "concept": "scope",
+      "whyOthers": [
+        "A request does not change legal scope or competence.",
+        "Delegating an unauthorized act to a student does not make it safe.",
+        "False routine charting conceals the scope issue."
+      ]
     },
     {
       "id": "CPN-011",
@@ -153,7 +213,13 @@
         "Wait until the next month to review it"
       ],
       "answer": 0,
-      "explanation": "The blueprint includes recognizing and reporting situations requiring disclosure."
+      "explanation": "The blueprint includes recognizing and reporting situations requiring disclosure.",
+      "concept": "quality",
+      "whyOthers": [
+        "A near miss should be preserved for review, even without injury.",
+        "Disclosure and reporting follow policy; waiting until discharge alone is insufficient.",
+        "Delay loses details and defers prevention."
+      ]
     },
     {
       "id": "CPN-012",
@@ -167,7 +233,13 @@
         "Ask family to speak for a capable patient"
       ],
       "answer": 0,
-      "explanation": "Care should respond to individual beliefs without stereotypes."
+      "explanation": "Care should respond to individual beliefs without stereotypes.",
+      "concept": "advocacy",
+      "whyOthers": [
+        "Beliefs and preferences vary within every group.",
+        "Explore a safe accommodation rather than dismissing it.",
+        "A capable patient can speak for themselves."
+      ]
     },
     {
       "id": "CPN-013",
@@ -181,7 +253,13 @@
         "Ask the patient to choose a side"
       ],
       "answer": 0,
-      "explanation": "Conflict resolution includes de-escalation and separating parties."
+      "explanation": "Conflict resolution includes de-escalation and separating parties.",
+      "concept": "advocacy",
+      "whyOthers": [
+        "Continuing the argument exposes the patient to distress and risk.",
+        "Recording alone does not de-escalate the immediate situation.",
+        "The patient should not mediate staff conflict."
+      ]
     },
     {
       "id": "CPN-014",
@@ -195,7 +273,13 @@
         "Whether a visitor can take it to the laboratory"
       ],
       "answer": 0,
-      "explanation": "Research participation must follow consent and ethics-approved protocols."
+      "explanation": "Research participation must follow consent and ethics-approved protocols.",
+      "concept": "specimens",
+      "whyOthers": [
+        "Container suitability matters but does not establish research authorization.",
+        "Preservation choice does not replace consent and protocol checks.",
+        "Transport requires authorized chain of handling."
+      ]
     },
     {
       "id": "CPN-015",
@@ -209,7 +293,13 @@
         "Disabling incident reporting to reduce paperwork"
       ],
       "answer": 0,
-      "explanation": "CNA cites SSI prevention, wound classification and checklist use as quality-improvement areas."
+      "explanation": "CNA cites SSI prevention, wound classification and checklist use as quality-improvement areas.",
+      "concept": "quality",
+      "whyOthers": [
+        "Consent changes require the patient's informed process, not a QI shortcut.",
+        "Surgical counts require accountable clinical personnel.",
+        "Suppressing reports hides safety signals."
+      ]
     },
     {
       "id": "CPN-016",
@@ -223,7 +313,13 @@
         "Provide the same script regardless of procedure"
       ],
       "answer": 0,
-      "explanation": "The blueprint includes education before, during and immediately after surgery."
+      "explanation": "The blueprint includes education before, during and immediately after surgery.",
+      "concept": "communication",
+      "whyOthers": [
+        "No clinician can guarantee a painless recovery.",
+        "Teaching is useful before surgery and in immediate recovery.",
+        "Teaching should fit the patient and procedure."
+      ]
     },
     {
       "id": "CPN-017",
@@ -237,7 +333,13 @@
         "Discuss the patient in a public hallway"
       ],
       "answer": 0,
-      "explanation": "Privacy and dignity remain nursing responsibilities throughout the perioperative period."
+      "explanation": "Privacy and dignity remain nursing responsibilities throughout the perioperative period.",
+      "concept": "advocacy",
+      "whyOthers": [
+        "Dignity continues under anesthesia.",
+        "Unnecessary observation increases exposure without benefit.",
+        "A public hallway does not protect confidential information."
+      ]
     },
     {
       "id": "CPN-018",
@@ -251,7 +353,13 @@
         "Would the task save several minutes?"
       ],
       "answer": 0,
-      "explanation": "Visitor permission and professional scope must both be respected."
+      "explanation": "Visitor permission and professional scope must both be respected.",
+      "concept": "scope",
+      "whyOthers": [
+        "Sales experience is not clinical authorization.",
+        "Anesthesia does not remove scope and consent obligations.",
+        "Speed cannot justify an unauthorized task."
+      ]
     },
     {
       "id": "CPN-019",
@@ -265,7 +373,13 @@
         "The manufacturer's marketing information"
       ],
       "answer": 0,
-      "explanation": "Relevant care findings must follow the patient through transition."
+      "explanation": "Relevant care findings must follow the patient through transition.",
+      "concept": "handoff",
+      "whyOthers": [
+        "A preference card describes setup, not this patient's skin findings.",
+        "Staff numbers do not describe the patient's condition.",
+        "Marketing material is irrelevant to this patient's recovery risk."
+      ]
     },
     {
       "id": "CPN-020",
@@ -279,7 +393,13 @@
         "Leave it unchanged because the case is finished"
       ],
       "answer": 0,
-      "explanation": "Accurate contemporaneous documentation includes transparent correction."
+      "explanation": "Accurate contemporaneous documentation includes transparent correction.",
+      "concept": "documentation",
+      "whyOthers": [
+        "Deleting the record erases the audit trail.",
+        "Another clinician must not chart under a false identity.",
+        "Known errors should be corrected transparently."
+      ]
     },
     {
       "id": "CPN-021",
@@ -293,7 +413,13 @@
         "After discharge from recovery"
       ],
       "answer": 0,
-      "explanation": "The WHO checklist separates Sign In, Time Out and Sign Out by phase."
+      "explanation": "The WHO checklist separates Sign In, Time Out and Sign Out by phase.",
+      "concept": "checklist",
+      "whyOthers": [
+        "That is the Time Out phase.",
+        "Closure is near Sign Out, not Sign In.",
+        "Recovery discharge occurs after the OR checklist."
+      ]
     },
     {
       "id": "CPN-022",
@@ -307,7 +433,13 @@
         "Only the instrument count"
       ],
       "answer": 0,
-      "explanation": "The WHO Sign In asks for patient confirmation of identity, site, procedure and consent."
+      "explanation": "The WHO Sign In asks for patient confirmation of identity, site, procedure and consent.",
+      "concept": "checklist",
+      "whyOthers": [
+        "The surgeon's name alone does not confirm the patient and planned procedure.",
+        "Discharge timing is not the Sign In identity check.",
+        "Counts are addressed later, particularly at Sign Out."
+      ]
     },
     {
       "id": "CPN-023",
@@ -321,7 +453,13 @@
         "Completed needle count"
       ],
       "answer": 0,
-      "explanation": "The anesthesia equipment and medication check is a Sign In item."
+      "explanation": "The anesthesia equipment and medication check is a Sign In item.",
+      "concept": "checklist",
+      "whyOthers": [
+        "Specimens are confirmed at Sign Out.",
+        "A recovery bed is not the anesthesia equipment check.",
+        "Count completion is a Sign Out item."
+      ]
     },
     {
       "id": "CPN-024",
@@ -335,7 +473,13 @@
         "Recovery room bed alarm"
       ],
       "answer": 0,
-      "explanation": "Sign In asks whether pulse oximetry is on the patient and working."
+      "explanation": "Sign In asks whether pulse oximetry is on the patient and working.",
+      "concept": "checklist",
+      "whyOthers": [
+        "An order does not verify a working device on this patient.",
+        "A discharge prescription is unrelated to induction readiness.",
+        "A bed alarm does not monitor oxygenation."
+      ]
     },
     {
       "id": "CPN-025",
@@ -349,7 +493,13 @@
         "2,000 mL"
       ],
       "answer": 0,
-      "explanation": "The WHO Sign In threshold is more than 500 mL for adults."
+      "explanation": "The WHO Sign In threshold is more than 500 mL for adults.",
+      "concept": "checklist",
+      "whyOthers": [
+        "This is far below the adult threshold on the WHO form.",
+        "This is also below the stated adult threshold.",
+        "This exceeds the prompt's threshold; it is not the trigger value."
+      ]
     },
     {
       "id": "CPN-026",
@@ -363,7 +513,13 @@
         "50 mL/kg"
       ],
       "answer": 0,
-      "explanation": "The pediatric Sign In threshold is more than 7 mL/kg."
+      "explanation": "The pediatric Sign In threshold is more than 7 mL/kg.",
+      "concept": "checklist",
+      "whyOthers": [
+        "This is below the WHO pediatric threshold.",
+        "This is above the checklist's stated trigger.",
+        "This is much higher than the checklist's trigger."
+      ]
     },
     {
       "id": "CPN-027",
@@ -377,7 +533,13 @@
         "The specimen is in formalin"
       ],
       "answer": 0,
-      "explanation": "WHO pairs the risk with a plan for equipment and help."
+      "explanation": "WHO pairs the risk with a plan for equipment and help.",
+      "concept": "checklist",
+      "whyOthers": [
+        "Risk prompts preparation, not automatic cancellation in every case.",
+        "A count does not address airway management.",
+        "Specimen preservation does not manage aspiration risk."
+      ]
     },
     {
       "id": "CPN-028",
@@ -391,7 +553,13 @@
         "After the patient leaves the OR"
       ],
       "answer": 0,
-      "explanation": "Time Out precedes incision."
+      "explanation": "Time Out precedes incision.",
+      "concept": "checklist",
+      "whyOthers": [
+        "This precedes the operation, but is not the Time Out immediately before incision.",
+        "Specimen fixation is not the preincision pause.",
+        "This is after the patient leaves the OR."
+      ]
     },
     {
       "id": "CPN-029",
@@ -405,7 +573,13 @@
         "Only recovery staff"
       ],
       "answer": 0,
-      "explanation": "The checklist calls for the operative team to confirm together."
+      "explanation": "The checklist calls for the operative team to confirm together.",
+      "concept": "checklist",
+      "whyOthers": [
+        "A nurse alone cannot share the whole team's anticipated risks.",
+        "The anesthetist and nurse must participate too.",
+        "Recovery staff are not the intraoperative team for this pause."
+      ]
     },
     {
       "id": "CPN-030",
@@ -419,7 +593,13 @@
         "The planned discharge date"
       ],
       "answer": 0,
-      "explanation": "The team verbally confirms patient, procedure and site."
+      "explanation": "The team verbally confirms patient, procedure and site.",
+      "concept": "checklist",
+      "whyOthers": [
+        "Room number is not a reliable patient or site identifier.",
+        "Purchase paperwork does not verify the incision site.",
+        "Discharge planning does not verify patient or operation."
+      ]
     },
     {
       "id": "CPN-031",
@@ -433,7 +613,13 @@
         "Was it omitted for every case?"
       ],
       "answer": 0,
-      "explanation": "The WHO checklist asks whether prophylaxis was given in the preceding 60 minutes."
+      "explanation": "The WHO checklist asks whether prophylaxis was given in the preceding 60 minutes.",
+      "concept": "ssi",
+      "whyOthers": [
+        "Prophylaxis is timed around surgery, not routinely prescribed for a month.",
+        "Giving it after closure misses the intended preincision timing.",
+        "Some procedures warrant prophylaxis; omission is not universal."
+      ]
     },
     {
       "id": "CPN-032",
@@ -447,7 +633,13 @@
         "Only the name of the instrument vendor"
       ],
       "answer": 0,
-      "explanation": "Anticipated critical events are shared before incision."
+      "explanation": "Anticipated critical events are shared before incision.",
+      "concept": "checklist",
+      "whyOthers": [
+        "Incision length alone omits critical steps, duration and blood loss.",
+        "The next day's schedule is not a current critical event.",
+        "A vendor's name does not describe the surgical risk."
+      ]
     },
     {
       "id": "CPN-033",
@@ -461,7 +653,13 @@
         "Only the patient's address"
       ],
       "answer": 0,
-      "explanation": "The checklist prompts nursing review of sterility and equipment concerns."
+      "explanation": "The checklist prompts nursing review of sterility and equipment concerns.",
+      "concept": "checklist",
+      "whyOthers": [
+        "Break coverage is not the sterility and equipment check.",
+        "Paint colour has no bearing on current equipment readiness.",
+        "Address does not confirm sterile indicators."
+      ]
     },
     {
       "id": "CPN-034",
@@ -475,7 +673,13 @@
         "Only when the patient requests it"
       ],
       "answer": 0,
-      "explanation": "Essential imaging is a preincision checklist prompt."
+      "explanation": "Essential imaging is a preincision checklist prompt.",
+      "concept": "checklist",
+      "whyOthers": [
+        "Imaging must be available when needed for the operation.",
+        "The first count does not replace a preincision imaging check.",
+        "The team must verify needed imaging regardless of a request."
+      ]
     },
     {
       "id": "CPN-035",
@@ -489,7 +693,13 @@
         "After the first postoperative visit"
       ],
       "answer": 0,
-      "explanation": "Sign Out precedes departure from the OR."
+      "explanation": "Sign Out precedes departure from the OR.",
+      "concept": "checklist",
+      "whyOthers": [
+        "This is well before the operation.",
+        "Before induction is Sign In.",
+        "A follow-up visit is too late to resolve OR counts or equipment issues."
+      ]
     },
     {
       "id": "CPN-036",
@@ -503,7 +713,13 @@
         "Only the number of staff present"
       ],
       "answer": 0,
-      "explanation": "The WHO Sign Out requires verbal confirmation of these counts."
+      "explanation": "The WHO Sign Out requires verbal confirmation of these counts.",
+      "concept": "counts",
+      "whyOthers": [
+        "Linen inventory is not the surgical count.",
+        "Medication stock is a different safety process.",
+        "Staff numbers do not account for instruments, sponges and needles."
+      ]
     },
     {
       "id": "CPN-037",
@@ -517,7 +733,13 @@
         "Use only the room number"
       ],
       "answer": 0,
-      "explanation": "WHO calls for verbal specimen label confirmation."
+      "explanation": "WHO calls for verbal specimen label confirmation.",
+      "concept": "specimens",
+      "whyOthers": [
+        "Delayed labelling risks mix-ups.",
+        "The OR team must verify identity before handoff.",
+        "Room number is not an adequate patient identifier."
+      ]
     },
     {
       "id": "CPN-038",
@@ -531,7 +753,13 @@
         "Only the device representative"
       ],
       "answer": 0,
-      "explanation": "The three disciplines share recovery and management concerns."
+      "explanation": "The three disciplines share recovery and management concerns.",
+      "concept": "handoff",
+      "whyOthers": [
+        "Scheduling does not replace clinical recovery discussion.",
+        "Transport may need instructions but does not replace the three clinical disciplines.",
+        "A representative is not accountable for the recovery plan."
+      ]
     },
     {
       "id": "CPN-039",
@@ -545,7 +773,13 @@
         "Change the recorded count to match the expected count"
       ],
       "answer": 0,
-      "explanation": "CNA lists recount, surgeon notification, imaging and documentation in discrepancy response."
+      "explanation": "CNA lists recount, surgeon notification, imaging and documentation in discrepancy response.",
+      "concept": "counts",
+      "whyOthers": [
+        "An earlier count cannot resolve a new discrepancy.",
+        "Closing may leave an item unaccounted for.",
+        "Falsifying a count conceals a potential retained item."
+      ]
     },
     {
       "id": "CPN-040",
@@ -559,7 +793,13 @@
         "Avoid count documentation because the case is ongoing"
       ],
       "answer": 0,
-      "explanation": "CNA specifies counts when scrub or circulating nurses are permanently relieved."
+      "explanation": "CNA specifies counts when scrub or circulating nurses are permanently relieved.",
+      "concept": "counts",
+      "whyOthers": [
+        "The personnel change warrants its own count.",
+        "A shift-end count is too late to establish handover accountability.",
+        "The ongoing case still requires a documented count."
+      ]
     },
     {
       "id": "CPN-041",
@@ -573,7 +813,13 @@
         "Only after specimen receipt"
       ],
       "answer": 0,
-      "explanation": "CNA lists initial, before closure and procedure completion counts."
+      "explanation": "CNA lists initial, before closure and procedure completion counts.",
+      "concept": "counts",
+      "whyOthers": [
+        "Discharge is too late for an intraoperative discrepancy.",
+        "Before arrival alone does not verify used items.",
+        "Specimen receipt is not the surgical closing phase."
+      ]
     },
     {
       "id": "CPN-042",
@@ -587,7 +833,13 @@
         "Do nothing because emergencies are exempt"
       ],
       "answer": 0,
-      "explanation": "The blueprint explicitly includes response when a count could not be performed."
+      "explanation": "The blueprint explicitly includes response when a count could not be performed.",
+      "concept": "counts",
+      "whyOthers": [
+        "A count that was not done cannot be recorded as normal.",
+        "Discarding items later does not establish what remains in the patient.",
+        "Emergency conditions alter the response; they do not erase the risk."
+      ]
     },
     {
       "id": "CPN-043",
@@ -601,7 +853,13 @@
         "To sterilize them during use"
       ],
       "answer": 0,
-      "explanation": "CNA names safe small-sponge handling as a count competency."
+      "explanation": "CNA names safe small-sponge handling as a count competency.",
+      "concept": "counts",
+      "whyOthers": [
+        "Loading supports retrieval, not altered absorption.",
+        "Small-sponge control complements, rather than replaces, counts.",
+        "Loading an instrument is not a sterilization process."
+      ]
     },
     {
       "id": "CPN-044",
@@ -615,7 +873,13 @@
         "Only the patient's preferred music"
       ],
       "answer": 0,
-      "explanation": "Preoperative risks feed the individualized positioning plan."
+      "explanation": "Preoperative risks feed the individualized positioning plan.",
+      "concept": "positioning",
+      "whyOthers": [
+        "Staff height is not a patient pressure-risk assessment.",
+        "Room number does not describe anatomy or mobility.",
+        "Music preference does not address immobility or comorbidity."
+      ]
     },
     {
       "id": "CPN-045",
@@ -629,7 +893,13 @@
         "The name of the instrument set"
       ],
       "answer": 0,
-      "explanation": "The blueprint includes duration, position and devices in intraoperative skin risk."
+      "explanation": "The blueprint includes duration, position and devices in intraoperative skin risk.",
+      "concept": "positioning",
+      "whyOthers": [
+        "The calendar day does not create pressure injury risk.",
+        "Drape colour does not determine pressure exposure.",
+        "A set name does not measure time or position."
+      ]
     },
     {
       "id": "CPN-046",
@@ -643,7 +913,13 @@
         "Only the recovery unit clerk"
       ],
       "answer": 0,
-      "explanation": "CNA specifies collaboration on final positioning."
+      "explanation": "CNA specifies collaboration on final positioning.",
+      "concept": "positioning",
+      "whyOthers": [
+        "The scheduler does not assess final patient position.",
+        "A vendor does not replace the clinical team's assessment.",
+        "Recovery clerical staff are not the positioning team."
+      ]
     },
     {
       "id": "CPN-047",
@@ -657,7 +933,13 @@
         "Only the room turnover target"
       ],
       "answer": 0,
-      "explanation": "Positioning devices must suit patient and procedure."
+      "explanation": "Positioning devices must suit patient and procedure.",
+      "concept": "positioning",
+      "whyOthers": [
+        "Convenience does not account for anatomy and pressure risk.",
+        "Another patient's supports may not fit this one.",
+        "Turnover speed cannot override positioning safety."
+      ]
     },
     {
       "id": "CPN-048",
@@ -671,7 +953,13 @@
         "Only the transporter's route"
       ],
       "answer": 0,
-      "explanation": "CNA calls for system assessment and safe transfer."
+      "explanation": "CNA calls for system assessment and safe transfer.",
+      "concept": "positioning",
+      "whyOthers": [
+        "The next case does not determine this patient's transfer readiness.",
+        "A surgeon's departure time is not a physiological assessment.",
+        "Route planning alone does not assess skin or safe transfer equipment."
+      ]
     },
     {
       "id": "CPN-049",
@@ -685,7 +973,13 @@
         "Leave the active electrode on drapes"
       ],
       "answer": 0,
-      "explanation": "The blueprint names pad placement, adhesion, size and alarm response."
+      "explanation": "The blueprint names pad placement, adhesion, size and alarm response.",
+      "concept": "electrosurgery",
+      "whyOthers": [
+        "Metal and pad placement require assessment, not a blanket rule.",
+        "Alarms may signal a poor circuit or equipment fault.",
+        "An active pencil on drapes can injure or ignite."
+      ]
     },
     {
       "id": "CPN-050",
@@ -699,7 +993,13 @@
         "Whether a bipolar instrument is in another room"
       ],
       "answer": 0,
-      "explanation": "Implantable electronic devices need specific electrosurgical consideration."
+      "explanation": "Implantable electronic devices need specific electrosurgical consideration.",
+      "concept": "electrosurgery",
+      "whyOthers": [
+        "Battery brand alone does not assess interference risk.",
+        "Drape colour has no effect on device compatibility.",
+        "Availability of another instrument does not establish an agreed plan."
+      ]
     },
     {
       "id": "CPN-051",
@@ -713,7 +1013,13 @@
         "On the patient's skin"
       ],
       "answer": 0,
-      "explanation": "CNA lists active electrode isolation as a safety principle."
+      "explanation": "CNA lists active electrode isolation as a safety principle.",
+      "concept": "electrosurgery",
+      "whyOthers": [
+        "A towel does not isolate the active electrode safely.",
+        "Metal may conduct energy or heat.",
+        "Patient skin is not a storage surface for an active device."
+      ]
     },
     {
       "id": "CPN-052",
@@ -727,7 +1033,13 @@
         "To eliminate the need for oxygen monitoring"
       ],
       "answer": 0,
-      "explanation": "Flammable prep and ignition sources are a fire concern."
+      "explanation": "Flammable prep and ignition sources are a fire concern.",
+      "concept": "fire",
+      "whyOthers": [
+        "Extra prep can increase the available fuel.",
+        "Prep drying has no relation to retained-item counts.",
+        "Oxygen monitoring remains necessary."
+      ]
     },
     {
       "id": "CPN-053",
@@ -741,7 +1053,13 @@
         "Disable local suction to reduce turbulence"
       ],
       "answer": 0,
-      "explanation": "CNA specifically includes plume evacuation and PPE."
+      "explanation": "CNA specifically includes plume evacuation and PPE.",
+      "concept": "hazards",
+      "whyOthers": [
+        "Noise does not capture plume and can impede communication.",
+        "A surgical mask alone is not a complete plume control strategy.",
+        "Disabling local evacuation removes a control."
+      ]
     },
     {
       "id": "CPN-054",
@@ -755,7 +1073,13 @@
         "Electrical only"
       ],
       "answer": 0,
-      "explanation": "The blueprint lists bone cement among chemical hazards."
+      "explanation": "The blueprint lists bone cement among chemical hazards.",
+      "concept": "hazards",
+      "whyOthers": [
+        "Exposure to vapour is a chemical, not solely interpersonal, hazard.",
+        "Radiation is a different exposure mechanism.",
+        "Electrical hazards involve current, not vapour."
+      ]
     },
     {
       "id": "CPN-055",
@@ -769,7 +1093,13 @@
         "Mechanical only"
       ],
       "answer": 0,
-      "explanation": "CNA identifies workplace violence and harassment as psychological hazards."
+      "explanation": "CNA identifies workplace violence and harassment as psychological hazards.",
+      "concept": "hazards",
+      "whyOthers": [
+        "Thermal hazards involve heat or cold.",
+        "Biological hazards involve infectious materials or organisms.",
+        "Mechanical hazards involve physical equipment or motion."
+      ]
     },
     {
       "id": "CPN-056",
@@ -783,7 +1113,13 @@
         "Specimen fixation choice"
       ],
       "answer": 0,
-      "explanation": "WHMIS is a workplace hazardous materials system named in safety competencies."
+      "explanation": "WHMIS is a workplace hazardous materials system named in safety competencies.",
+      "concept": "hazards",
+      "whyOthers": [
+        "Patient ID is a separate safety process.",
+        "Counting items is unrelated to chemical hazard communication.",
+        "Specimen fixation is a separate handling decision."
+      ]
     },
     {
       "id": "CPN-057",
@@ -797,7 +1133,13 @@
         "Only the number of instruments opened"
       ],
       "answer": 0,
-      "explanation": "CNA names limb occlusion pressure and duration."
+      "explanation": "CNA names limb occlusion pressure and duration.",
+      "concept": "positioning",
+      "whyOthers": [
+        "Cuff colour does not measure pressure or ischemia risk.",
+        "Room temperature is not tourniquet occlusion pressure.",
+        "Instrument count does not track tourniquet time."
+      ]
     },
     {
       "id": "CPN-058",
@@ -811,7 +1153,13 @@
         "Use the laser at lower power without precautions"
       ],
       "answer": 0,
-      "explanation": "Laser eye safety and controlled area are explicit hazards."
+      "explanation": "Laser eye safety and controlled area are explicit hazards.",
+      "concept": "hazards",
+      "whyOthers": [
+        "General eyewear may not match the laser wavelength or required protection.",
+        "Closing eyes is not reliable protection for staff and observers.",
+        "Lower power does not remove eye and fire hazards."
+      ]
     },
     {
       "id": "CPN-059",
@@ -825,7 +1173,13 @@
         "Use any regulator that fits loosely"
       ],
       "answer": 0,
-      "explanation": "Compressed gas is included among equipment safety competencies."
+      "explanation": "Compressed gas is included among equipment safety competencies.",
+      "concept": "hazards",
+      "whyOthers": [
+        "Cylinders can tip or leak and require secure handling.",
+        "A full tank can still have an unsafe connection.",
+        "A loosely fitting or incompatible regulator is unsafe."
+      ]
     },
     {
       "id": "CPN-060",
@@ -839,7 +1193,13 @@
         "Cancellation of all counts"
       ],
       "answer": 0,
-      "explanation": "The blueprint names conversion to open as an intraoperative event requiring adaptation."
+      "explanation": "The blueprint names conversion to open as an intraoperative event requiring adaptation.",
+      "concept": "resources",
+      "whyOthers": [
+        "Conversion changes instrument and staffing needs.",
+        "Specimens still follow identification and preservation requirements.",
+        "Counts remain necessary as the procedure changes."
+      ]
     },
     {
       "id": "CPN-061",
@@ -853,7 +1213,13 @@
         "Let it leave the room without a handoff"
       ],
       "answer": 0,
-      "explanation": "CNA identifies verification, labelling, documentation and delivery."
+      "explanation": "CNA identifies verification, labelling, documentation and delivery.",
+      "concept": "specimens",
+      "whyOthers": [
+        "Labelling after transport creates identity risk.",
+        "Incision site alone is not sufficient patient identification.",
+        "An undocumented transfer loses accountability."
+      ]
     },
     {
       "id": "CPN-062",
@@ -867,7 +1233,13 @@
         "Discard it after the count"
       ],
       "answer": 0,
-      "explanation": "Fresh versus fixed preservation is an explicit specimen competency."
+      "explanation": "Fresh versus fixed preservation is an explicit specimen competency.",
+      "concept": "specimens",
+      "whyOthers": [
+        "Formalin may ruin tests requiring fresh tissue.",
+        "Freezing is not universally appropriate either.",
+        "A specimen is not waste because the count is complete."
+      ]
     },
     {
       "id": "CPN-063",
@@ -881,7 +1253,13 @@
         "Chart drugs before they are given"
       ],
       "answer": 0,
-      "explanation": "The blueprint includes preparation, verification, labelling, delivery and documentation."
+      "explanation": "The blueprint includes preparation, verification, labelling, delivery and documentation.",
+      "concept": "medications",
+      "whyOthers": [
+        "Unlabeled contents invite medication error.",
+        "Clear appearance cannot distinguish solutions.",
+        "Chart administration when it actually occurs."
+      ]
     },
     {
       "id": "CPN-064",
@@ -895,7 +1273,13 @@
         "Temperature, pressure and humidity"
       ],
       "answer": 0,
-      "explanation": "OR fire prevention manages all three parts of the fire triangle."
+      "explanation": "OR fire prevention manages all three parts of the fire triangle.",
+      "concept": "fire",
+      "whyOthers": [
+        "These are not the three fire-triangle roles.",
+        "Gown and drape can be fuels, but the list lacks oxidizer and ignition.",
+        "Temperature, pressure and humidity are not the fire triangle."
+      ]
     },
     {
       "id": "CPN-065",
@@ -909,7 +1293,13 @@
         "Room temperature display"
       ],
       "answer": 0,
-      "explanation": "Alcohol preparations and drapes are examples of fuel."
+      "explanation": "Alcohol preparations and drapes are examples of fuel.",
+      "concept": "fire",
+      "whyOthers": [
+        "A reading is information, not combustible material.",
+        "A chart is not the operative-field fuel in this scenario.",
+        "A display is a measurement, not fuel."
+      ]
     },
     {
       "id": "CPN-066",
@@ -923,7 +1313,13 @@
         "Paper checklist"
       ],
       "answer": 0,
-      "explanation": "Electrosurgery can ignite nearby fuel in an oxygen-enriched environment."
+      "explanation": "Electrosurgery can ignite nearby fuel in an oxygen-enriched environment.",
+      "concept": "fire",
+      "whyOthers": [
+        "A saline bag is not an energy source.",
+        "Unpowered forceps do not ignite fuel by themselves.",
+        "A checklist is not an ignition device."
+      ]
     },
     {
       "id": "CPN-067",
@@ -937,7 +1333,13 @@
         "Only the instrument tray count"
       ],
       "answer": 0,
-      "explanation": "A fire risk briefing coordinates control of the fire triangle."
+      "explanation": "A fire risk briefing coordinates control of the fire triangle.",
+      "concept": "fire",
+      "whyOthers": [
+        "Billing does not mitigate ignition near oxygen.",
+        "Diet is unrelated to an intraoperative fire risk.",
+        "A count matters for retention, not control of all fire elements."
+      ]
     },
     {
       "id": "CPN-068",
@@ -951,7 +1353,13 @@
         "Environmental only"
       ],
       "answer": 0,
-      "explanation": "Critical items enter tissue or the vascular system and require sterilization."
+      "explanation": "Critical items enter tissue or the vascular system and require sterilization.",
+      "concept": "spaulding",
+      "whyOthers": [
+        "Semicritical devices contact mucosa or nonintact skin, without entering sterile tissue.",
+        "Noncritical devices contact intact skin.",
+        "Environmental is not one of the three Spaulding device classes."
+      ]
     },
     {
       "id": "CPN-069",
@@ -965,7 +1373,13 @@
         "Sterilization of the room air only"
       ],
       "answer": 0,
-      "explanation": "Semicritical items require at least high-level disinfection, subject to device instructions."
+      "explanation": "Semicritical items require at least high-level disinfection, subject to device instructions.",
+      "concept": "spaulding",
+      "whyOthers": [
+        "Low-level disinfection is insufficient for mucosal contact.",
+        "Visible cleanliness does not show microbial safety.",
+        "Room-air treatment does not reprocess the device."
+      ]
     },
     {
       "id": "CPN-070",
@@ -979,7 +1393,13 @@
         "Semicritical because it has a cuff"
       ],
       "answer": 0,
-      "explanation": "Noncritical items contact intact skin."
+      "explanation": "Noncritical items contact intact skin.",
+      "concept": "spaulding",
+      "whyOthers": [
+        "Critical devices enter sterile tissue or the vascular system; a cuff does not.",
+        "Implantable describes a device use, not a fourth Spaulding class.",
+        "The word “cuff” does not determine class; intact-skin contact does."
+      ]
     },
     {
       "id": "CPN-071",
@@ -993,7 +1413,13 @@
         "Rinsing in tap water"
       ],
       "answer": 0,
-      "explanation": "Critical devices require sterilization; steam is appropriate when compatible."
+      "explanation": "Critical devices require sterilization; steam is appropriate when compatible.",
+      "concept": "spaulding",
+      "whyOthers": [
+        "An alcohol wipe does not sterilize a critical device.",
+        "Low-level disinfection does not eliminate the risk of entry into sterile tissue.",
+        "Rinsing is cleaning, not sterilization."
+      ]
     },
     {
       "id": "CPN-072",
@@ -1007,7 +1433,13 @@
         "The colour of the wrap"
       ],
       "answer": 0,
-      "explanation": "Cycle parameters and compatibility are device and process specific."
+      "explanation": "Cycle parameters and compatibility are device and process specific.",
+      "concept": "sterilization",
+      "whyOthers": [
+        "The shortest cycle may not be validated for that device or load.",
+        "An older tray label does not override current instructions.",
+        "Wrap colour does not determine process parameters."
+      ]
     },
     {
       "id": "CPN-073",
@@ -1021,7 +1453,13 @@
         "Use it if the external tape changed colour"
       ],
       "answer": 0,
-      "explanation": "Package integrity and verified processing matter for an aseptic field."
+      "explanation": "Package integrity and verified processing matter for an aseptic field.",
+      "concept": "asepsis",
+      "whyOthers": [
+        "Moisture can compromise the sterile barrier.",
+        "Towel drying does not restore validated package integrity.",
+        "External tape exposure does not prove a wet pack is safe."
+      ]
     },
     {
       "id": "CPN-074",
@@ -1035,7 +1473,13 @@
         "Soak it in antiseptic and proceed"
       ],
       "answer": 0,
-      "explanation": "CNA includes chemical quality controls; an unsatisfactory result cannot be ignored."
+      "explanation": "CNA includes chemical quality controls; an unsatisfactory result cannot be ignored.",
+      "concept": "sterilization",
+      "whyOthers": [
+        "Intact wrapping cannot override a failed indicator.",
+        "Adding an indicator after processing cannot test the completed cycle.",
+        "Antiseptic soaking is not the validated sterilization process."
+      ]
     },
     {
       "id": "CPN-075",
@@ -1049,7 +1493,13 @@
         "That cleaning was completed correctly"
       ],
       "answer": 0,
-      "explanation": "A colour change alone does not establish sterility."
+      "explanation": "A colour change alone does not establish sterility.",
+      "concept": "sterilization",
+      "whyOthers": [
+        "A process indicator does not directly prove all organisms were killed.",
+        "External exposure does not verify conditions inside a complex tray.",
+        "Indicators do not establish whether soil was removed before processing."
+      ]
     },
     {
       "id": "CPN-076",
@@ -1063,7 +1513,13 @@
         "Only an instrument count"
       ],
       "answer": 0,
-      "explanation": "CDC recommends routine mechanical, chemical and biological monitoring."
+      "explanation": "CDC recommends routine mechanical, chemical and biological monitoring.",
+      "concept": "sterilization",
+      "whyOthers": [
+        "Lighting and noise do not monitor the sterilizer's process.",
+        "Wrapper appearance alone cannot show cycle conditions.",
+        "A surgical count tracks items, not microbial inactivation."
+      ]
     },
     {
       "id": "CPN-077",
@@ -1077,7 +1533,13 @@
         "Use a patient pulse oximeter as the indicator"
       ],
       "answer": 0,
-      "explanation": "CDC recommends a biological indicator for implant loads and quarantine when possible."
+      "explanation": "CDC recommends a biological indicator for implant loads and quarantine when possible.",
+      "concept": "sterilization",
+      "whyOthers": [
+        "External tape does not replace the implant-load biological indicator.",
+        "Urgency requires an approved exception pathway, not simply skipping monitoring.",
+        "Pulse oximetry monitors a patient, not a sterilization load."
+      ]
     },
     {
       "id": "CPN-078",
@@ -1091,7 +1553,13 @@
         "Cover it with a drape"
       ],
       "answer": 0,
-      "explanation": "CNA requires recognizing and correcting breaks in asepsis."
+      "explanation": "CNA requires recognizing and correcting breaks in asepsis.",
+      "concept": "asepsis",
+      "whyOthers": [
+        "Whether it was witnessed does not change contamination.",
+        "Saline rinsing does not sterilize the item.",
+        "A drape over contamination does not restore sterility."
+      ]
     },
     {
       "id": "CPN-079",
@@ -1105,7 +1573,13 @@
         "Avoid mentioning it to the team"
       ],
       "answer": 0,
-      "explanation": "Compromised surgical attire requires corrective action."
+      "explanation": "Compromised surgical attire requires corrective action.",
+      "concept": "asepsis",
+      "whyOthers": [
+        "Continued use leaves the contaminated gown near the field.",
+        "Alcohol spray is not an approved way to re-sterilize a worn gown.",
+        "Silence prevents correction of the break."
+      ]
     },
     {
       "id": "CPN-080",
@@ -1119,7 +1593,13 @@
         "Delegating sterility to the patient"
       ],
       "answer": 0,
-      "explanation": "CNA describes continuous surveillance of the sterile field."
+      "explanation": "CNA describes continuous surveillance of the sterile field.",
+      "concept": "asepsis",
+      "whyOthers": [
+        "Contamination can occur after incision.",
+        "Items require verification and correct handling before entering the field.",
+        "The surgical team, not the patient, maintains the field."
+      ]
     },
     {
       "id": "CPN-081",
@@ -1133,7 +1613,13 @@
         "No jewellery needs removal"
       ],
       "answer": 0,
-      "explanation": "CDC's surgical hand antisepsis steps begin with removal of hand and wrist jewellery."
+      "explanation": "CDC's surgical hand antisepsis steps begin with removal of hand and wrist jewellery.",
+      "concept": "hand",
+      "whyOthers": [
+        "Necklaces are not the hand and wrist jewellery named for removal.",
+        "Earrings do not replace removal of rings and watches.",
+        "Jewellery can interfere with effective hand antisepsis."
+      ]
     },
     {
       "id": "CPN-082",
@@ -1147,7 +1633,13 @@
         "Use alcohol only on the glove exterior"
       ],
       "answer": 0,
-      "explanation": "CDC identifies cleaning under the nails before antisepsis."
+      "explanation": "CDC identifies cleaning under the nails before antisepsis.",
+      "concept": "hand",
+      "whyOthers": [
+        "A glove does not remove soil beneath a nail.",
+        "Short nails may still have debris.",
+        "Cleaning only the glove exterior misses the hands."
+      ]
     },
     {
       "id": "CPN-083",
@@ -1161,7 +1653,13 @@
         "No timing guidance"
       ],
       "answer": 0,
-      "explanation": "CDC says follow the manufacturer, often 2 to 6 minutes."
+      "explanation": "CDC says follow the manufacturer, often 2 to 6 minutes.",
+      "concept": "hand",
+      "whyOthers": [
+        "A universal ten-minute scrub is unnecessary and may harm skin.",
+        "Another person's timing may not fit the product.",
+        "The selected product supplies a validated time."
+      ]
     },
     {
       "id": "CPN-084",
@@ -1175,7 +1673,13 @@
         "Immediately after rinsing with tap water"
       ],
       "answer": 0,
-      "explanation": "CDC advises allowing the product to dry before sterile gloves."
+      "explanation": "CDC advises allowing the product to dry before sterile gloves.",
+      "concept": "hand",
+      "whyOthers": [
+        "Wet rub can affect glove integrity and antiseptic action.",
+        "Gloves go on after, not before, antisepsis.",
+        "Rinsing alone is not the completed alcohol-based protocol."
+      ]
     },
     {
       "id": "CPN-085",
@@ -1189,7 +1693,13 @@
         "It makes sterile gowns unnecessary"
       ],
       "answer": 0,
-      "explanation": "Reducing hand flora limits contamination if a glove is compromised."
+      "explanation": "Reducing hand flora limits contamination if a glove is compromised.",
+      "concept": "hand",
+      "whyOthers": [
+        "Gloves are barriers, but may puncture or tear.",
+        "Hand antisepsis cannot sterilize surgical instruments.",
+        "A clean gown remains part of the sterile barrier."
+      ]
     },
     {
       "id": "CPN-086",
@@ -1203,7 +1713,13 @@
         "Use a second pair over the soiled gloves"
       ],
       "answer": 0,
-      "explanation": "CDC lists site transition as an indication to change gloves and clean hands."
+      "explanation": "CDC lists site transition as an indication to change gloves and clean hands.",
+      "concept": "hand",
+      "whyOthers": [
+        "The used gloves can carry organisms into the clean site.",
+        "Wiping gloves on a drape contaminates the field.",
+        "Covering soiled gloves does not substitute for changing them and hand hygiene."
+      ]
     },
     {
       "id": "CPN-087",
@@ -1217,7 +1733,13 @@
         "Remove hair a week in advance with a razor"
       ],
       "answer": 0,
-      "explanation": "WHO recommends avoiding hair removal or clipping when necessary."
+      "explanation": "WHO recommends avoiding hair removal or clipping when necessary.",
+      "concept": "ssi",
+      "whyOthers": [
+        "A blade can cause microscopic cuts.",
+        "Routine removal adds skin trauma without a need.",
+        "An earlier razor shave still creates skin injury."
+      ]
     },
     {
       "id": "CPN-088",
@@ -1231,7 +1753,13 @@
         "It changes the wound classification"
       ],
       "answer": 0,
-      "explanation": "Microscopic cuts from shaving can promote infection."
+      "explanation": "Microscopic cuts from shaving can promote infection.",
+      "concept": "ssi",
+      "whyOthers": [
+        "Shaving does not sterilize skin.",
+        "Prep drying and shaving injury are different issues.",
+        "Wound classification describes the procedure's contamination, not shaving."
+      ]
     },
     {
       "id": "CPN-089",
@@ -1245,7 +1773,13 @@
         "It removes the need for skin prep"
       ],
       "answer": 0,
-      "explanation": "WHO describes hypothermia reducing blood flow and slowing healing."
+      "explanation": "WHO describes hypothermia reducing blood flow and slowing healing.",
+      "concept": "ssi",
+      "whyOthers": [
+        "Warming complements, not replaces, prophylaxis.",
+        "No single measure guarantees zero infection.",
+        "Skin antisepsis remains part of prevention."
+      ]
     },
     {
       "id": "CPN-090",
@@ -1259,7 +1793,13 @@
         "Use antibiotics instead of asepsis"
       ],
       "answer": 0,
-      "explanation": "WHO distinguishes prophylaxis before/during surgery from treatment of established infection."
+      "explanation": "WHO distinguishes prophylaxis before/during surgery from treatment of established infection.",
+      "concept": "ssi",
+      "whyOthers": [
+        "Prolonged prophylaxis adds exposure and resistance risk without proven prevention benefit.",
+        "Postclosure dosing misses the useful preincision window.",
+        "Antibiotics cannot replace aseptic technique."
+      ]
     },
     {
       "id": "CPN-091",
@@ -1273,7 +1813,13 @@
         "Removing all masks after induction"
       ],
       "answer": 0,
-      "explanation": "The CNA blueprint includes routine practices plus airborne precautions."
+      "explanation": "The CNA blueprint includes routine practices plus airborne precautions.",
+      "concept": "precautions",
+      "whyOthers": [
+        "Airborne risk requires an additional plan beyond routine practices.",
+        "Open doors can undermine environmental controls.",
+        "Precautions do not end when the patient is anesthetized."
+      ]
     },
     {
       "id": "CPN-092",
@@ -1287,7 +1833,13 @@
         "Chemical"
       ],
       "answer": 0,
-      "explanation": "Influenza appears as a droplet precaution example."
+      "explanation": "Influenza appears as a droplet precaution example.",
+      "concept": "precautions",
+      "whyOthers": [
+        "Prion handling is a different infection-control issue.",
+        "Radiation is a physical exposure.",
+        "Chemical exposure is not influenza transmission."
+      ]
     },
     {
       "id": "CPN-093",
@@ -1301,7 +1853,13 @@
         "Thermal"
       ],
       "answer": 0,
-      "explanation": "The blueprint gives MDROs as a contact precaution example."
+      "explanation": "The blueprint gives MDROs as a contact precaution example.",
+      "concept": "precautions",
+      "whyOthers": [
+        "Radiation is not an organism's contact-transmission route.",
+        "Laser safety is unrelated to MDRO spread.",
+        "Thermal exposure is not a contact precaution."
+      ]
     },
     {
       "id": "CPN-094",
@@ -1315,7 +1873,13 @@
         "Only patient hypoglycemia"
       ],
       "answer": 0,
-      "explanation": "CNA identifies construction dust and Aspergillus as concerns."
+      "explanation": "CNA identifies construction dust and Aspergillus as concerns.",
+      "concept": "precautions",
+      "whyOthers": [
+        "Noise may matter operationally, but is not the infection concern.",
+        "Carbon dioxide is unrelated to construction dust in this question.",
+        "Hypoglycemia is a patient condition, not renovation-related environmental contamination."
+      ]
     },
     {
       "id": "CPN-095",
@@ -1329,7 +1893,13 @@
         "Only wound irrigation after closure"
       ],
       "answer": 0,
-      "explanation": "These measures appear in CNA's SSI prevention competency."
+      "explanation": "These measures appear in CNA's SSI prevention competency.",
+      "concept": "ssi",
+      "whyOthers": [
+        "Each listed alternative reverses a prevention measure.",
+        "A drape alone cannot replace preparation, warming and prophylaxis.",
+        "Irrigation after closure cannot substitute for the full prevention bundle."
+      ]
     },
     {
       "id": "CPN-096",
@@ -1343,7 +1913,13 @@
         "Handed directly to the next scrub person"
       ],
       "answer": 0,
-      "explanation": "The blueprint includes safe handling and transportation of contaminated instruments."
+      "explanation": "The blueprint includes safe handling and transportation of contaminated instruments.",
+      "concept": "asepsis",
+      "whyOthers": [
+        "Uncovered transport can contaminate clean areas and expose staff.",
+        "A used instrument is not immediately sterile in a clean tray.",
+        "Direct reuse bypasses cleaning and reprocessing."
+      ]
     },
     {
       "id": "CPN-097",
@@ -1357,7 +1933,13 @@
         "As a substitute for cleaning"
       ],
       "answer": 0,
-      "explanation": "CNA limits IUSS to appropriate emergent conditions and process controls."
+      "explanation": "CNA limits IUSS to appropriate emergent conditions and process controls.",
+      "concept": "sterilization",
+      "whyOthers": [
+        "Routine shortages should be solved through inventory planning.",
+        "A late schedule is not an emergency indication for IUSS.",
+        "Steam exposure cannot replace prior cleaning."
+      ]
     },
     {
       "id": "CPN-098",
@@ -1371,7 +1953,13 @@
         "Only the previous patient's diagnosis"
       ],
       "answer": 0,
-      "explanation": "Quality controls are part of establishing the aseptic environment."
+      "explanation": "Quality controls are part of establishing the aseptic environment.",
+      "concept": "sterilization",
+      "whyOthers": [
+        "The schedule does not explain a failed process.",
+        "Clothing colour is irrelevant to sterilizer performance.",
+        "A prior diagnosis does not validate the load."
+      ]
     },
     {
       "id": "CPN-099",
@@ -1385,7 +1973,13 @@
         "Only the surgeon's preference card"
       ],
       "answer": 0,
-      "explanation": "The blueprint names these environmental factors."
+      "explanation": "The blueprint names these environmental factors.",
+      "concept": "asepsis",
+      "whyOthers": [
+        "Tint alone does not measure room environmental controls.",
+        "Parking does not affect sterile-air management.",
+        "A preference card does not replace temperature, humidity and air-exchange assessment."
+      ]
     },
     {
       "id": "CPN-100",
@@ -1399,7 +1993,13 @@
         "Use it after rubbing with dry gauze"
       ],
       "answer": 0,
-      "explanation": "CNA requires corrective action after an aseptic break."
+      "explanation": "CNA requires corrective action after an aseptic break.",
+      "concept": "asepsis",
+      "whyOthers": [
+        "Even brief contact can contaminate an item.",
+        "Tape cannot restore its sterile state.",
+        "Dry rubbing is not reprocessing."
+      ]
     },
     {
       "id": "CPN-101",
@@ -1413,7 +2013,13 @@
         "It authorizes a visitor"
       ],
       "answer": 0,
-      "explanation": "CNA includes assessment and verification of wound classification."
+      "explanation": "CNA includes assessment and verification of wound classification.",
+      "concept": "ssi",
+      "whyOthers": [
+        "Wound classification does not replace patient assessment.",
+        "Identity is verified separately with patient identifiers.",
+        "Visitor permission is a separate access issue."
+      ]
     },
     {
       "id": "CPN-102",
@@ -1427,7 +2033,13 @@
         "Rinse the glove and continue"
       ],
       "answer": 0,
-      "explanation": "Damaged gloves should be changed to restore barrier protection."
+      "explanation": "Damaged gloves should be changed to restore barrier protection.",
+      "concept": "hand",
+      "whyOthers": [
+        "A torn glove has lost barrier integrity regardless of visible blood.",
+        "Tape is not a reliable sterile glove repair.",
+        "Rinsing does not repair the breach."
+      ]
     },
     {
       "id": "CPN-103",
@@ -1441,7 +2053,13 @@
         "Remove the need for gloves"
       ],
       "answer": 0,
-      "explanation": "WHO includes patient bathing among SSI prevention measures."
+      "explanation": "WHO includes patient bathing among SSI prevention measures.",
+      "concept": "ssi",
+      "whyOthers": [
+        "Bathing reduces burden but does not replace surgical skin antisepsis.",
+        "Living skin is not made sterile by a shower.",
+        "Barrier protection remains necessary."
+      ]
     },
     {
       "id": "CPN-104",
@@ -1455,7 +2073,13 @@
         "Only the surgeon's name"
       ],
       "answer": 0,
-      "explanation": "CNA lists two unique patient identifiers in preoperative assessment."
+      "explanation": "CNA lists two unique patient identifiers in preoperative assessment.",
+      "concept": "preop",
+      "whyOthers": [
+        "A bed can be reassigned and is not a unique identifier.",
+        "Time identifies a slot, not a person.",
+        "A surgeon may operate on many patients."
+      ]
     },
     {
       "id": "CPN-105",
@@ -1469,7 +2093,13 @@
         "Tell only the porter"
       ],
       "answer": 0,
-      "explanation": "Allergies and abnormal findings must inform the team before anesthesia and surgery."
+      "explanation": "Allergies and abnormal findings must inform the team before anesthesia and surgery.",
+      "concept": "preop",
+      "whyOthers": [
+        "The allergy can affect care before recovery.",
+        "A patient's new report may update an older chart.",
+        "The clinical team, not only transport, needs the information."
+      ]
     },
     {
       "id": "CPN-106",
@@ -1483,7 +2113,13 @@
         "Proceed and correct the chart later"
       ],
       "answer": 0,
-      "explanation": "Consent and surgical site verification are preoperative checks."
+      "explanation": "Consent and surgical site verification are preoperative checks.",
+      "concept": "preop",
+      "whyOthers": [
+        "The schedule may contain the very error being investigated.",
+        "Guessing is unsafe when documents disagree.",
+        "Correction after surgery is too late for a wrong-site risk."
+      ]
     },
     {
       "id": "CPN-107",
@@ -1497,7 +2133,13 @@
         "The room's paint colour"
       ],
       "answer": 0,
-      "explanation": "Fasting is one of CNA's preoperative verification elements."
+      "explanation": "Fasting is one of CNA's preoperative verification elements.",
+      "concept": "preop",
+      "whyOthers": [
+        "The next case does not assess this patient.",
+        "Visitor parking does not address anesthesia or surgery.",
+        "Room paint is not a physiological or consent check."
+      ]
     },
     {
       "id": "CPN-108",
@@ -1511,7 +2153,13 @@
         "Assume it is compatible with all electrosurgery"
       ],
       "answer": 0,
-      "explanation": "Implantable electronic devices are part of preoperative review."
+      "explanation": "Implantable electronic devices are part of preoperative review.",
+      "concept": "electrosurgery",
+      "whyOthers": [
+        "Internal devices can interact with energy equipment.",
+        "The nurse should not independently remove an implanted device.",
+        "Compatibility depends on the device and planned energy use."
+      ]
     },
     {
       "id": "CPN-109",
@@ -1525,7 +2173,13 @@
         "It determines wound classification alone"
       ],
       "answer": 0,
-      "explanation": "CNA includes medications and herbal supplements in physiologic assessment."
+      "explanation": "CNA includes medications and herbal supplements in physiologic assessment.",
+      "concept": "preop",
+      "whyOthers": [
+        "Supplements may affect care and belong in medication review.",
+        "They add to rather than replace an allergy history.",
+        "Wound class is not determined by supplement use."
+      ]
     },
     {
       "id": "CPN-110",
@@ -1539,7 +2193,13 @@
         "The colour of the positioning pad"
       ],
       "answer": 0,
-      "explanation": "Dental work and prostheses are specifically assessed before anesthesia."
+      "explanation": "Dental work and prostheses are specifically assessed before anesthesia.",
+      "concept": "preop",
+      "whyOthers": [
+        "Inventory does not describe the patient's airway.",
+        "Specimen destination is a separate workflow.",
+        "Pad colour does not reveal dental or airway issues."
+      ]
     },
     {
       "id": "CPN-111",
@@ -1553,7 +2213,13 @@
         "Only the next case's schedule"
       ],
       "answer": 0,
-      "explanation": "Anatomical limitations inform the individualized plan."
+      "explanation": "Anatomical limitations inform the individualized plan.",
+      "concept": "preop",
+      "whyOthers": [
+        "A music preference does not describe neck mobility.",
+        "Start time does not address airway access.",
+        "The next case's schedule is unrelated to this patient's anatomy."
+      ]
     },
     {
       "id": "CPN-112",
@@ -1567,7 +2233,13 @@
         "Delay all explanation until recovery"
       ],
       "answer": 0,
-      "explanation": "CNA lists a supportive, quieter environment during general anesthesia."
+      "explanation": "CNA lists a supportive, quieter environment during general anesthesia.",
+      "concept": "anesthesia",
+      "whyOthers": [
+        "Unrequested loud music can increase distress and mask communication.",
+        "Unrelated talk does not create a supportive environment.",
+        "The awake patient needs explanation before induction."
+      ]
     },
     {
       "id": "CPN-113",
@@ -1581,7 +2253,13 @@
         "Intracranial pressure"
       ],
       "answer": 0,
-      "explanation": "The blueprint includes pulse oximetry among monitoring devices."
+      "explanation": "The blueprint includes pulse oximetry among monitoring devices.",
+      "concept": "monitoring",
+      "whyOthers": [
+        "Carbon dioxide is measured with other tools, not directly by pulse oximetry.",
+        "A glucose test measures blood sugar.",
+        "Intracranial pressure requires different monitoring."
+      ]
     },
     {
       "id": "CPN-114",
@@ -1595,7 +2273,13 @@
         "Surgical count sheet"
       ],
       "answer": 0,
-      "explanation": "ECG is a noninvasive monitoring example in the blueprint."
+      "explanation": "ECG is a noninvasive monitoring example in the blueprint.",
+      "concept": "monitoring",
+      "whyOthers": [
+        "Pulse oximetry estimates oxygen saturation, not the ECG tracing.",
+        "Urine output is a fluid or perfusion observation.",
+        "A count sheet tracks surgical items."
+      ]
     },
     {
       "id": "CPN-115",
@@ -1609,7 +2293,13 @@
         "Document without telling anyone"
       ],
       "answer": 0,
-      "explanation": "The nurse maintains awareness of monitoring and communicates findings."
+      "explanation": "The nurse maintains awareness of monitoring and communicates findings.",
+      "concept": "monitoring",
+      "whyOthers": [
+        "Silencing an alarm without assessing may miss deterioration.",
+        "Sign Out may be too late for an acute finding.",
+        "A note alone does not alert clinicians who can intervene."
+      ]
     },
     {
       "id": "CPN-116",
@@ -1623,7 +2313,13 @@
         "Leave the room until induction ends"
       ],
       "answer": 0,
-      "explanation": "CNA calls for understanding anesthesia plans and adapting care."
+      "explanation": "CNA calls for understanding anesthesia plans and adapting care.",
+      "concept": "anesthesia",
+      "whyOthers": [
+        "A change in technique can change monitoring, airway and supplies.",
+        "Monitoring remains essential.",
+        "The nurse has an active role in preparing and adapting care."
+      ]
     },
     {
       "id": "CPN-117",
@@ -1637,7 +2333,13 @@
         "Only patients in outpatient rooms"
       ],
       "answer": 0,
-      "explanation": "The blueprint names pediatric, bariatric, geriatric and obstetric considerations."
+      "explanation": "The blueprint names pediatric, bariatric, geriatric and obstetric considerations.",
+      "concept": "anesthesia",
+      "whyOthers": [
+        "Comorbidities are not required for the listed special population.",
+        "Local anesthesia does not define the patient group.",
+        "Care setting alone does not define bariatric considerations."
+      ]
     },
     {
       "id": "CPN-118",
@@ -1651,7 +2353,13 @@
         "Only the specimen container brand"
       ],
       "answer": 0,
-      "explanation": "CNA lists ongoing physiological and skin assessment."
+      "explanation": "CNA lists ongoing physiological and skin assessment.",
+      "concept": "anesthesia",
+      "whyOthers": [
+        "Start time is only one event in ongoing care.",
+        "Glove size is not patient physiology.",
+        "Container brand does not reflect blood loss or skin condition."
+      ]
     },
     {
       "id": "CPN-119",
@@ -1665,7 +2373,13 @@
         "Ignore it because only anesthesia monitors breathing"
       ],
       "answer": 0,
-      "explanation": "Bronchospasm is a named anesthesia complication requiring team response."
+      "explanation": "Bronchospasm is a named anesthesia complication requiring team response.",
+      "concept": "urgent",
+      "whyOthers": [
+        "A count cannot take priority over an acute airway problem.",
+        "Movement without anesthesia coordination may worsen instability.",
+        "The circulator can obtain help and supplies while anesthesia manages the airway."
+      ]
     },
     {
       "id": "CPN-120",
@@ -1679,7 +2393,13 @@
         "Wait until the patient reaches recovery"
       ],
       "answer": 0,
-      "explanation": "The blueprint lists anaphylaxis as an urgent event requiring response."
+      "explanation": "The blueprint lists anaphylaxis as an urgent event requiring response.",
+      "concept": "urgent",
+      "whyOthers": [
+        "Anaphylaxis needs immediate team action, not an elective count first.",
+        "Unverified independent drug delivery risks another error.",
+        "Waiting for recovery delays treatment."
+      ]
     },
     {
       "id": "CPN-121",
@@ -1693,7 +2413,13 @@
         "Nothing until the patient leaves"
       ],
       "answer": 0,
-      "explanation": "The care plan must adapt to a changed procedure."
+      "explanation": "The care plan must adapt to a changed procedure.",
+      "concept": "resources",
+      "whyOthers": [
+        "The schedule board alone does not provide instruments or updated care.",
+        "Lighting may change, but is not the full clinical response.",
+        "The change should be documented and addressed while it happens."
+      ]
     },
     {
       "id": "CPN-122",
@@ -1707,7 +2433,13 @@
         "Only the surgeon's next case"
       ],
       "answer": 0,
-      "explanation": "CNA names postoperative physiological, skin, thermal and pain assessment."
+      "explanation": "CNA names postoperative physiological, skin, thermal and pain assessment.",
+      "concept": "handoff",
+      "whyOthers": [
+        "Turnover time is an operational measure, not the patient's condition.",
+        "Vendor attendance does not assess pain or physiology.",
+        "Another case does not determine safe transfer."
+      ]
     },
     {
       "id": "CPN-123",
@@ -1721,7 +2453,13 @@
         "Only during instrument cleaning"
       ],
       "answer": 0,
-      "explanation": "Blood and blood-product needs appear in preoperative assessment."
+      "explanation": "Blood and blood-product needs appear in preoperative assessment.",
+      "concept": "preop",
+      "whyOthers": [
+        "Blood-product needs should be anticipated before major bleeding.",
+        "Waiting for an unsolicited product is not planning.",
+        "Instrument cleaning is unrelated to blood availability."
+      ]
     },
     {
       "id": "CPN-124",
@@ -1735,7 +2473,13 @@
         "A scheduled lunch break"
       ],
       "answer": 0,
-      "explanation": "CNA lists hemorrhage among urgent or emergent events."
+      "explanation": "CNA lists hemorrhage among urgent or emergent events.",
+      "concept": "urgent",
+      "whyOthers": [
+        "A routine request is not an urgent clinical event.",
+        "A planned dressing change is expected care.",
+        "A scheduled break is not patient deterioration."
+      ]
     },
     {
       "id": "CPN-125",
@@ -1749,7 +2493,13 @@
         "Assume the surgeon needs no help"
       ],
       "answer": 0,
-      "explanation": "Urgent hemorrhage requires coordinated response and resources."
+      "explanation": "Urgent hemorrhage requires coordinated response and resources.",
+      "concept": "urgent",
+      "whyOthers": [
+        "Turnover can wait during major bleeding.",
+        "A nonurgent form does not control hemorrhage.",
+        "The circulator should anticipate and coordinate needed support."
+      ]
     },
     {
       "id": "CPN-126",
@@ -1763,7 +2513,13 @@
         "Only hypothermia"
       ],
       "answer": 0,
-      "explanation": "CNA lists air, blood and fat embolic events."
+      "explanation": "CNA lists air, blood and fat embolic events.",
+      "concept": "urgent",
+      "whyOthers": [
+        "Reflux is not an embolus.",
+        "Dehiscence is a wound problem.",
+        "Hypothermia is a thermal condition."
+      ]
     },
     {
       "id": "CPN-127",
@@ -1777,7 +2533,13 @@
         "Document only at case completion"
       ],
       "answer": 0,
-      "explanation": "Toxicity is a named urgent event requiring adaptation and communication."
+      "explanation": "Toxicity is a named urgent event requiring adaptation and communication.",
+      "concept": "urgent",
+      "whyOthers": [
+        "Waiting may allow toxicity to progress.",
+        "More local anesthetic can worsen suspected toxicity.",
+        "Documentation follows immediate recognition and response."
+      ]
     },
     {
       "id": "CPN-128",
@@ -1791,7 +2553,13 @@
         "Continue elective setup without informing the team"
       ],
       "answer": 0,
-      "explanation": "CNA includes seizure among urgent events to recognize and respond to."
+      "explanation": "CNA includes seizure among urgent events to recognize and respond to.",
+      "concept": "urgent",
+      "whyOthers": [
+        "Uncoordinated restraint can injure the patient and staff.",
+        "Monitoring is especially important during a seizure.",
+        "The team needs to know about the change."
+      ]
     },
     {
       "id": "CPN-129",
@@ -1805,7 +2573,13 @@
         "Only cardiogenic shock"
       ],
       "answer": 0,
-      "explanation": "CNA lists hypovolemic and septic shock as examples."
+      "explanation": "CNA lists hypovolemic and septic shock as examples.",
+      "concept": "urgent",
+      "whyOthers": [
+        "Electrical shock is an equipment injury, not this circulatory shock category.",
+        "Vasovagal syncope is not the named example here.",
+        "Cardiogenic shock exists but is not the specific example listed in this blueprint item."
+      ]
     },
     {
       "id": "CPN-130",
@@ -1819,7 +2593,13 @@
         "Delaying action until the surgeon completes suturing"
       ],
       "answer": 0,
-      "explanation": "Compromised airway is an urgent event in the blueprint."
+      "explanation": "Compromised airway is an urgent event in the blueprint.",
+      "concept": "urgent",
+      "whyOthers": [
+        "A note alone cannot restore an airway.",
+        "Counts do not solve acute ventilation compromise.",
+        "Airway support cannot wait for routine suturing."
+      ]
     },
     {
       "id": "CPN-131",
@@ -1833,7 +2613,13 @@
         "It determines the wound classification"
       ],
       "answer": 0,
-      "explanation": "CNA cites emergency tracheostomy as an airway response example."
+      "explanation": "CNA cites emergency tracheostomy as an airway response example.",
+      "concept": "urgent",
+      "whyOthers": [
+        "Emergency supplies complement, not replace, anesthesia checks.",
+        "The equipment is for selected emergencies, not every case.",
+        "Wound classification is a different process."
+      ]
     },
     {
       "id": "CPN-132",
@@ -1847,7 +2633,13 @@
         "Wait for a family member to chart"
       ],
       "answer": 0,
-      "explanation": "The blueprint includes implementation and documentation after urgent events."
+      "explanation": "The blueprint includes implementation and documentation after urgent events.",
+      "concept": "documentation",
+      "whyOthers": [
+        "Deleting data removes clinically relevant evidence.",
+        "Stabilization does not erase reporting obligations.",
+        "Family members do not chart nursing interventions."
+      ]
     },
     {
       "id": "CPN-133",
@@ -1861,7 +2653,13 @@
         "Only the room's humidity"
       ],
       "answer": 0,
-      "explanation": "Allergy hazards and anaphylaxis require prompt team communication."
+      "explanation": "Allergy hazards and anaphylaxis require prompt team communication.",
+      "concept": "urgent",
+      "whyOthers": [
+        "Discharge timing does not explain a rapid reaction.",
+        "Count status is not the suspected trigger or current physiology.",
+        "Humidity is not the key clinical information."
+      ]
     },
     {
       "id": "CPN-134",
@@ -1875,7 +2673,13 @@
         "Use the prior case's supplies without checking"
       ],
       "answer": 0,
-      "explanation": "The blueprint includes bariatric considerations and conversion to open."
+      "explanation": "The blueprint includes bariatric considerations and conversion to open.",
+      "concept": "positioning",
+      "whyOthers": [
+        "Body size and anatomy may need different equipment.",
+        "Emergency conversion increases, not removes, risk assessment.",
+        "The prior case's setup may be unsuitable or incomplete."
+      ]
     },
     {
       "id": "CPN-135",
@@ -1889,7 +2693,13 @@
         "Ignore the risk after skin prep dries"
       ],
       "answer": 0,
-      "explanation": "Fire prevention depends on managing the triangle together."
+      "explanation": "Fire prevention depends on managing the triangle together.",
+      "concept": "fire",
+      "whyOthers": [
+        "More oxygen increases the oxidizer near ignition and fuel.",
+        "Dry gauze adds fuel.",
+        "Dry prep reduces one risk but does not remove oxygen or ignition hazards."
+      ]
     },
     {
       "id": "CPN-136",
@@ -1903,7 +2713,13 @@
         "Transfer without telling anesthesia"
       ],
       "answer": 0,
-      "explanation": "Anesthesia complications require ongoing monitoring and rapid communication."
+      "explanation": "Anesthesia complications require ongoing monitoring and rapid communication.",
+      "concept": "urgent",
+      "whyOthers": [
+        "Sudden deterioration is not automatically an expected block effect.",
+        "Immediate action precedes complete charting.",
+        "Anesthesia must know before transfer."
+      ]
     },
     {
       "id": "CPN-137",
@@ -1917,7 +2733,13 @@
         "Transfer responsibility to a vendor"
       ],
       "answer": 0,
-      "explanation": "This follows CNA's intraoperative adaptation competency."
+      "explanation": "This follows CNA's intraoperative adaptation competency.",
+      "concept": "urgent",
+      "whyOthers": [
+        "Silence and delayed charting miss the chance to respond.",
+        "A routine pause does not replace crisis management.",
+        "A vendor does not hold clinical responsibility."
+      ]
     },
     {
       "id": "CPN-138",
@@ -1931,7 +2753,13 @@
         "Hide the shortage until incision"
       ],
       "answer": 0,
-      "explanation": "Resource management must preserve safety and communication."
+      "explanation": "Resource management must preserve safety and communication.",
+      "concept": "resources",
+      "whyOthers": [
+        "An unprocessed instrument is unsafe for a sterile procedure.",
+        "A missing item does not justify skipping checks.",
+        "A hidden shortage prevents a team plan."
+      ]
     },
     {
       "id": "CPN-139",
@@ -1945,7 +2773,13 @@
         "No documentation"
       ],
       "answer": 0,
-      "explanation": "CNA includes safe equipment use, teaching and managing resources."
+      "explanation": "CNA includes safe equipment use, teaching and managing resources.",
+      "concept": "resources",
+      "whyOthers": [
+        "Speed is not equipment competence.",
+        "A vendor cannot independently assume a clinical role.",
+        "Equipment use and patient effects still need documentation."
+      ]
     },
     {
       "id": "CPN-140",
@@ -1959,7 +2793,13 @@
         "Only the length of the corridor"
       ],
       "answer": 0,
-      "explanation": "The blueprint includes safe transfers and appropriate devices."
+      "explanation": "The blueprint includes safe transfers and appropriate devices.",
+      "concept": "positioning",
+      "whyOthers": [
+        "Arrival time alone does not ensure enough help or a suitable device.",
+        "Bed colour does not affect transfer capability.",
+        "Travel distance is not the key handling risk."
+      ]
     },
     {
       "id": "CPN-141",
@@ -1973,7 +2813,13 @@
         "Use an expired item"
       ],
       "answer": 0,
-      "explanation": "Anticipation and team communication are core resource practices."
+      "explanation": "Anticipation and team communication are core resource practices.",
+      "concept": "resources",
+      "whyOthers": [
+        "An alternative implant requires verification and agreement.",
+        "Concealment prevents informed planning.",
+        "An expired implant is not a safe substitute."
+      ]
     },
     {
       "id": "CPN-142",
@@ -1987,7 +2833,13 @@
         "Place it near a warmer to repair it"
       ],
       "answer": 0,
-      "explanation": "A compromised barrier cannot be assumed sterile."
+      "explanation": "A compromised barrier cannot be assumed sterile.",
+      "concept": "asepsis",
+      "whyOthers": [
+        "Tape does not restore a validated sterile barrier.",
+        "Urgency does not make compromised contents sterile.",
+        "Heat does not repair a torn wrapper."
+      ]
     },
     {
       "id": "CPN-143",
@@ -2001,7 +2853,13 @@
         "Alter the documentation to show availability"
       ],
       "answer": 0,
-      "explanation": "Anticipating needs and resolving shortages preserves safe care."
+      "explanation": "Anticipating needs and resolving shortages preserves safe care.",
+      "concept": "resources",
+      "whyOthers": [
+        "Starting without a needed item creates avoidable risk.",
+        "A used, unverified item is not ready for patient use.",
+        "False documentation hides the actual shortage."
+      ]
     },
     {
       "id": "CPN-144",
@@ -2015,7 +2873,13 @@
         "Only the package colour"
       ],
       "answer": 0,
-      "explanation": "Resource decisions must fit safe processing and device instructions."
+      "explanation": "Resource decisions must fit safe processing and device instructions.",
+      "concept": "sterilization",
+      "whyOthers": [
+        "Fastest is not necessarily compatible or validated.",
+        "Start time cannot determine reprocessing conditions.",
+        "Package colour does not define the device's instructions."
+      ]
     },
     {
       "id": "CPN-145",
@@ -2029,7 +2893,13 @@
         "At the next day's quality meeting"
       ],
       "answer": 0,
-      "explanation": "Safe transfer is a planned resource need."
+      "explanation": "Safe transfer is a planned resource need.",
+      "concept": "positioning",
+      "whyOthers": [
+        "Planning after unsafe movement is too late.",
+        "Transport may not know all clinical transfer needs.",
+        "A later meeting cannot protect this transfer."
+      ]
     },
     {
       "id": "CPN-146",
@@ -2043,7 +2913,13 @@
         "To replace counts"
       ],
       "answer": 0,
-      "explanation": "WHO asks about equipment issues; CNA includes safe use and resource management."
+      "explanation": "WHO asks about equipment issues; CNA includes safe use and resource management.",
+      "concept": "resources",
+      "whyOthers": [
+        "Equipment problems need documentation and follow-up.",
+        "Reporting aims to correct risk, not automatically assign blame.",
+        "Equipment review does not replace surgical counts."
+      ]
     },
     {
       "id": "CPN-147",
@@ -2057,7 +2933,13 @@
         "Open every available tray"
       ],
       "answer": 0,
-      "explanation": "Resource management adapts to patient and procedural need."
+      "explanation": "Resource management adapts to patient and procedural need.",
+      "concept": "resources",
+      "whyOthers": [
+        "New complexity can change staffing and supply needs.",
+        "Stopping communication blocks coordination.",
+        "Opening every tray wastes supplies and may not meet actual needs."
+      ]
     },
     {
       "id": "CPN-148",
@@ -2071,7 +2953,13 @@
         "Treat it as an isolated sterile-field problem"
       ],
       "answer": 0,
-      "explanation": "CNA specifically names recognition and protocol-based response to malignant hyperthermia."
+      "explanation": "CNA specifically names recognition and protocol-based response to malignant hyperthermia.",
+      "concept": "mh",
+      "whyOthers": [
+        "A high temperature can be a late sign; do not wait for that number.",
+        "Treatment should start while the team addresses the procedure.",
+        "MH is a systemic anesthesia crisis, not just field contamination."
+      ]
     },
     {
       "id": "CPN-149",
@@ -2085,7 +2973,13 @@
         "The next room's schedule"
       ],
       "answer": 0,
-      "explanation": "CNA identifies cardiac events and the cardiac arrest protocol."
+      "explanation": "CNA identifies cardiac events and the cardiac arrest protocol.",
+      "concept": "cardiac",
+      "whyOthers": [
+        "A preference card is not a resuscitation protocol.",
+        "Discharge steps cannot guide an arrest response.",
+        "The next room's schedule is irrelevant to the emergency."
+      ]
     },
     {
       "id": "CPN-150",
@@ -2099,7 +2993,13 @@
         "Assume all surgical bleeding is expected"
       ],
       "answer": 0,
-      "explanation": "DIC is named as an exceptional event requiring protocol-based management."
+      "explanation": "DIC is named as an exceptional event requiring protocol-based management.",
+      "concept": "urgent",
+      "whyOthers": [
+        "DIC can progress and needs prompt team assessment.",
+        "Blood products require appropriate orders, checks and coordination.",
+        "Unexpected bleeding should not be dismissed as routine."
+      ]
     },
     {
       "id": "CPN-151",
@@ -2113,7 +3013,13 @@
         "Let a visitor direct disposition"
       ],
       "answer": 0,
-      "explanation": "CNA includes expected or unexpected intraoperative death and hospital policy."
+      "explanation": "CNA includes expected or unexpected intraoperative death and hospital policy.",
+      "concept": "documentation",
+      "whyOthers": [
+        "Records must be preserved, not discarded.",
+        "Another case's workflow may not meet death-related requirements.",
+        "An unverified visitor cannot determine disposition."
+      ]
     },
     {
       "id": "CPN-152",
@@ -2127,7 +3033,13 @@
         "Alter its label after it leaves the room"
       ],
       "answer": 0,
-      "explanation": "The exceptional-events competency includes gathering and preserving evidence."
+      "explanation": "The exceptional-events competency includes gathering and preserving evidence.",
+      "concept": "forensic",
+      "whyOthers": [
+        "Routine disposal destroys possible evidence.",
+        "Unverified transfer breaks control of custody.",
+        "Changing a label after transfer undermines identity integrity."
+      ]
     },
     {
       "id": "CPN-153",
@@ -2141,7 +3053,13 @@
         "Daily scrub assignment"
       ],
       "answer": 0,
-      "explanation": "The blueprint identifies transplantation under relevant Canadian regulations and standards."
+      "explanation": "The blueprint identifies transplantation under relevant Canadian regulations and standards.",
+      "concept": "transplant",
+      "whyOthers": [
+        "Linen replacement is routine resource work.",
+        "Turnover is not a procurement activity.",
+        "Staff assignment does not itself invoke transplantation requirements."
+      ]
     },
     {
       "id": "CPN-154",
@@ -2155,7 +3073,13 @@
         "Only a vendor's preference"
       ],
       "answer": 0,
-      "explanation": "CNA calls for compliance with applicable procurement and transplantation requirements."
+      "explanation": "CNA calls for compliance with applicable procurement and transplantation requirements.",
+      "concept": "transplant",
+      "whyOthers": [
+        "The schedule does not authorize procurement.",
+        "A count sheet does not establish consent or the pathway.",
+        "A vendor preference is not regulatory guidance."
+      ]
     },
     {
       "id": "CPN-155",
@@ -2169,7 +3093,13 @@
         "It makes anesthesia monitoring unnecessary"
       ],
       "answer": 0,
-      "explanation": "The blueprint expects recognition and response under the MH protocol."
+      "explanation": "The blueprint expects recognition and response under the MH protocol.",
+      "concept": "mh",
+      "whyOthers": [
+        "Recognition, medication preparation and support involve the team.",
+        "Documentation cannot treat a physiological crisis.",
+        "Monitoring remains essential for recognition and response."
+      ]
     },
     {
       "id": "CPN-156",
@@ -2183,7 +3113,13 @@
         "Assume both rooms can use it simultaneously"
       ],
       "answer": 0,
-      "explanation": "CNA names competing equipment priorities as a resource conflict."
+      "explanation": "CNA names competing equipment priorities as a resource conflict.",
+      "concept": "resources",
+      "whyOthers": [
+        "Volume does not determine clinical priority.",
+        "Withholding information obstructs a safe plan.",
+        "One device cannot serve two rooms at the same time."
+      ]
     },
     {
       "id": "CPN-157",
@@ -2197,7 +3133,13 @@
         "Only vehicle parking"
       ],
       "answer": 0,
-      "explanation": "The CNA resource domain lists these planning elements."
+      "explanation": "The CNA resource domain lists these planning elements.",
+      "concept": "resources",
+      "whyOthers": [
+        "Preferences are only one input to planning.",
+        "Meals do not cover staffing, implants, rooms or equipment.",
+        "Parking is not a perioperative clinical resource category here."
+      ]
     },
     {
       "id": "CPN-158",
@@ -2211,7 +3153,13 @@
         "Open every tray before determining need"
       ],
       "answer": 0,
-      "explanation": "CNA includes reduce, reuse and recycle while patient safety remains essential."
+      "explanation": "CNA includes reduce, reuse and recycle while patient safety remains essential.",
+      "concept": "sustainability",
+      "whyOthers": [
+        "Single-use device reuse needs an approved validated pathway, if permitted.",
+        "Skipping processing sacrifices safety.",
+        "Unneeded open trays create waste and reprocessing work."
+      ]
     },
     {
       "id": "CPN-159",
@@ -2225,7 +3173,13 @@
         "Avoid reporting problems during the trial"
       ],
       "answer": 0,
-      "explanation": "CNA includes product and equipment trial evaluation."
+      "explanation": "CNA includes product and equipment trial evaluation.",
+      "concept": "sustainability",
+      "whyOthers": [
+        "Marketing is not a structured clinical evaluation.",
+        "Training and checks precede use.",
+        "Problem reporting is essential to evaluating a trial."
+      ]
     },
     {
       "id": "CPN-160",
@@ -2239,7 +3193,13 @@
         "Stop documenting delays"
       ],
       "answer": 0,
-      "explanation": "CNA includes recognizing inefficiency and continuous quality improvement."
+      "explanation": "CNA includes recognizing inefficiency and continuous quality improvement.",
+      "concept": "quality",
+      "whyOthers": [
+        "A blame-only response does not identify process causes.",
+        "Opening every tray wastes resources and may not solve missing items.",
+        "Without data, the team cannot measure whether changes help."
+      ]
     },
     {
       "id": "CASE-001",
@@ -2254,7 +3214,13 @@
       ],
       "answer": 0,
       "explanation": "CNA's discrepancy process includes recount and surgeon notification.",
-      "case": "C1"
+      "case": "C1",
+      "concept": "counts",
+      "whyOthers": [
+        "An expected number cannot be recorded without a completed count.",
+        "Closure should pause while an item is unaccounted for.",
+        "A correct initial count does not erase the current discrepancy."
+      ]
     },
     {
       "id": "CASE-002",
@@ -2269,7 +3235,13 @@
       ],
       "answer": 0,
       "explanation": "Imaging and documentation are part of discrepancy resolution.",
-      "case": "C1"
+      "case": "C1",
+      "concept": "counts",
+      "whyOthers": [
+        "The initial count does not account for a missing item later.",
+        "The patient cannot resolve an intraoperative discrepancy in recovery.",
+        "Adding a sponge does not locate the missing one."
+      ]
     },
     {
       "id": "CASE-003",
@@ -2284,7 +3256,13 @@
       ],
       "answer": 0,
       "explanation": "Count events and actions belong in accurate documentation.",
-      "case": "C1"
+      "case": "C1",
+      "concept": "documentation",
+      "whyOthers": [
+        "Resolution does not remove the need to document actions taken.",
+        "A personal notebook is not the clinical record.",
+        "A normal count alone omits the discrepancy and response."
+      ]
     },
     {
       "id": "CASE-004",
@@ -2299,7 +3277,13 @@
       ],
       "answer": 0,
       "explanation": "The WHO Sign Out requires count confirmation.",
-      "case": "C1"
+      "case": "C1",
+      "concept": "checklist",
+      "whyOthers": [
+        "Discharge address is not a Sign Out safety check.",
+        "Scheduling is unrelated to retained-item risk.",
+        "Dressing brand is not the requested count confirmation."
+      ]
     },
     {
       "id": "CASE-005",
@@ -2314,7 +3298,13 @@
       ],
       "answer": 0,
       "explanation": "Preoperative verification includes consent and surgical site.",
-      "case": "C2"
+      "case": "C2",
+      "concept": "preop",
+      "whyOthers": [
+        "The printed schedule can be erroneous.",
+        "A representative is not the patient or authorized verifying clinician.",
+        "Marking both sides leaves the discrepancy unresolved."
+      ]
     },
     {
       "id": "CASE-006",
@@ -2329,7 +3319,13 @@
       ],
       "answer": 0,
       "explanation": "These patient confirmations are in Sign In.",
-      "case": "C2"
+      "case": "C2",
+      "concept": "checklist",
+      "whyOthers": [
+        "Closing counts occur later in the operation.",
+        "Specimen readback occurs at Sign Out.",
+        "Equipment problems are reviewed at Sign Out, not before induction."
+      ]
     },
     {
       "id": "CASE-007",
@@ -2344,7 +3340,13 @@
       ],
       "answer": 0,
       "explanation": "The WHO Time Out repeats the critical patient and site confirmation.",
-      "case": "C2"
+      "case": "C2",
+      "concept": "checklist",
+      "whyOthers": [
+        "A room number does not identify the patient and site.",
+        "Initials alone do not confirm the incision location.",
+        "Transport route is not the preincision verification."
+      ]
     },
     {
       "id": "CASE-008",
@@ -2359,7 +3361,13 @@
       ],
       "answer": 0,
       "explanation": "CNA names reporting situations requiring disclosure and quality improvement.",
-      "case": "C2"
+      "case": "C2",
+      "concept": "quality",
+      "whyOthers": [
+        "Deleting the error prevents review and learning.",
+        "Discussion outside the reporting process does not address system risk.",
+        "Credential renewal is too late and unrelated to this event."
+      ]
     },
     {
       "id": "CASE-009",
@@ -2374,7 +3382,13 @@
       ],
       "answer": 0,
       "explanation": "A compromised package cannot support an aseptic field.",
-      "case": "C3"
+      "case": "C3",
+      "concept": "asepsis",
+      "whyOthers": [
+        "Looking clean does not prove the barrier remained sterile.",
+        "A towel cannot repair torn packaging.",
+        "Saline rinse is not sterilization."
+      ]
     },
     {
       "id": "CASE-010",
@@ -2389,7 +3403,13 @@
       ],
       "answer": 0,
       "explanation": "Critical instruments entering sterile tissue require sterilization.",
-      "case": "C3"
+      "case": "C3",
+      "concept": "spaulding",
+      "whyOthers": [
+        "Low-level disinfection is insufficient for entry into sterile tissue.",
+        "Water rinsing does not sterilize a critical device.",
+        "New packaging alone does not establish validated sterility."
+      ]
     },
     {
       "id": "CASE-011",
@@ -2404,7 +3424,13 @@
       ],
       "answer": 0,
       "explanation": "An unsatisfactory internal indicator means the set should not be used.",
-      "case": "C3"
+      "case": "C3",
+      "concept": "sterilization",
+      "whyOthers": [
+        "External tape cannot overrule a failed internal result.",
+        "A later glance does not change conditions of the completed cycle.",
+        "Putting an indicator near the patient cannot test the load."
+      ]
     },
     {
       "id": "CASE-012",
@@ -2419,7 +3445,13 @@
       ],
       "answer": 0,
       "explanation": "Resource planning must preserve the verified sterile supply.",
-      "case": "C3"
+      "case": "C3",
+      "concept": "resources",
+      "whyOthers": [
+        "Using the failed set compromises the sterile supply.",
+        "Moving the patient before a plan increases pressure to use unsafe equipment.",
+        "Implant changes require team verification, not a unilateral fix."
+      ]
     },
     {
       "id": "CASE-013",
@@ -2434,7 +3466,13 @@
       ],
       "answer": 0,
       "explanation": "Oxygen, prep and electrosurgery map to the fire triangle.",
-      "case": "C4"
+      "case": "C4",
+      "concept": "fire",
+      "whyOthers": [
+        "These are hazards, not three monitor types.",
+        "Supplies alone do not explain oxidizer and ignition.",
+        "Identification checks do not form a fire triangle."
+      ]
     },
     {
       "id": "CASE-014",
@@ -2449,7 +3487,13 @@
       ],
       "answer": 0,
       "explanation": "Prep dry time and flammability are ESU safety considerations.",
-      "case": "C4"
+      "case": "C4",
+      "concept": "fire",
+      "whyOthers": [
+        "Dim lights do not remove fuel or ignition.",
+        "A blank count sheet has no bearing on prep flammability.",
+        "More oxygen can increase combustion risk."
+      ]
     },
     {
       "id": "CASE-015",
@@ -2464,7 +3508,13 @@
       ],
       "answer": 0,
       "explanation": "Active-electrode isolation reduces inadvertent ignition or injury.",
-      "case": "C4"
+      "case": "C4",
+      "concept": "electrosurgery",
+      "whyOthers": [
+        "Drapes may be fuel near an active tip.",
+        "The patient's gown does not isolate the electrode.",
+        "Pooled prep is potential fuel."
+      ]
     },
     {
       "id": "CASE-016",
@@ -2479,7 +3529,13 @@
       ],
       "answer": 0,
       "explanation": "Fire prevention is coordinated control of the triangle.",
-      "case": "C4"
+      "case": "C4",
+      "concept": "fire",
+      "whyOthers": [
+        "A near miss is an opportunity to remove the hazard before ignition.",
+        "Dry gauze adds fuel.",
+        "Time Out completion does not neutralize a newly noticed fire risk."
+      ]
     },
     {
       "id": "CASE-017",
@@ -2494,7 +3550,13 @@
       ],
       "answer": 0,
       "explanation": "The blueprint addresses bariatric considerations and safe positioning and transfer.",
-      "case": "C5"
+      "case": "C5",
+      "concept": "positioning",
+      "whyOthers": [
+        "Instruments alone omit patient handling and pressure risks.",
+        "Start time alone does not individualize the plan.",
+        "Anesthesia does not eliminate need for positioning assessment."
+      ]
     },
     {
       "id": "CASE-018",
@@ -2509,7 +3571,13 @@
       ],
       "answer": 0,
       "explanation": "Case duration and positioning devices are recognized risks.",
-      "case": "C5"
+      "case": "C5",
+      "concept": "positioning",
+      "whyOthers": [
+        "The calendar date does not determine skin pressure.",
+        "Wall colour is unrelated to pressure duration.",
+        "Marker brand does not determine positioning risk."
+      ]
     },
     {
       "id": "CASE-019",
@@ -2524,7 +3592,13 @@
       ],
       "answer": 0,
       "explanation": "CNA explicitly describes conversion requiring adaptation.",
-      "case": "C5"
+      "case": "C5",
+      "concept": "resources",
+      "whyOthers": [
+        "An open conversion usually increases preparation needs.",
+        "Closing counts remain important.",
+        "The change and related care should be documented."
+      ]
     },
     {
       "id": "CASE-020",
@@ -2539,7 +3613,13 @@
       ],
       "answer": 0,
       "explanation": "Postoperative assessment and safe transfer needs follow the patient.",
-      "case": "C5"
+      "case": "C5",
+      "concept": "handoff",
+      "whyOthers": [
+        "A billing code does not convey skin, pain or thermal status.",
+        "Tray inventory is a resource record, not this patient's physiology.",
+        "The next case's time does not establish safe recovery transfer."
+      ]
     },
     {
       "id": "CASE-021",
@@ -2554,7 +3634,13 @@
       ],
       "answer": 0,
       "explanation": "CNA names cardiac events and protocol-based response.",
-      "case": "C6"
+      "case": "C6",
+      "concept": "cardiac",
+      "whyOthers": [
+        "Sign Out is not an acute cardiac resuscitation protocol.",
+        "The next case's resources cannot guide the current emergency.",
+        "Delayed charting does not treat a dysrhythmia."
+      ]
     },
     {
       "id": "CASE-022",
@@ -2569,7 +3655,13 @@
       ],
       "answer": 0,
       "explanation": "Resource planning includes staffing and equipment availability.",
-      "case": "C6"
+      "case": "C6",
+      "concept": "resources",
+      "whyOthers": [
+        "Break coverage alone is insufficient in an emergency.",
+        "Specimen labels do not provide resuscitation support.",
+        "Next patient transport is not the current priority."
+      ]
     },
     {
       "id": "CASE-023",
@@ -2584,7 +3676,13 @@
       ],
       "answer": 0,
       "explanation": "Care transitions require relevant information and accountability.",
-      "case": "C6"
+      "case": "C6",
+      "concept": "handoff",
+      "whyOthers": [
+        "“Surgery is over” omits the complication and ongoing needs.",
+        "The receiving team needs an active verbal transfer, not discovery later.",
+        "Family cannot replace a clinical handoff."
+      ]
     },
     {
       "id": "CASE-024",
@@ -2599,7 +3697,13 @@
       ],
       "answer": 0,
       "explanation": "Complete, contemporaneous event documentation supports continuity.",
-      "case": "C6"
+      "case": "C6",
+      "concept": "documentation",
+      "whyOthers": [
+        "Reconstructing a normal course would be inaccurate.",
+        "The diagnosis alone omits nursing observations and interventions.",
+        "Survival does not erase the need to document the event."
+      ]
     }
   ],
   "cases": {
@@ -2635,6 +3739,167 @@
     "F": {
       "name": "AHRQ PSNet: Operating Room Fires",
       "url": "https://psnet.ahrq.gov/issue/operating-room-fires"
+    },
+    "M": {
+      "name": "MHAUS: Managing an MH Crisis",
+      "url": "https://www.mhaus.org/healthcare-professionals/managing-a-crisis/"
+    }
+  },
+  "concepts": {
+    "advocacy": {
+      "title": "Patient advocacy and professional practice",
+      "text": "Perioperative advocacy continues while the patient is awake, sedated, or anesthetized. Protect privacy and dignity, respond to individual beliefs and communication needs, and speak up when care or conduct creates risk. A capable patient's preferences remain central; family members and visitors do not automatically speak for them.",
+      "source": "B"
+    },
+    "documentation": {
+      "title": "A useful perioperative record",
+      "text": "The record should show what happened, when it happened, the assessments and interventions made, and whom the team informed. Counts, positioning, medications, equipment, specimens, and unusual events matter. Correct errors transparently through the record's amendment process; do not silently replace or reconstruct care after the fact.",
+      "source": "B"
+    },
+    "handoff": {
+      "title": "Continuity across care transitions",
+      "text": "A handoff transfers clinical information and responsibility, not merely a chart. Include the procedure and anesthesia course, current physiology, medications and allergies, positioning or skin concerns, equipment or count issues, specimens, and anticipated recovery needs as relevant. Use the receiving team's standardized process and invite questions.",
+      "source": "B"
+    },
+    "conscience": {
+      "title": "Surgical conscience",
+      "text": "Surgical conscience means noticing and disclosing a possible safety or aseptic break even when nobody else sees it. The practical sequence is to speak up, stop the affected step if needed, correct the problem, and document or report according to policy. Silence does not make a contaminated item safe.",
+      "source": "B"
+    },
+    "communication": {
+      "title": "Communication that supports consent and care",
+      "text": "Match teaching to the patient's language, sensory needs, cognition, and immediate phase of care. Confirm understanding through an appropriate interpreter or communication aid when needed. Explain realistic expectations without promises. Escalate an unresolved mismatch in identity, site, procedure, or consent before proceeding.",
+      "source": "B"
+    },
+    "scope": {
+      "title": "Scope, visitors, and equipment",
+      "text": "A request from a surgeon or vendor does not extend a nurse's authorized scope. Confirm training, competence, facility policy, and applicable licensure before performing a task. Visitors require permission to enter the surgical suite and should not assume a clinical role because they know a device.",
+      "source": "B"
+    },
+    "quality": {
+      "title": "Reporting and improvement",
+      "text": "Reporting a near miss or system weakness allows review before the next patient is harmed. Quality improvement looks for patterns, tests changes, and checks whether outcomes improve. CNA names surgical site infection prevention, wound classification, and checklist performance as examples; accurate records make these efforts possible.",
+      "source": "B"
+    },
+    "checklist": {
+      "title": "The three WHO checklist pauses",
+      "text": "Sign In occurs before anesthesia induction and checks patient, site, procedure, consent, anesthesia readiness, pulse oximetry, allergies, airway, and blood-loss risk. Time Out occurs before incision with the surgeon, anesthesia professional, and nurse. Sign Out occurs before the patient leaves the OR and covers counts, specimens, equipment issues, and recovery concerns.",
+      "source": "W"
+    },
+    "counts": {
+      "title": "Surgical counts and discrepancies",
+      "text": "Counts help detect retained items, but they depend on controlled handling and communication. CNA identifies initial, before-closure, completion, and permanent-relief counts. A discrepancy calls for a recount, surgeon notification, search and imaging as indicated, and accurate documentation. An emergency that prevents an initial count still needs a documented safety response.",
+      "source": "B"
+    },
+    "positioning": {
+      "title": "Positioning is an ongoing assessment",
+      "text": "Assess the patient's skin, mobility, anatomy, comorbidities, and procedure before positioning. Duration, pressure points, devices, temperature, and hemodynamic status can change risk during and after surgery. The nurse collaborates with the surgeon and anesthesia professional, uses suitable supports, reassesses, and hands off any concern.",
+      "source": "B"
+    },
+    "electrosurgery": {
+      "title": "Electrosurgery basics",
+      "text": "Monopolar electrosurgery sends current through the patient to a dispersive electrode; safe pad contact, site, size, and device compatibility matter. Bipolar current travels between the instrument's tips. Protect against alternate current paths, damaged insulation, inadvertent activation, plume, and ignition of flammable prep or oxygen-enriched material.",
+      "source": "B"
+    },
+    "fire": {
+      "title": "The surgical fire triangle",
+      "text": "A fire needs an oxidizer such as oxygen, an ignition source such as electrosurgery or a laser, and fuel such as dry drapes or alcohol-based prep. Head and neck procedures can place all three close together. A team briefing coordinates oxygen delivery, drying and draping, and safe energy-device use.",
+      "source": "F"
+    },
+    "hazards": {
+      "title": "Hazards in the perioperative environment",
+      "text": "Hazards may be biological, chemical, physical, environmental, or psychological. Controls depend on the hazard: for example, radiation protection, ventilation and plume evacuation, safe sharps and cylinder handling, laser eye protection, ergonomics, or a response to harassment. WHMIS supports communication about hazardous workplace products.",
+      "source": "B"
+    },
+    "specimens": {
+      "title": "Specimen identity and preservation",
+      "text": "Match every specimen to the patient, site, test, container, preservative, and destination before it leaves the room. Some tissue must be fresh, while other tissue is fixed; the wrong medium can make a test impossible. Readback at Sign Out and a clear handoff help catch labelling and equipment problems.",
+      "source": "B"
+    },
+    "medications": {
+      "title": "Medication safety in the OR",
+      "text": "Verification includes the patient, drug or solution, concentration, route, dose, timing, and documentation as applicable. Label every medication or solution transferred to a sterile field and communicate with the administering clinician. Appearance alone cannot identify the contents of an unlabeled syringe or basin.",
+      "source": "B"
+    },
+    "spaulding": {
+      "title": "The Spaulding classification",
+      "text": "Spaulding classifies reusable devices by infection risk and the body surface they contact. Critical devices enter sterile tissue or the vascular system and require sterilization. Semicritical devices touch mucous membranes or nonintact skin and need at least high-level disinfection. Noncritical devices touch intact skin and usually need low-level disinfection. Follow the device's validated instructions and local policy.",
+      "source": "D"
+    },
+    "sterilization": {
+      "title": "What sterilization monitoring tells you",
+      "text": "Cleaning comes before sterilization. A validated process follows the device and sterilizer instructions. Mechanical records check cycle conditions; chemical indicators show exposure to specified process parameters; biological indicators challenge microbial inactivation. No single external tape change proves that an instrument's interior is sterile. Failed indicators or a compromised package require investigation and disposition.",
+      "source": "D"
+    },
+    "asepsis": {
+      "title": "Maintaining an aseptic field",
+      "text": "Sterility is maintained continuously, not just at setup. Inspect packaging and indicators, open and handle supplies correctly, watch the field during the procedure, and replace any item whose sterility is uncertain. A wet or torn barrier, dropped instrument, contaminated gown, or contact with a nonsterile surface calls for corrective action.",
+      "source": "B"
+    },
+    "hand": {
+      "title": "Surgical hand antisepsis and gloves",
+      "text": "Surgical hand antisepsis reduces hand flora before sterile gloves. Remove hand and wrist jewellery, clean under nails, follow the selected product's instructions, and let an alcohol-based surgical rub dry before gloving. Gloves are a barrier that can tear; change damaged or contaminated gloves and perform hand hygiene when indicated.",
+      "source": "H"
+    },
+    "ssi": {
+      "title": "A bundle of SSI prevention measures",
+      "text": "Surgical site infection prevention spans preoperative preparation, the operation, and follow-up. Avoid routine razor shaving; clip hair only if necessary. Use appropriate prophylactic antibiotics before surgery, maintain normothermia and glycemic control, and preserve asepsis. Antibiotics are not a substitute for other measures, and prolonged prophylaxis after surgery is generally not beneficial.",
+      "source": "I"
+    },
+    "precautions": {
+      "title": "Routine and additional precautions",
+      "text": "Routine practices apply to every patient. Add transmission-based precautions when the suspected organism or mode of spread calls for them: airborne, droplet, or contact. Plan room traffic, PPE, transport, environmental controls, and instrument handling with infection prevention and local policy; induction of anesthesia does not cancel the precaution.",
+      "source": "B"
+    },
+    "preop": {
+      "title": "The preoperative verification picture",
+      "text": "A preoperative assessment joins two unique identifiers with procedure, site, consent, allergies, fasting, relevant test results, medications and supplements, implants, airway or anatomical issues, blood-product needs, and psychosocial concerns. Resolve discrepancies with the patient and team before the next irreversible step.",
+      "source": "B"
+    },
+    "anesthesia": {
+      "title": "Adapting to the anesthesia plan",
+      "text": "General and regional techniques have different equipment, positioning, monitoring, and complication considerations. The perioperative nurse stays aware of the plan and current physiological findings, communicates changes promptly with the anesthesia professional, and adapts supplies and nursing care when the technique or procedure changes.",
+      "source": "B"
+    },
+    "monitoring": {
+      "title": "Monitoring is a team signal",
+      "text": "Pulse oximetry estimates peripheral oxygen saturation; ECG displays cardiac electrical activity. Neither measures every aspect of ventilation or perfusion. An unexpected monitor finding needs assessment and prompt communication, not simply a silenced alarm. Trends, patient context, and the anesthesia professional's assessment guide action.",
+      "source": "B"
+    },
+    "urgent": {
+      "title": "Responding to an intraoperative crisis",
+      "text": "A sudden airway, circulatory, neurologic, allergic, or bleeding event requires recognition, immediate communication, and coordinated use of the applicable emergency pathway. The circulating nurse helps obtain staff, equipment, medication, and blood products within role, while continuing to record meaningful times, interventions, and handoff needs.",
+      "source": "B"
+    },
+    "mh": {
+      "title": "Malignant hyperthermia",
+      "text": "Malignant hyperthermia is a life-threatening reaction to certain anesthesia triggers. The team should activate its MH protocol at suspicion, stop triggering agents under anesthesia direction, obtain dantrolene and the MH cart, and provide coordinated supportive care. Waiting for a very high temperature can delay treatment.",
+      "source": "M"
+    },
+    "cardiac": {
+      "title": "Cardiac events and escalation",
+      "text": "A new severe dysrhythmia or arrest changes priorities immediately. Alert the anesthesia and surgical team, activate the local resuscitation protocol, obtain the required staff and equipment, and communicate the event through subsequent handoff. A routine checklist or note cannot replace time-critical clinical action.",
+      "source": "B"
+    },
+    "forensic": {
+      "title": "Medicolegal evidence",
+      "text": "Evidence handling requires the correct authorized pathway, accurate identification, preservation, documentation, and controlled transfer. Routine disposal or an undocumented handoff can compromise the specimen's integrity. Follow institutional and jurisdictional requirements when a surgical item may have forensic significance.",
+      "source": "B"
+    },
+    "transplant": {
+      "title": "Organ and tissue procurement",
+      "text": "Procurement and transplantation involve specific consent, identification, timing, preservation, documentation, and authorized-team requirements. The circulating nurse follows the hospital's pathway and applicable Canadian regulatory and standards framework rather than improvising from an ordinary specimen workflow.",
+      "source": "B"
+    },
+    "resources": {
+      "title": "Resources are part of the care plan",
+      "text": "Staffing, rooms, instruments, implants, transfer devices, time, and supplies are clinical constraints. Anticipate them before the patient is committed to a procedure, confirm availability and suitability, escalate gaps, and agree on a safe alternative. Competing urgent cases require explicit prioritization and team communication.",
+      "source": "B"
+    },
+    "sustainability": {
+      "title": "Sustainable, safe use of supplies",
+      "text": "Reduce unnecessary opening and waste, reuse only when the item and reprocessing pathway permit it, and recycle within facility rules. A trial of new equipment should evaluate safety, performance, usability, and resource impact. Efficiency never justifies bypassing sterility or device instructions.",
+      "source": "B"
     }
   },
   "categories": [
