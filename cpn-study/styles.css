@@ -11,7 +11,7 @@
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
 /* Study Site: compact layout and surgical blue / goldenrod palette */
 :root{--bg:#003D80;--panel:#0d467f;--panel2:#164f88;--line:#6389b0;--text:#fff8f0;--muted:#c9dcef;--accent:#e4ad43;--orange:#f39d82;--ink:#082d5a;--shadow:0 20px 60px #001d4180}
-.site-shell{max-width:1160px}
+.site-shell{max-width:1680px;padding-inline:clamp(24px,4vw,72px)}
 .topbar{height:84px}
 .brand-mark{font-size:39px}
 .setup-section{padding:66px 0 0}
@@ -26,7 +26,7 @@
 .summary-icon{background:#214b70}
 .about-section{display:block;border-top:1px solid var(--line);margin-top:67px;padding:40px 0 72px}
 .about-section h2{font-size:30px}
-.about-section p{max-width:780px!important;font-size:14px!important;line-height:1.7!important}
+.about-section p{max-width:950px!important;font-size:17px!important;line-height:1.7!important}
 .about-section .text-link{margin-top:2px}
 .feedback{background:var(--panel);border-left-color:var(--accent)}
 .feedback.needs-review{border-left-color:var(--orange)}
@@ -56,4 +56,40 @@
 .light .answer-option.correct{background:#f6eac9}
 .light .answer-option.incorrect{background:#e9f1fb}
 @media(max-width:950px){.setup-grid{grid-template-columns:1fr}}
-@media(max-width:680px){.setup-section{padding-top:42px}.section-heading h1{font-size:44px}.about-section{margin-top:55px;padding-bottom:55px}.wrong-list li{display:block}.wrong-list span{display:block;margin-top:4px}.quiz-layout{padding-top:34px}}
+/* Readable type and wider use of desktop space */
+body{font-size:17px}
+.brand{font-size:14px}.brand strong{font-size:18px}
+.top-right{font-size:16px}
+.eyebrow,.question-meta,#quiz-progress-label{font-size:14px;letter-spacing:.12em}
+.section-heading p:not(.eyebrow){font-size:18px}
+.panel h3{font-size:19px}.small{font-size:16px}
+.segmented button,.length-options button{font-size:17px;padding:13px 17px}
+.segmented button span{font-size:15px}
+.category-pill{font-size:16px;line-height:1.4;padding:16px;min-height:62px}
+.pill-count{font-size:15px}
+.session-summary strong{font-size:19px}
+.session-summary p,.form-message{font-size:16px}
+.button{font-size:17px;min-height:58px;padding:16px 22px}
+.back-button,.save-button{font-size:16px;padding:12px 0}
+.quiz-layout{grid-template-columns:minmax(0,1fr) 290px;gap:clamp(36px,4vw,72px)}
+.question-column{max-width:1080px}
+.question-column h2{font-size:clamp(32px,2.7vw,48px)}
+.case-box{font-size:17px}
+.answer-option{min-height:76px;padding:17px 20px}
+.answer-option.dimmed{opacity:1}
+.option-key{font-size:15px;width:34px;height:34px}
+.option-text{font-size:18px;line-height:1.5}
+.feedback strong{font-size:20px}
+.feedback p{font-size:17px;line-height:1.65}
+.feedback a{font-size:16px}
+.learning-detail summary{font-size:18px}
+.wrong-list li{font-size:16px;line-height:1.6;padding:14px 0;grid-template-columns:minmax(180px,36%) 1fr;gap:26px}
+.wrong-list strong{font-size:16px;line-height:1.6}
+.quiz-actions>span,.aside-stats div,.aside-note{font-size:16px}
+.text-link{font-size:17px}
+.source-grid p,.source-list a,.method-note p{font-size:17px}
+.source-list small{font-size:15px}
+footer{font-size:14px}
+@media(max-width:1100px){.site-shell{padding-inline:32px}.quiz-layout{grid-template-columns:minmax(0,1fr) 230px;gap:28px}}
+@media(max-width:850px){.quiz-layout{display:block}.quiz-aside{display:none}}
+@media(max-width:680px){.site-shell{padding-inline:20px}.setup-section{padding-top:42px}.section-heading h1{font-size:44px}.about-section{margin-top:55px;padding-bottom:55px}.wrong-list li{display:block}.wrong-list span{display:block;margin-top:4px}.quiz-layout{padding-top:34px}.question-column h2{font-size:clamp(28px,7vw,38px)}.answer-option{min-height:72px;padding:14px}.option-text{font-size:17px}}
