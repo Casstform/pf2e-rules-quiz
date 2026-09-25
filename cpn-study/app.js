@@ -214,7 +214,7 @@ function answer(index) {
   source.href = state.bank.sources[q.source].url;
   source.target = "_blank"; source.rel = "noopener";
   source.textContent = `Read source: ${state.bank.sources[q.source].name} ↗`;
-  feedback.append(title, explanation);
+  feedback.append(title, explanation, source);
 
   const why = document.createElement("details");
   why.className = "learning-detail";
@@ -242,13 +242,16 @@ function answer(index) {
   basicsSummary.textContent = `Concept basics: ${concept.title}`;
   const basicsBody = document.createElement("p");
   basicsBody.textContent = concept.text;
-  const basicsSource = document.createElement("a");
-  basicsSource.href = state.bank.sources[concept.source].url;
-  basicsSource.target = "_blank"; basicsSource.rel = "noopener";
-  basicsSource.textContent = `Explore: ${state.bank.sources[concept.source].name} ↗`;
-  basics.append(basicsSummary, basicsBody, basicsSource);
+  basics.append(basicsSummary, basicsBody);
+  if (concept.source !== q.source) {
+    const basicsSource = document.createElement("a");
+    basicsSource.href = state.bank.sources[concept.source].url;
+    basicsSource.target = "_blank"; basicsSource.rel = "noopener";
+    basicsSource.textContent = `Explore: ${state.bank.sources[concept.source].name} ↗`;
+    basics.append(basicsSource);
+  }
 
-  feedback.append(why, basics, source);
+  feedback.append(why, basics);
   feedback.className = `feedback ${correct ? "good" : "needs-review"}`;
   $("#session-correct").textContent = s.answers.filter(a => a.correct).length;
   $("#session-answered").textContent = s.answers.length;

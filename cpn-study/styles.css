@@ -30,7 +30,8 @@
 .about-section .text-link{margin-top:2px}
 .feedback{background:var(--panel);border-left-color:var(--accent)}
 .feedback.needs-review{border-left-color:var(--orange)}
-.feedback>a{display:inline-block;margin-top:16px}
+.feedback>a{display:inline-block;margin:2px 0 3px}
+.answer-option.correct{background:#5b3d30;border-color:var(--accent)}
 .learning-detail{border-top:1px solid var(--line);margin-top:17px;padding-top:14px}
 .learning-detail summary{list-style:none;cursor:pointer;color:var(--accent);font:700 14px/1.5 "Manrope",sans-serif;display:flex;align-items:center;justify-content:space-between;gap:14px}
 .learning-detail summary::-webkit-details-marker{display:none}
