@@ -1,0 +1,2656 @@
+{
+  "version": "2026-09-25",
+  "questions": [
+    {
+      "id": "CPN-001",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A visitor says they are a device representative and asks to observe an operation. What should the circulating nurse verify first?",
+      "options": [
+        "Permission to enter the surgical suite",
+        "Whether the visitor owns scrubs",
+        "Whether the case is elective",
+        "Whether the surgeon has used that device before"
+      ],
+      "answer": 0,
+      "explanation": "The CNA competency includes verifying authorization for visitors, including industry representatives."
+    },
+    {
+      "id": "CPN-002",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A patient asks that a family member not hear details of the procedure. What should guide the handoff?",
+      "options": [
+        "Protect the patient's confidentiality while sharing necessary care information",
+        "Tell every family member because surgery is high risk",
+        "Omit the information from all team handoffs",
+        "Ask the visitor to decide what may be shared"
+      ],
+      "answer": 0,
+      "explanation": "Advocacy includes privacy and confidentiality, while care transitions still require relevant clinical information."
+    },
+    {
+      "id": "CPN-003",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A nurse notices a break in sterile technique that no one else has seen. Which action best reflects surgical conscience?",
+      "options": [
+        "Speak up and correct the break",
+        "Wait until the wound is closed",
+        "Document it without interrupting the case",
+        "Assume the scrub person will notice"
+      ],
+      "answer": 0,
+      "explanation": "Surgical conscience calls for acting on an observed risk even when unnoticed."
+    },
+    {
+      "id": "CPN-004",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A patient has limited English proficiency during preoperative teaching. What is the best response?",
+      "options": [
+        "Arrange effective language support and check understanding",
+        "Speak louder in English",
+        "Ask the accompanying child to interpret complex consent",
+        "Skip teaching until recovery"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint requires addressing communication needs, including language barriers."
+    },
+    {
+      "id": "CPN-005",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "Which record best meets the blueprint's documentation competency?",
+      "options": [
+        "A timely account of count results, positioning, medications, specimens and key events",
+        "A summary written several days later from memory",
+        "Only the surgeon's operative note",
+        "A note limited to incision and closing times"
+      ],
+      "answer": 0,
+      "explanation": "Documentation should be complete, accurate and contemporaneous."
+    },
+    {
+      "id": "CPN-006",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "During transfer to recovery, what is the perioperative nurse's priority communication task?",
+      "options": [
+        "Give a structured handoff of relevant care and accountability",
+        "Send the chart without verbal communication",
+        "Discuss only the diagnosis",
+        "Wait for the next shift to relay concerns"
+      ],
+      "answer": 0,
+      "explanation": "CNA identifies communication and accountability at care transitions."
+    },
+    {
+      "id": "CPN-007",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A patient expresses fear about altered body image after surgery. Which response fits perioperative advocacy?",
+      "options": [
+        "Acknowledge the concern and incorporate psychosocial support",
+        "Reassure them that appearance is unimportant",
+        "Avoid the topic because it is postoperative",
+        "Ask the patient to discuss it only with family"
+      ],
+      "answer": 0,
+      "explanation": "The competency explicitly includes psychosocial needs such as altered body image."
+    },
+    {
+      "id": "CPN-008",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A colleague makes a demeaning remark during a case. What is the best professional response?",
+      "options": [
+        "Address and report the behaviour through appropriate processes",
+        "Ignore it because the patient is anesthetized",
+        "Post about it on social media",
+        "Retaliate in front of the team"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint includes a respectful workplace and reporting unprofessional behaviour."
+    },
+    {
+      "id": "CPN-009",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A new technology is introduced in the OR. What is the nurse's safest starting point?",
+      "options": [
+        "Identify learning needs and obtain training before independent use",
+        "Assume familiar controls work identically",
+        "Let a vendor direct nursing care",
+        "Avoid documenting its use"
+      ],
+      "answer": 0,
+      "explanation": "CNA identifies adaptation to technology and continuing learning within scope."
+    },
+    {
+      "id": "CPN-010",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A surgeon asks a nurse to perform a task outside their authorized scope. What should the nurse do?",
+      "options": [
+        "Clarify the request and remain within applicable scope and competence",
+        "Perform it if the surgeon insists",
+        "Ask a student to do it",
+        "Document it as a routine nursing task"
+      ],
+      "answer": 0,
+      "explanation": "Scope is governed by provincial or territorial licensure and competence."
+    },
+    {
+      "id": "CPN-011",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A wrong-site procedure is narrowly prevented before incision. What is the nurse's next professional obligation?",
+      "options": [
+        "Report and document the event under the organization's process",
+        "Erase the schedule error because no injury occurred",
+        "Tell only the patient after discharge",
+        "Wait until the next month to review it"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint includes recognizing and reporting situations requiring disclosure."
+    },
+    {
+      "id": "CPN-012",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A patient has a specific spiritual practice relevant to their perioperative care. Which response is most appropriate?",
+      "options": [
+        "Ask about and accommodate the practice where safe and feasible",
+        "Assume every member of that community wants the same accommodation",
+        "Dismiss it because surgical workflow takes priority",
+        "Ask family to speak for a capable patient"
+      ],
+      "answer": 0,
+      "explanation": "Care should respond to individual beliefs without stereotypes."
+    },
+    {
+      "id": "CPN-013",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A team disagreement is escalating beside an awake patient. What should the nurse prioritize?",
+      "options": [
+        "De-escalate and move conflict away from the patient",
+        "Continue the argument until one side yields",
+        "Record the interaction instead of intervening",
+        "Ask the patient to choose a side"
+      ],
+      "answer": 0,
+      "explanation": "Conflict resolution includes de-escalation and separating parties."
+    },
+    {
+      "id": "CPN-014",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A research specimen is requested during surgery. What must be checked in addition to routine specimen handling?",
+      "options": [
+        "The applicable research consent and approved protocol",
+        "Only whether the container is large enough",
+        "Whether the surgeon prefers fresh tissue",
+        "Whether a visitor can take it to the laboratory"
+      ],
+      "answer": 0,
+      "explanation": "Research participation must follow consent and ethics-approved protocols."
+    },
+    {
+      "id": "CPN-015",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "Which activity is a quality-improvement example named in the CNA blueprint?",
+      "options": [
+        "Reviewing surgical site infection prevention performance",
+        "Changing a patient's consent without discussion",
+        "Delegating all counts to a vendor",
+        "Disabling incident reporting to reduce paperwork"
+      ],
+      "answer": 0,
+      "explanation": "CNA cites SSI prevention, wound classification and checklist use as quality-improvement areas."
+    },
+    {
+      "id": "CPN-016",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "What is the best educational approach when a patient asks about immediate postoperative expectations?",
+      "options": [
+        "Give individualized teaching appropriate to the phase of care",
+        "Promise there will be no pain",
+        "Defer every question until discharge",
+        "Provide the same script regardless of procedure"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint includes education before, during and immediately after surgery."
+    },
+    {
+      "id": "CPN-017",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A competent patient requests privacy while being positioned. What should the team do?",
+      "options": [
+        "Limit exposure and protect dignity throughout positioning",
+        "Assume anesthesia removes privacy concerns",
+        "Allow unnecessary observers",
+        "Discuss the patient in a public hallway"
+      ],
+      "answer": 0,
+      "explanation": "Privacy and dignity remain nursing responsibilities throughout the perioperative period."
+    },
+    {
+      "id": "CPN-018",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A vendor offers to operate a surgical device on the patient. Which question is most important for the nurse?",
+      "options": [
+        "Is that activity authorized within the individual's role and facility policy?",
+        "Has the vendor sold many devices?",
+        "Is the patient already anesthetized?",
+        "Would the task save several minutes?"
+      ],
+      "answer": 0,
+      "explanation": "Visitor permission and professional scope must both be respected."
+    },
+    {
+      "id": "CPN-019",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "Which issue should be included in a recovery handoff after a difficult positioning case?",
+      "options": [
+        "Areas of skin concern and positioning related risks",
+        "Only the surgeon's preference card",
+        "Only the number of staff in the room",
+        "The manufacturer's marketing information"
+      ],
+      "answer": 0,
+      "explanation": "Relevant care findings must follow the patient through transition."
+    },
+    {
+      "id": "CPN-020",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "A staff member discovers their charting has an error. What is the safest action?",
+      "options": [
+        "Correct it using the record's approved amendment process",
+        "Delete the entire chart",
+        "Ask another nurse to chart in their name",
+        "Leave it unchanged because the case is finished"
+      ],
+      "answer": 0,
+      "explanation": "Accurate contemporaneous documentation includes transparent correction."
+    },
+    {
+      "id": "CPN-021",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "At which point does the WHO checklist's Sign In occur?",
+      "options": [
+        "Before induction of anesthesia",
+        "Immediately before skin incision",
+        "After wound closure",
+        "After discharge from recovery"
+      ],
+      "answer": 0,
+      "explanation": "The WHO checklist separates Sign In, Time Out and Sign Out by phase."
+    },
+    {
+      "id": "CPN-022",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "What is confirmed with the patient during Sign In?",
+      "options": [
+        "Identity, site, procedure and consent",
+        "Only the surgeon's name",
+        "Only the planned discharge time",
+        "Only the instrument count"
+      ],
+      "answer": 0,
+      "explanation": "The WHO Sign In asks for patient confirmation of identity, site, procedure and consent."
+    },
+    {
+      "id": "CPN-023",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "What equipment check belongs to Sign In?",
+      "options": [
+        "Anesthesia machine and medication check",
+        "Final specimen dispatch",
+        "Postoperative bed assignment",
+        "Completed needle count"
+      ],
+      "answer": 0,
+      "explanation": "The anesthesia equipment and medication check is a Sign In item."
+    },
+    {
+      "id": "CPN-024",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "What monitoring item is checked before induction on the WHO checklist?",
+      "options": [
+        "Pulse oximeter attached and functioning",
+        "Postoperative telemetry order",
+        "Discharge oxygen prescription",
+        "Recovery room bed alarm"
+      ],
+      "answer": 0,
+      "explanation": "Sign In asks whether pulse oximetry is on the patient and working."
+    },
+    {
+      "id": "CPN-025",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "The WHO checklist flags anticipated major blood loss in an adult above what amount?",
+      "options": [
+        "500 mL",
+        "50 mL",
+        "100 mL",
+        "2,000 mL"
+      ],
+      "answer": 0,
+      "explanation": "The WHO Sign In threshold is more than 500 mL for adults."
+    },
+    {
+      "id": "CPN-026",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "For a child, the WHO checklist flags expected blood loss above what threshold?",
+      "options": [
+        "7 mL/kg",
+        "1 mL/kg",
+        "20 mL/kg",
+        "50 mL/kg"
+      ],
+      "answer": 0,
+      "explanation": "The pediatric Sign In threshold is more than 7 mL/kg."
+    },
+    {
+      "id": "CPN-027",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "When the checklist identifies a difficult airway or aspiration risk, what should also be confirmed?",
+      "options": [
+        "Equipment and assistance are available",
+        "The case is automatically cancelled",
+        "The surgical count is complete",
+        "The specimen is in formalin"
+      ],
+      "answer": 0,
+      "explanation": "WHO pairs the risk with a plan for equipment and help."
+    },
+    {
+      "id": "CPN-028",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "When is the WHO Time Out performed?",
+      "options": [
+        "Before skin incision",
+        "Before the patient enters hospital",
+        "Immediately after specimen fixation",
+        "After the patient leaves the OR"
+      ],
+      "answer": 0,
+      "explanation": "Time Out precedes incision."
+    },
+    {
+      "id": "CPN-029",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "Who participates in the WHO Time Out?",
+      "options": [
+        "Nurse, anesthetist and surgeon",
+        "Only the circulating nurse",
+        "Only the surgeon and patient",
+        "Only recovery staff"
+      ],
+      "answer": 0,
+      "explanation": "The checklist calls for the operative team to confirm together."
+    },
+    {
+      "id": "CPN-030",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "Which identification is spoken during Time Out?",
+      "options": [
+        "Patient name, procedure and incision site",
+        "The patient's room number only",
+        "The implant purchase order only",
+        "The planned discharge date"
+      ],
+      "answer": 0,
+      "explanation": "The team verbally confirms patient, procedure and site."
+    },
+    {
+      "id": "CPN-031",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "What is the WHO prophylactic antibiotic prompt at Time Out?",
+      "options": [
+        "Was it given within the preceding 60 minutes, if applicable?",
+        "Was it prescribed for 30 days after discharge?",
+        "Was it given only after closure?",
+        "Was it omitted for every case?"
+      ],
+      "answer": 0,
+      "explanation": "The WHO checklist asks whether prophylaxis was given in the preceding 60 minutes."
+    },
+    {
+      "id": "CPN-032",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "Which surgeon concern is explicitly discussed at Time Out?",
+      "options": [
+        "Critical or nonroutine steps, case length and expected blood loss",
+        "Only the planned incision length",
+        "Only the next day's schedule",
+        "Only the name of the instrument vendor"
+      ],
+      "answer": 0,
+      "explanation": "Anticipated critical events are shared before incision."
+    },
+    {
+      "id": "CPN-033",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "Which nursing concern is explicitly discussed at Time Out?",
+      "options": [
+        "Sterility including indicator results and equipment issues",
+        "Only the lunch break schedule",
+        "Only the room's paint colour",
+        "Only the patient's address"
+      ],
+      "answer": 0,
+      "explanation": "The checklist prompts nursing review of sterility and equipment concerns."
+    },
+    {
+      "id": "CPN-034",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "When is essential imaging confirmed to be displayed?",
+      "options": [
+        "At Time Out before incision, when applicable",
+        "Only at discharge",
+        "Only after the first count",
+        "Only when the patient requests it"
+      ],
+      "answer": 0,
+      "explanation": "Essential imaging is a preincision checklist prompt."
+    },
+    {
+      "id": "CPN-035",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "At what point is WHO Sign Out completed?",
+      "options": [
+        "Before the patient leaves the operating room",
+        "At preadmission clinic",
+        "Before induction",
+        "After the first postoperative visit"
+      ],
+      "answer": 0,
+      "explanation": "Sign Out precedes departure from the OR."
+    },
+    {
+      "id": "CPN-036",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "Which count result is verbally confirmed at Sign Out?",
+      "options": [
+        "Instrument, sponge and needle counts",
+        "Only linen inventory",
+        "Only medication stock",
+        "Only the number of staff present"
+      ],
+      "answer": 0,
+      "explanation": "The WHO Sign Out requires verbal confirmation of these counts."
+    },
+    {
+      "id": "CPN-037",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "Which specimen action is part of Sign Out?",
+      "options": [
+        "Read specimen labels aloud, including patient name",
+        "Label specimens the next day",
+        "Leave labelling to the receiving unit alone",
+        "Use only the room number"
+      ],
+      "answer": 0,
+      "explanation": "WHO calls for verbal specimen label confirmation."
+    },
+    {
+      "id": "CPN-038",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "Who discusses key recovery concerns at Sign Out?",
+      "options": [
+        "Surgeon, anesthetist and nurse",
+        "Only the scheduler",
+        "Only the patient transport team",
+        "Only the device representative"
+      ],
+      "answer": 0,
+      "explanation": "The three disciplines share recovery and management concerns."
+    },
+    {
+      "id": "CPN-039",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "A sponge count is discrepant before closure. What is the safest immediate course?",
+      "options": [
+        "Recount, notify the surgeon and follow the discrepancy process",
+        "Assume the previous count was correct",
+        "Close and search the room later",
+        "Change the recorded count to match the expected count"
+      ],
+      "answer": 0,
+      "explanation": "CNA lists recount, surgeon notification, imaging and documentation in discrepancy response."
+    },
+    {
+      "id": "CPN-040",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "A scrub nurse is permanently relieved midcase. What count-related step is expected?",
+      "options": [
+        "Perform a count at handover with appropriate personnel",
+        "Rely on the morning's initial count",
+        "Count only at the end of the shift",
+        "Avoid count documentation because the case is ongoing"
+      ],
+      "answer": 0,
+      "explanation": "CNA specifies counts when scrub or circulating nurses are permanently relieved."
+    },
+    {
+      "id": "CPN-041",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Which phase is specifically identified for a surgical count?",
+      "options": [
+        "Before closure of a cavity or incision",
+        "Only after discharge",
+        "Only before patient arrival",
+        "Only after specimen receipt"
+      ],
+      "answer": 0,
+      "explanation": "CNA lists initial, before closure and procedure completion counts."
+    },
+    {
+      "id": "CPN-042",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "An emergency case starts without a count. What should occur?",
+      "options": [
+        "Notify the surgeon and follow imaging and documentation processes",
+        "Record a normal count by default",
+        "Discard all sponges after closure",
+        "Do nothing because emergencies are exempt"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint explicitly includes response when a count could not be performed."
+    },
+    {
+      "id": "CPN-043",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Why should small sponges be loaded on instruments when indicated?",
+      "options": [
+        "To support controlled handling and retrieval",
+        "To make them absorb less blood",
+        "To replace the count",
+        "To sterilize them during use"
+      ],
+      "answer": 0,
+      "explanation": "CNA names safe small-sponge handling as a count competency."
+    },
+    {
+      "id": "CPN-044",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Which positioning factor should be assessed preoperatively?",
+      "options": [
+        "Existing immobility and comorbidities",
+        "Only the surgeon's height",
+        "Only the room number",
+        "Only the patient's preferred music"
+      ],
+      "answer": 0,
+      "explanation": "Preoperative risks feed the individualized positioning plan."
+    },
+    {
+      "id": "CPN-045",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Which intraoperative factor raises pressure injury risk?",
+      "options": [
+        "Length of procedure and positioning devices",
+        "The day of the week",
+        "The colour of the drapes",
+        "The name of the instrument set"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint includes duration, position and devices in intraoperative skin risk."
+    },
+    {
+      "id": "CPN-046",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Who collaborates on the final patient position before surgery begins?",
+      "options": [
+        "Nurse, surgeon and anesthesia care provider",
+        "Only the scheduler",
+        "Only the instrument vendor",
+        "Only the recovery unit clerk"
+      ],
+      "answer": 0,
+      "explanation": "CNA specifies collaboration on final positioning."
+    },
+    {
+      "id": "CPN-047",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "A patient will be placed in lithotomy. What should guide device selection?",
+      "options": [
+        "Patient assessment, anatomy, procedure and pressure risk",
+        "Convenience alone",
+        "The previous patient's setup",
+        "Only the room turnover target"
+      ],
+      "answer": 0,
+      "explanation": "Positioning devices must suit patient and procedure."
+    },
+    {
+      "id": "CPN-048",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Before moving an anesthetized patient from the OR table, what should be assessed?",
+      "options": [
+        "Physiological status, skin and safe transfer requirements",
+        "Only whether the next case is ready",
+        "Only the surgeon's departure time",
+        "Only the transporter's route"
+      ],
+      "answer": 0,
+      "explanation": "CNA calls for system assessment and safe transfer."
+    },
+    {
+      "id": "CPN-049",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Which electrosurgery practice is specifically included in CNA's safety competencies?",
+      "options": [
+        "Assess dispersive electrode site, adhesion and size",
+        "Place the pad over any metal implant by default",
+        "Ignore device alarms",
+        "Leave the active electrode on drapes"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint names pad placement, adhesion, size and alarm response."
+    },
+    {
+      "id": "CPN-050",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "What should be checked before using monopolar electrosurgery on a patient with an implanted pacemaker?",
+      "options": [
+        "Compatibility and an appropriate device plan with the team",
+        "Only the battery brand",
+        "Whether the drapes are blue",
+        "Whether a bipolar instrument is in another room"
+      ],
+      "answer": 0,
+      "explanation": "Implantable electronic devices need specific electrosurgical consideration."
+    },
+    {
+      "id": "CPN-051",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "What is a safe place for an inactive electrosurgical pencil?",
+      "options": [
+        "Its designated insulated holster",
+        "On the drape under a towel",
+        "Against a metal retractor",
+        "On the patient's skin"
+      ],
+      "answer": 0,
+      "explanation": "CNA lists active electrode isolation as a safety principle."
+    },
+    {
+      "id": "CPN-052",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Why verify alcohol-based skin preparation dry time before electrosurgery?",
+      "options": [
+        "To reduce ignition and fire risk",
+        "To increase the volume of prep solution",
+        "To make the count unnecessary",
+        "To eliminate the need for oxygen monitoring"
+      ],
+      "answer": 0,
+      "explanation": "Flammable prep and ignition sources are a fire concern."
+    },
+    {
+      "id": "CPN-053",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "What is a relevant safety control for surgical plume?",
+      "options": [
+        "Use appropriate evacuation and PPE",
+        "Increase room background noise",
+        "Rely on surgical masks alone in every case",
+        "Disable local suction to reduce turbulence"
+      ],
+      "answer": 0,
+      "explanation": "CNA specifically includes plume evacuation and PPE."
+    },
+    {
+      "id": "CPN-054",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Which hazard class best fits bone cement vapour exposure?",
+      "options": [
+        "Chemical",
+        "Psychological only",
+        "Radiation only",
+        "Electrical only"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint lists bone cement among chemical hazards."
+    },
+    {
+      "id": "CPN-055",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Which hazard class best fits workplace harassment?",
+      "options": [
+        "Psychological",
+        "Thermal only",
+        "Biological only",
+        "Mechanical only"
+      ],
+      "answer": 0,
+      "explanation": "CNA identifies workplace violence and harassment as psychological hazards."
+    },
+    {
+      "id": "CPN-056",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "What does WHMIS chiefly support in the OR?",
+      "options": [
+        "Hazard communication for substances used at work",
+        "Patient identification before anesthesia",
+        "Sterile instrument counting",
+        "Specimen fixation choice"
+      ],
+      "answer": 0,
+      "explanation": "WHMIS is a workplace hazardous materials system named in safety competencies."
+    },
+    {
+      "id": "CPN-057",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "When a pneumatic tourniquet is used, what should the team monitor?",
+      "options": [
+        "Pressure and duration according to the plan",
+        "Only the colour of the cuff",
+        "Only the room temperature",
+        "Only the number of instruments opened"
+      ],
+      "answer": 0,
+      "explanation": "CNA names limb occlusion pressure and duration."
+    },
+    {
+      "id": "CPN-058",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "What is the safest response to an unanticipated laser case without eye protection ready?",
+      "options": [
+        "Pause until the controlled-area precautions and correct protection are in place",
+        "Proceed because general eyewear is equivalent",
+        "Ask observers to close their eyes",
+        "Use the laser at lower power without precautions"
+      ],
+      "answer": 0,
+      "explanation": "Laser eye safety and controlled area are explicit hazards."
+    },
+    {
+      "id": "CPN-059",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Which compressed gas related issue merits a safety check?",
+      "options": [
+        "Secure and use the cylinder according to facility procedure",
+        "Treat cylinders as ordinary furniture",
+        "Ignore connections if the tank is full",
+        "Use any regulator that fits loosely"
+      ],
+      "answer": 0,
+      "explanation": "Compressed gas is included among equipment safety competencies."
+    },
+    {
+      "id": "CPN-060",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "A laparoscopic case may convert to open surgery. What should the circulating nurse anticipate?",
+      "options": [
+        "Additional instruments and supplies for the changed approach",
+        "No change to the plan",
+        "Immediate specimen disposal",
+        "Cancellation of all counts"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint names conversion to open as an intraoperative event requiring adaptation."
+    },
+    {
+      "id": "CPN-061",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "A surgical specimen is removed. Which chain of actions best supports safety?",
+      "options": [
+        "Verify identity, label, document and send to the right destination",
+        "Label it only after transport",
+        "Use the incision site instead of patient identifiers",
+        "Let it leave the room without a handoff"
+      ],
+      "answer": 0,
+      "explanation": "CNA identifies verification, labelling, documentation and delivery."
+    },
+    {
+      "id": "CPN-062",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "A specimen must remain fresh for a specific test. What should the nurse do?",
+      "options": [
+        "Confirm preservation instructions before placing it in fixative",
+        "Put every specimen in formalin",
+        "Freeze every specimen",
+        "Discard it after the count"
+      ],
+      "answer": 0,
+      "explanation": "Fresh versus fixed preservation is an explicit specimen competency."
+    },
+    {
+      "id": "CPN-063",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Which medication practice is part of the perioperative safety domain?",
+      "options": [
+        "Verify, label, administer and document medications appropriately",
+        "Leave unlabeled syringes on the field",
+        "Assume every clear solution is saline",
+        "Chart drugs before they are given"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint includes preparation, verification, labelling, delivery and documentation."
+    },
+    {
+      "id": "CPN-064",
+      "category": "Safety",
+      "source": "F",
+      "prompt": "Which three elements form the surgical fire triangle?",
+      "options": [
+        "Oxidizer, ignition source and fuel",
+        "Water, carbon dioxide and nitrogen",
+        "Sterile drape, glove and gown",
+        "Temperature, pressure and humidity"
+      ],
+      "answer": 0,
+      "explanation": "OR fire prevention manages all three parts of the fire triangle."
+    },
+    {
+      "id": "CPN-065",
+      "category": "Safety",
+      "source": "F",
+      "prompt": "Which item can be a fuel during an operating room fire?",
+      "options": [
+        "Alcohol-based prep",
+        "Pulse oximeter reading",
+        "Patient consent form in the chart",
+        "Room temperature display"
+      ],
+      "answer": 0,
+      "explanation": "Alcohol preparations and drapes are examples of fuel."
+    },
+    {
+      "id": "CPN-066",
+      "category": "Safety",
+      "source": "F",
+      "prompt": "Which item is a potential ignition source near oxygen-enriched drapes?",
+      "options": [
+        "Electrosurgical pencil",
+        "Saline bag",
+        "Nonpowered forceps",
+        "Paper checklist"
+      ],
+      "answer": 0,
+      "explanation": "Electrosurgery can ignite nearby fuel in an oxygen-enriched environment."
+    },
+    {
+      "id": "CPN-067",
+      "category": "Safety",
+      "source": "F",
+      "prompt": "During a high-risk head and neck case, what should the team discuss before incision?",
+      "options": [
+        "How to reduce the combined oxygen, ignition and fuel risk",
+        "Only the case's billing code",
+        "Only the expected discharge diet",
+        "Only the instrument tray count"
+      ],
+      "answer": 0,
+      "explanation": "A fire risk briefing coordinates control of the fire triangle."
+    },
+    {
+      "id": "CPN-068",
+      "category": "Infection prevention",
+      "source": "D",
+      "prompt": "A reusable surgical instrument enters sterile tissue. How is it classified?",
+      "options": [
+        "Critical",
+        "Semicritical",
+        "Noncritical",
+        "Environmental only"
+      ],
+      "answer": 0,
+      "explanation": "Critical items enter tissue or the vascular system and require sterilization."
+    },
+    {
+      "id": "CPN-069",
+      "category": "Infection prevention",
+      "source": "D",
+      "prompt": "A device contacts a mucous membrane but does not enter sterile tissue. What is the minimum broad processing category?",
+      "options": [
+        "High-level disinfection for a semicritical item",
+        "Low-level cleaning only",
+        "No processing if visibly clean",
+        "Sterilization of the room air only"
+      ],
+      "answer": 0,
+      "explanation": "Semicritical items require at least high-level disinfection, subject to device instructions."
+    },
+    {
+      "id": "CPN-070",
+      "category": "Infection prevention",
+      "source": "D",
+      "prompt": "A blood pressure cuff contacts intact skin. Which Spaulding class best fits?",
+      "options": [
+        "Noncritical",
+        "Critical",
+        "Implantable",
+        "Semicritical because it has a cuff"
+      ],
+      "answer": 0,
+      "explanation": "Noncritical items contact intact skin."
+    },
+    {
+      "id": "CPN-071",
+      "category": "Infection prevention",
+      "source": "D",
+      "prompt": "Which processing method is generally preferred for a heat-stable critical instrument?",
+      "options": [
+        "Steam sterilization according to the manufacturer's instructions",
+        "Wiping with alcohol only",
+        "Low-level disinfection",
+        "Rinsing in tap water"
+      ],
+      "answer": 0,
+      "explanation": "Critical devices require sterilization; steam is appropriate when compatible."
+    },
+    {
+      "id": "CPN-072",
+      "category": "Infection prevention",
+      "source": "D",
+      "prompt": "What must determine a device's sterilization cycle selection?",
+      "options": [
+        "Manufacturer instructions and validated process",
+        "The shortest cycle available",
+        "The oldest tray's label",
+        "The colour of the wrap"
+      ],
+      "answer": 0,
+      "explanation": "Cycle parameters and compatibility are device and process specific."
+    },
+    {
+      "id": "CPN-073",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "A sterile package is found wet after processing. What is the safe response?",
+      "options": [
+        "Treat it as compromised and arrange reprocessing",
+        "Place it directly on the field",
+        "Dry it with a towel and use it",
+        "Use it if the external tape changed colour"
+      ],
+      "answer": 0,
+      "explanation": "Package integrity and verified processing matter for an aseptic field."
+    },
+    {
+      "id": "CPN-074",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "A chemical indicator has not reached its expected endpoint. What should happen?",
+      "options": [
+        "Do not use the item; investigate processing",
+        "Use it because the wrapper is intact",
+        "Add a second indicator after opening",
+        "Soak it in antiseptic and proceed"
+      ],
+      "answer": 0,
+      "explanation": "CNA includes chemical quality controls; an unsatisfactory result cannot be ignored."
+    },
+    {
+      "id": "CPN-075",
+      "category": "Infection prevention",
+      "source": "D",
+      "prompt": "What does an external chemical process indicator chiefly show?",
+      "options": [
+        "Exposure to a process, not proof of sterility",
+        "That every organism was killed",
+        "That the inside of a complex tray is sterile",
+        "That cleaning was completed correctly"
+      ],
+      "answer": 0,
+      "explanation": "A colour change alone does not establish sterility."
+    },
+    {
+      "id": "CPN-076",
+      "category": "Infection prevention",
+      "source": "D",
+      "prompt": "Which monitoring combination is used to evaluate sterilization?",
+      "options": [
+        "Mechanical, chemical and biological indicators",
+        "Room lighting, noise and case time",
+        "Only visual inspection of the wrapper",
+        "Only an instrument count"
+      ],
+      "answer": 0,
+      "explanation": "CDC recommends routine mechanical, chemical and biological monitoring."
+    },
+    {
+      "id": "CPN-077",
+      "category": "Infection prevention",
+      "source": "D",
+      "prompt": "For a load with implantable devices, what extra monitoring and release practice is recommended when possible?",
+      "options": [
+        "Use a biological indicator and quarantine until negative",
+        "Release immediately after external tape changes",
+        "Skip monitoring if the case is urgent",
+        "Use a patient pulse oximeter as the indicator"
+      ],
+      "answer": 0,
+      "explanation": "CDC recommends a biological indicator for implant loads and quarantine when possible."
+    },
+    {
+      "id": "CPN-078",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "An instrument falls below the sterile field. What should the team do?",
+      "options": [
+        "Remove it from use and replace it with a verified sterile item",
+        "Return it to the tray if no one saw it",
+        "Rinse it with sterile saline and reuse it",
+        "Cover it with a drape"
+      ],
+      "answer": 0,
+      "explanation": "CNA requires recognizing and correcting breaks in asepsis."
+    },
+    {
+      "id": "CPN-079",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "A scrubbed team member's gown is visibly contaminated. What is the appropriate response?",
+      "options": [
+        "Correct the contamination, including regowning as needed",
+        "Proceed until the case ends",
+        "Spray the gown with alcohol",
+        "Avoid mentioning it to the team"
+      ],
+      "answer": 0,
+      "explanation": "Compromised surgical attire requires corrective action."
+    },
+    {
+      "id": "CPN-080",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "What practice maintains the sterile field during a procedure?",
+      "options": [
+        "Continuous observation and prompt correction of breaks",
+        "Checking it only before incision",
+        "Assuming every item placed on it is sterile",
+        "Delegating sterility to the patient"
+      ],
+      "answer": 0,
+      "explanation": "CNA describes continuous surveillance of the sterile field."
+    },
+    {
+      "id": "CPN-081",
+      "category": "Infection prevention",
+      "source": "H",
+      "prompt": "Before surgical hand antisepsis, what jewellery should be removed?",
+      "options": [
+        "Rings, watches and bracelets",
+        "Only necklaces",
+        "Only earrings",
+        "No jewellery needs removal"
+      ],
+      "answer": 0,
+      "explanation": "CDC's surgical hand antisepsis steps begin with removal of hand and wrist jewellery."
+    },
+    {
+      "id": "CPN-082",
+      "category": "Infection prevention",
+      "source": "H",
+      "prompt": "What should be done to subungual debris before the surgical hand scrub?",
+      "options": [
+        "Remove it with a nail cleaner under running water",
+        "Cover it with sterile gloves",
+        "Ignore it if the nails are short",
+        "Use alcohol only on the glove exterior"
+      ],
+      "answer": 0,
+      "explanation": "CDC identifies cleaning under the nails before antisepsis."
+    },
+    {
+      "id": "CPN-083",
+      "category": "Infection prevention",
+      "source": "H",
+      "prompt": "With antimicrobial soap, whose scrub duration should be followed?",
+      "options": [
+        "The product manufacturer's instructions",
+        "A fixed ten minutes for every product",
+        "Whatever the previous person used",
+        "No timing guidance"
+      ],
+      "answer": 0,
+      "explanation": "CDC says follow the manufacturer, often 2 to 6 minutes."
+    },
+    {
+      "id": "CPN-084",
+      "category": "Infection prevention",
+      "source": "H",
+      "prompt": "When using an alcohol-based surgical hand rub with persistent activity, when are sterile gloves donned?",
+      "options": [
+        "After the hands and forearms are fully dry",
+        "While the product is still wet",
+        "Before the product is applied",
+        "Immediately after rinsing with tap water"
+      ],
+      "answer": 0,
+      "explanation": "CDC advises allowing the product to dry before sterile gloves."
+    },
+    {
+      "id": "CPN-085",
+      "category": "Infection prevention",
+      "source": "H",
+      "prompt": "Why is surgical hand antisepsis performed despite use of sterile gloves?",
+      "options": [
+        "Gloves may tear or puncture during surgery",
+        "Gloves contain no barrier material",
+        "It replaces instrument sterilization",
+        "It makes sterile gowns unnecessary"
+      ],
+      "answer": 0,
+      "explanation": "Reducing hand flora limits contamination if a glove is compromised."
+    },
+    {
+      "id": "CPN-086",
+      "category": "Infection prevention",
+      "source": "H",
+      "prompt": "When moving from a soiled site to a clean site on the same patient, what should happen?",
+      "options": [
+        "Change gloves and perform hand hygiene as indicated",
+        "Keep the same gloves to save time",
+        "Wipe gloves on the drape",
+        "Use a second pair over the soiled gloves"
+      ],
+      "answer": 0,
+      "explanation": "CDC lists site transition as an indication to change gloves and clean hands."
+    },
+    {
+      "id": "CPN-087",
+      "category": "Infection prevention",
+      "source": "I",
+      "prompt": "If hair removal is needed at an incision site, what method is preferred?",
+      "options": [
+        "Clip rather than shave",
+        "Dry shave with a blade",
+        "Depilate every patient routinely",
+        "Remove hair a week in advance with a razor"
+      ],
+      "answer": 0,
+      "explanation": "WHO recommends avoiding hair removal or clipping when necessary."
+    },
+    {
+      "id": "CPN-088",
+      "category": "Infection prevention",
+      "source": "I",
+      "prompt": "Why can razor shaving increase surgical site infection risk?",
+      "options": [
+        "It causes microscopic skin injury",
+        "It sterilizes the site too early",
+        "It prevents antiseptic from drying",
+        "It changes the wound classification"
+      ],
+      "answer": 0,
+      "explanation": "Microscopic cuts from shaving can promote infection."
+    },
+    {
+      "id": "CPN-089",
+      "category": "Infection prevention",
+      "source": "I",
+      "prompt": "What is the broad reason for maintaining normothermia during surgery?",
+      "options": [
+        "Reduced hypothermia supports tissue perfusion and healing",
+        "It replaces antibiotic prophylaxis",
+        "It guarantees no infection",
+        "It removes the need for skin prep"
+      ],
+      "answer": 0,
+      "explanation": "WHO describes hypothermia reducing blood flow and slowing healing."
+    },
+    {
+      "id": "CPN-090",
+      "category": "Infection prevention",
+      "source": "I",
+      "prompt": "For prophylaxis alone, what is the WHO position on extending antibiotics after surgery?",
+      "options": [
+        "Routine postoperative continuation does not prevent SSI and may promote resistance",
+        "Continue indefinitely for every operation",
+        "Start only after closure",
+        "Use antibiotics instead of asepsis"
+      ],
+      "answer": 0,
+      "explanation": "WHO distinguishes prophylaxis before/during surgery from treatment of established infection."
+    },
+    {
+      "id": "CPN-091",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "A patient has an airborne infection concern. What should planning include?",
+      "options": [
+        "Additional airborne precautions and suitable traffic/environment measures",
+        "Routine practices alone without assessment",
+        "Leaving OR doors open",
+        "Removing all masks after induction"
+      ],
+      "answer": 0,
+      "explanation": "The CNA blueprint includes routine practices plus airborne precautions."
+    },
+    {
+      "id": "CPN-092",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "Which transmission category is listed for influenza in the CNA blueprint?",
+      "options": [
+        "Droplet",
+        "Prion",
+        "Radiation",
+        "Chemical"
+      ],
+      "answer": 0,
+      "explanation": "Influenza appears as a droplet precaution example."
+    },
+    {
+      "id": "CPN-093",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "Which transmission category is listed for multidrug-resistant organisms in the blueprint?",
+      "options": [
+        "Contact",
+        "Radiation",
+        "Laser",
+        "Thermal"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint gives MDROs as a contact precaution example."
+    },
+    {
+      "id": "CPN-094",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "Renovation near operating rooms may heighten which infection concern?",
+      "options": [
+        "Dust and environmental fungal exposure",
+        "Only loud music",
+        "Only carbon dioxide exposure",
+        "Only patient hypoglycemia"
+      ],
+      "answer": 0,
+      "explanation": "CNA identifies construction dust and Aspergillus as concerns."
+    },
+    {
+      "id": "CPN-095",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "Which set of measures is explicitly named for SSI reduction?",
+      "options": [
+        "Clipping, normothermia, glycemic control and antibiotic prophylaxis",
+        "Razor shaving, hypothermia and prolonged prophylaxis",
+        "Only a sterile drape",
+        "Only wound irrigation after closure"
+      ],
+      "answer": 0,
+      "explanation": "These measures appear in CNA's SSI prevention competency."
+    },
+    {
+      "id": "CPN-096",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "How should a contaminated instrument be sent to reprocessing?",
+      "options": [
+        "With safe containment and transport per procedure",
+        "Uncovered on a clean supply cart",
+        "In a sterile tray for immediate reuse",
+        "Handed directly to the next scrub person"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint includes safe handling and transportation of contaminated instruments."
+    },
+    {
+      "id": "CPN-097",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "When should immediate-use steam sterilization be considered?",
+      "options": [
+        "An emergent need under a validated, documented process",
+        "As the routine way to make up for insufficient inventory",
+        "Whenever the room is behind schedule",
+        "As a substitute for cleaning"
+      ],
+      "answer": 0,
+      "explanation": "CNA limits IUSS to appropriate emergent conditions and process controls."
+    },
+    {
+      "id": "CPN-098",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "What should be reviewed when a sterilizer quality-control result is abnormal?",
+      "options": [
+        "Process parameters, indicators and affected load disposition",
+        "Only the OR schedule",
+        "Only the colour of scrub clothing",
+        "Only the previous patient's diagnosis"
+      ],
+      "answer": 0,
+      "explanation": "Quality controls are part of establishing the aseptic environment."
+    },
+    {
+      "id": "CPN-099",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "Which environmental factors can affect sterility in the OR?",
+      "options": [
+        "Temperature, humidity and air exchange",
+        "Only window tint",
+        "Only parking capacity",
+        "Only the surgeon's preference card"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint names these environmental factors."
+    },
+    {
+      "id": "CPN-100",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "What should a team do if a sterile item touches a nonsterile surface during setup?",
+      "options": [
+        "Remove or replace the contaminated item",
+        "Continue if contact was brief",
+        "Cover the contact point with tape",
+        "Use it after rubbing with dry gauze"
+      ],
+      "answer": 0,
+      "explanation": "CNA requires corrective action after an aseptic break."
+    },
+    {
+      "id": "CPN-101",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "Why verify the procedure's wound classification?",
+      "options": [
+        "It supports accurate documentation and infection prevention surveillance",
+        "It replaces postoperative assessment",
+        "It determines the patient's identity",
+        "It authorizes a visitor"
+      ],
+      "answer": 0,
+      "explanation": "CNA includes assessment and verification of wound classification."
+    },
+    {
+      "id": "CPN-102",
+      "category": "Infection prevention",
+      "source": "H",
+      "prompt": "A glove tears during an invasive procedure. What should be done?",
+      "options": [
+        "Replace it promptly and perform hand hygiene as indicated",
+        "Continue if no bleeding is visible",
+        "Cover the tear with tape",
+        "Rinse the glove and continue"
+      ],
+      "answer": 0,
+      "explanation": "Damaged gloves should be changed to restore barrier protection."
+    },
+    {
+      "id": "CPN-103",
+      "category": "Infection prevention",
+      "source": "I",
+      "prompt": "What is the purpose of preoperative bathing or showering in WHO SSI guidance?",
+      "options": [
+        "Reduce microbial burden before surgery",
+        "Replace intraoperative skin antisepsis",
+        "Guarantee sterility of the skin",
+        "Remove the need for gloves"
+      ],
+      "answer": 0,
+      "explanation": "WHO includes patient bathing among SSI prevention measures."
+    },
+    {
+      "id": "CPN-104",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "Which patient identifiers should be checked preoperatively?",
+      "options": [
+        "Two unique identifiers",
+        "Only the bed number",
+        "Only the procedure time",
+        "Only the surgeon's name"
+      ],
+      "answer": 0,
+      "explanation": "CNA lists two unique patient identifiers in preoperative assessment."
+    },
+    {
+      "id": "CPN-105",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "A patient reports a new medication allergy in the holding area. What should happen?",
+      "options": [
+        "Communicate it and update the plan before exposure",
+        "Wait for recovery to document it",
+        "Assume the chart is more reliable",
+        "Tell only the porter"
+      ],
+      "answer": 0,
+      "explanation": "Allergies and abnormal findings must inform the team before anesthesia and surgery."
+    },
+    {
+      "id": "CPN-106",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "The consent form names a different side from the schedule. What is the safest next step?",
+      "options": [
+        "Stop progression and resolve the discrepancy with the team and patient as appropriate",
+        "Choose the side on the schedule",
+        "Ask the scrub nurse to guess",
+        "Proceed and correct the chart later"
+      ],
+      "answer": 0,
+      "explanation": "Consent and surgical site verification are preoperative checks."
+    },
+    {
+      "id": "CPN-107",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "Which item belongs in a preoperative assessment?",
+      "options": [
+        "Fasting status",
+        "The next case's implant choice",
+        "The visitor parking receipt",
+        "The room's paint colour"
+      ],
+      "answer": 0,
+      "explanation": "Fasting is one of CNA's preoperative verification elements."
+    },
+    {
+      "id": "CPN-108",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "A patient has an implantable cardioverter-defibrillator. What should the nurse do?",
+      "options": [
+        "Communicate its presence for anesthesia and energy-device planning",
+        "Ignore it because it is internal",
+        "Remove it in the holding area",
+        "Assume it is compatible with all electrosurgery"
+      ],
+      "answer": 0,
+      "explanation": "Implantable electronic devices are part of preoperative review."
+    },
+    {
+      "id": "CPN-109",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "A patient reports herbal supplement use. Why is it relevant?",
+      "options": [
+        "It may affect the perioperative plan and should be communicated",
+        "It never matters if prescribed drugs are listed",
+        "It replaces the allergy review",
+        "It determines wound classification alone"
+      ],
+      "answer": 0,
+      "explanation": "CNA includes medications and herbal supplements in physiologic assessment."
+    },
+    {
+      "id": "CPN-110",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "Which preoperative issue can affect airway management?",
+      "options": [
+        "Dental work or prostheses",
+        "Room inventory count",
+        "Specimen destination",
+        "The colour of the positioning pad"
+      ],
+      "answer": 0,
+      "explanation": "Dental work and prostheses are specifically assessed before anesthesia."
+    },
+    {
+      "id": "CPN-111",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "A patient has limited neck movement. What should be communicated?",
+      "options": [
+        "Anatomical limitation relevant to positioning and airway planning",
+        "Only the patient's preference for music",
+        "Only the surgeon's start time",
+        "Only the next case's schedule"
+      ],
+      "answer": 0,
+      "explanation": "Anatomical limitations inform the individualized plan."
+    },
+    {
+      "id": "CPN-112",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "A patient is anxious before induction. What environmental action supports anesthesia care?",
+      "options": [
+        "Reduce avoidable background noise",
+        "Increase music volume without asking",
+        "Discuss unrelated cases nearby",
+        "Delay all explanation until recovery"
+      ],
+      "answer": 0,
+      "explanation": "CNA lists a supportive, quieter environment during general anesthesia."
+    },
+    {
+      "id": "CPN-113",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "What does pulse oximetry measure noninvasively?",
+      "options": [
+        "Peripheral oxygen saturation",
+        "Direct arterial carbon dioxide tension",
+        "Blood glucose",
+        "Intracranial pressure"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint includes pulse oximetry among monitoring devices."
+    },
+    {
+      "id": "CPN-114",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "Which monitoring method directly displays cardiac electrical activity?",
+      "options": [
+        "ECG",
+        "Pulse oximetry",
+        "Urine output",
+        "Surgical count sheet"
+      ],
+      "answer": 0,
+      "explanation": "ECG is a noninvasive monitoring example in the blueprint."
+    },
+    {
+      "id": "CPN-115",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "When an abnormal intraoperative monitor finding appears, what should the nurse do?",
+      "options": [
+        "Communicate promptly with anesthesia and the team while responding within role",
+        "Silence the alarm and continue setup",
+        "Wait until Sign Out",
+        "Document without telling anyone"
+      ],
+      "answer": 0,
+      "explanation": "The nurse maintains awareness of monitoring and communicates findings."
+    },
+    {
+      "id": "CPN-116",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "A planned regional anesthetic changes to general anesthesia. What is the nursing response?",
+      "options": [
+        "Adapt the plan and prepare equipment and support for the new approach",
+        "Continue the original plan unchanged",
+        "Cancel all monitoring",
+        "Leave the room until induction ends"
+      ],
+      "answer": 0,
+      "explanation": "CNA calls for understanding anesthesia plans and adapting care."
+    },
+    {
+      "id": "CPN-117",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "Which patient group requires anesthesia considerations specifically named in the blueprint?",
+      "options": [
+        "Bariatric patient",
+        "Only adult patients with no comorbidities",
+        "Only patients having local anesthesia",
+        "Only patients in outpatient rooms"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint names pediatric, bariatric, geriatric and obstetric considerations."
+    },
+    {
+      "id": "CPN-118",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "What should be assessed intraoperatively as the case progresses?",
+      "options": [
+        "Blood loss, temperature, skin and intake/output as relevant",
+        "Only the start time",
+        "Only the surgeon's glove size",
+        "Only the specimen container brand"
+      ],
+      "answer": 0,
+      "explanation": "CNA lists ongoing physiological and skin assessment."
+    },
+    {
+      "id": "CPN-119",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "The patient develops unexpected bronchospasm during anesthesia. What should the circulating nurse do?",
+      "options": [
+        "Communicate and support the anesthesia team's urgent response",
+        "Wait for the final count before responding",
+        "Move the patient without coordination",
+        "Ignore it because only anesthesia monitors breathing"
+      ],
+      "answer": 0,
+      "explanation": "Bronchospasm is a named anesthesia complication requiring team response."
+    },
+    {
+      "id": "CPN-120",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "What is the safest priority when signs of anaphylaxis appear intraoperatively?",
+      "options": [
+        "Alert the team and support immediate emergency treatment",
+        "Finish the instrument count first",
+        "Give an unverified medication independently",
+        "Wait until the patient reaches recovery"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint lists anaphylaxis as an urgent event requiring response."
+    },
+    {
+      "id": "CPN-121",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "A minimally invasive procedure converts to open. What should be updated?",
+      "options": [
+        "The nursing plan, supplies, counts and documentation as applicable",
+        "Only the schedule board",
+        "Only the room lighting",
+        "Nothing until the patient leaves"
+      ],
+      "answer": 0,
+      "explanation": "The care plan must adapt to a changed procedure."
+    },
+    {
+      "id": "CPN-122",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "Which assessment belongs at the end of a case before transfer?",
+      "options": [
+        "Skin condition, temperature and pain status as applicable",
+        "Only operating room turnover time",
+        "Only vendor attendance",
+        "Only the surgeon's next case"
+      ],
+      "answer": 0,
+      "explanation": "CNA names postoperative physiological, skin, thermal and pain assessment."
+    },
+    {
+      "id": "CPN-123",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "A patient has a possible need for blood products. When should this be identified?",
+      "options": [
+        "During preoperative planning and verification",
+        "Only after postoperative discharge",
+        "Only when a product arrives unrequested",
+        "Only during instrument cleaning"
+      ],
+      "answer": 0,
+      "explanation": "Blood and blood-product needs appear in preoperative assessment."
+    },
+    {
+      "id": "CPN-124",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "Which event is explicitly named among intraoperative urgent responses?",
+      "options": [
+        "Hemorrhage from a lacerated artery",
+        "A routine instrument request",
+        "A planned dressing change",
+        "A scheduled lunch break"
+      ],
+      "answer": 0,
+      "explanation": "CNA lists hemorrhage among urgent or emergent events."
+    },
+    {
+      "id": "CPN-125",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "A sudden major hemorrhage occurs. What is the circulating nurse's priority?",
+      "options": [
+        "Mobilize requested resources and communicate rapidly with the team",
+        "Continue routine room turnover",
+        "Leave to complete a nonurgent form",
+        "Assume the surgeon needs no help"
+      ],
+      "answer": 0,
+      "explanation": "Urgent hemorrhage requires coordinated response and resources."
+    },
+    {
+      "id": "CPN-126",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "Which embolic event type is listed in the blueprint?",
+      "options": [
+        "Air embolus",
+        "Only gastric reflux",
+        "Only wound dehiscence",
+        "Only hypothermia"
+      ],
+      "answer": 0,
+      "explanation": "CNA lists air, blood and fat embolic events."
+    },
+    {
+      "id": "CPN-127",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "A possible local anesthetic toxicity event is recognized. What should happen?",
+      "options": [
+        "Alert anesthesia and activate the emergency response and supplies",
+        "Wait to see whether the symptoms disappear",
+        "Give more local anesthetic",
+        "Document only at case completion"
+      ],
+      "answer": 0,
+      "explanation": "Toxicity is a named urgent event requiring adaptation and communication."
+    },
+    {
+      "id": "CPN-128",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "A seizure occurs intraoperatively. What is the nurse's best role?",
+      "options": [
+        "Communicate, support patient safety and obtain emergency supplies",
+        "Restrain the patient alone without coordination",
+        "Turn off all monitoring",
+        "Continue elective setup without informing the team"
+      ],
+      "answer": 0,
+      "explanation": "CNA includes seizure among urgent events to recognize and respond to."
+    },
+    {
+      "id": "CPN-129",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "Which shock type is explicitly included in the blueprint?",
+      "options": [
+        "Hypovolemic shock",
+        "Only electrical shock from equipment",
+        "Only vasovagal syncope",
+        "Only cardiogenic shock"
+      ],
+      "answer": 0,
+      "explanation": "CNA lists hypovolemic and septic shock as examples."
+    },
+    {
+      "id": "CPN-130",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "A patient's airway becomes compromised during surgery. What should the circulating nurse anticipate?",
+      "options": [
+        "Immediate coordinated airway support and requested emergency equipment",
+        "Only a postoperative note",
+        "A routine instrument count",
+        "Delaying action until the surgeon completes suturing"
+      ],
+      "answer": 0,
+      "explanation": "Compromised airway is an urgent event in the blueprint."
+    },
+    {
+      "id": "CPN-131",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "Why should a circulating nurse know where emergency tracheostomy supplies are?",
+      "options": [
+        "A compromised airway may require rapid access",
+        "It replaces routine anesthesia equipment checks",
+        "It is needed for every operation",
+        "It determines the wound classification"
+      ],
+      "answer": 0,
+      "explanation": "CNA cites emergency tracheostomy as an airway response example."
+    },
+    {
+      "id": "CPN-132",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "After a significant event, which action completes the nursing response?",
+      "options": [
+        "Document the event and resulting changes in care",
+        "Delete monitor records",
+        "Avoid reporting because the patient stabilized",
+        "Wait for a family member to chart"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint includes implementation and documentation after urgent events."
+    },
+    {
+      "id": "CPN-133",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "A patient with suspected latex allergy develops a rapid reaction after exposure. What should be communicated immediately?",
+      "options": [
+        "The suspected exposure and clinical change to anesthesia and the team",
+        "Only the planned discharge time",
+        "Only the count status",
+        "Only the room's humidity"
+      ],
+      "answer": 0,
+      "explanation": "Allergy hazards and anaphylaxis require prompt team communication."
+    },
+    {
+      "id": "CPN-134",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "A bariatric patient has an emergency conversion from laparoscopy to open surgery. Which preparation is most useful?",
+      "options": [
+        "Anticipate appropriate positioning, transfer support and open instruments",
+        "Assume standard equipment always fits",
+        "Cancel all risk assessment",
+        "Use the prior case's supplies without checking"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint includes bariatric considerations and conversion to open."
+    },
+    {
+      "id": "CPN-135",
+      "category": "Exceptional clinical events",
+      "source": "F",
+      "prompt": "An ignition source is about to be used near an oxygen-enriched field. What is the best preventive action?",
+      "options": [
+        "Pause and coordinate control of oxidizer, fuel and ignition",
+        "Increase oxygen flow as high as possible",
+        "Add more dry gauze around the site",
+        "Ignore the risk after skin prep dries"
+      ],
+      "answer": 0,
+      "explanation": "Fire prevention depends on managing the triangle together."
+    },
+    {
+      "id": "CPN-136",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "A patient shows sudden deterioration after a regional block. What should the perioperative nurse do?",
+      "options": [
+        "Communicate the change and support immediate assessment and treatment",
+        "Assume it is expected in all regional anesthesia",
+        "Delay until documentation is complete",
+        "Transfer without telling anesthesia"
+      ],
+      "answer": 0,
+      "explanation": "Anesthesia complications require ongoing monitoring and rapid communication."
+    },
+    {
+      "id": "CPN-137",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "Which set best describes the nurse's response to unexpected intraoperative change?",
+      "options": [
+        "Assess, communicate, implement changes and document",
+        "Observe, remain silent and chart after discharge",
+        "Wait for a routine timeout",
+        "Transfer responsibility to a vendor"
+      ],
+      "answer": 0,
+      "explanation": "This follows CNA's intraoperative adaptation competency."
+    },
+    {
+      "id": "CPN-138",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "A needed sterile instrument is unavailable at setup. What is the best response?",
+      "options": [
+        "Identify a verified alternative and coordinate with the team before use",
+        "Use an unprocessed instrument",
+        "Skip the safety check",
+        "Hide the shortage until incision"
+      ],
+      "answer": 0,
+      "explanation": "Resource management must preserve safety and communication."
+    },
+    {
+      "id": "CPN-139",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "A case requires unfamiliar equipment. What should be arranged before use?",
+      "options": [
+        "Training, appropriate personnel and functional checks",
+        "Only a faster turnover target",
+        "A vendor operating outside authorized role",
+        "No documentation"
+      ],
+      "answer": 0,
+      "explanation": "CNA includes safe equipment use, teaching and managing resources."
+    },
+    {
+      "id": "CPN-140",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "Which resource issue affects patient safety during transfer?",
+      "options": [
+        "Adequate staff and appropriate transfer devices",
+        "Only the transporter's arrival time",
+        "Only the bed's colour",
+        "Only the length of the corridor"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint includes safe transfers and appropriate devices."
+    },
+    {
+      "id": "CPN-141",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "A planned implant is not in stock. What should the nurse do?",
+      "options": [
+        "Communicate the shortage early and verify an approved plan",
+        "Open a different implant without checking",
+        "Conceal the issue until the incision",
+        "Use an expired item"
+      ],
+      "answer": 0,
+      "explanation": "Anticipation and team communication are core resource practices."
+    },
+    {
+      "id": "CPN-142",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "A new sterile package has damaged wrapping. What is the resource decision?",
+      "options": [
+        "Obtain a package with intact, verified sterility",
+        "Tape the damage and open it",
+        "Use the contents if needed urgently",
+        "Place it near a warmer to repair it"
+      ],
+      "answer": 0,
+      "explanation": "A compromised barrier cannot be assumed sterile."
+    },
+    {
+      "id": "CPN-143",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "The OR is short of a necessary item for the next case. What is the best operational action?",
+      "options": [
+        "Escalate and plan supply before the patient is committed to the procedure",
+        "Start the case and hope it arrives",
+        "Borrow an unverified used item",
+        "Alter the documentation to show availability"
+      ],
+      "answer": 0,
+      "explanation": "Anticipating needs and resolving shortages preserves safe care."
+    },
+    {
+      "id": "CPN-144",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "Which consideration matters when selecting an instrument reprocessing method?",
+      "options": [
+        "Device compatibility and validated manufacturer instructions",
+        "The fastest cycle regardless of device",
+        "Only the case start time",
+        "Only the package colour"
+      ],
+      "answer": 0,
+      "explanation": "Resource decisions must fit safe processing and device instructions."
+    },
+    {
+      "id": "CPN-145",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "A patient needs a specialized transfer surface after surgery. When should it be arranged?",
+      "options": [
+        "Before transfer, based on the individualized plan",
+        "After the patient has been moved unsafely",
+        "Only if transport requests it",
+        "At the next day's quality meeting"
+      ],
+      "answer": 0,
+      "explanation": "Safe transfer is a planned resource need."
+    },
+    {
+      "id": "CPN-146",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "Why track equipment problems at Sign Out?",
+      "options": [
+        "So they can be addressed before future use and in follow-up",
+        "To avoid documentation",
+        "To assign blame automatically",
+        "To replace counts"
+      ],
+      "answer": 0,
+      "explanation": "WHO asks about equipment issues; CNA includes safe use and resource management."
+    },
+    {
+      "id": "CPN-147",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "What should be done when a procedure's complexity increases unexpectedly?",
+      "options": [
+        "Reassess staffing, equipment and supplies with the team",
+        "Proceed with the original resource plan regardless",
+        "Stop all communication",
+        "Open every available tray"
+      ],
+      "answer": 0,
+      "explanation": "Resource management adapts to patient and procedural need."
+    },
+    {
+      "id": "CPN-148",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "A patient develops signs concerning for malignant hyperthermia. What is the team response?",
+      "options": [
+        "Activate the malignant hyperthermia protocol immediately",
+        "Wait for a temperature above 42°C before alerting anyone",
+        "Finish the operation before treatment",
+        "Treat it as an isolated sterile-field problem"
+      ],
+      "answer": 0,
+      "explanation": "CNA specifically names recognition and protocol-based response to malignant hyperthermia."
+    },
+    {
+      "id": "CPN-149",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "An intraoperative dysrhythmia progresses to cardiac arrest. Which established process should guide the response?",
+      "options": [
+        "The cardiac arrest or Code Blue protocol",
+        "The instrument preference card",
+        "Only the postoperative discharge checklist",
+        "The next room's schedule"
+      ],
+      "answer": 0,
+      "explanation": "CNA identifies cardiac events and the cardiac arrest protocol."
+    },
+    {
+      "id": "CPN-150",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "A patient has suspected disseminated intravascular coagulation. What is the safest nursing response?",
+      "options": [
+        "Alert the team and support the applicable therapeutic protocol",
+        "Ignore coagulation findings until discharge",
+        "Give an unverified blood product independently",
+        "Assume all surgical bleeding is expected"
+      ],
+      "answer": 0,
+      "explanation": "DIC is named as an exceptional event requiring protocol-based management."
+    },
+    {
+      "id": "CPN-151",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "Following an unexpected intraoperative death, what should guide the nurse's actions?",
+      "options": [
+        "Hospital policy and required communication and documentation",
+        "Discard all records to protect privacy",
+        "Use the next case's process",
+        "Let a visitor direct disposition"
+      ],
+      "answer": 0,
+      "explanation": "CNA includes expected or unexpected intraoperative death and hospital policy."
+    },
+    {
+      "id": "CPN-152",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "A specimen may be medicolegal evidence. What is the priority?",
+      "options": [
+        "Follow evidence collection, preservation and chain-of-custody guidance",
+        "Handle it as routine waste",
+        "Let an unverified visitor transport it",
+        "Alter its label after it leaves the room"
+      ],
+      "answer": 0,
+      "explanation": "The exceptional-events competency includes gathering and preserving evidence."
+    },
+    {
+      "id": "CPN-153",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "Which activity has additional regulatory and standards requirements in CNA's exceptional-events domain?",
+      "options": [
+        "Organ and tissue procurement and transplantation",
+        "Routine linen replacement",
+        "Ordinary room turnover",
+        "Daily scrub assignment"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint identifies transplantation under relevant Canadian regulations and standards."
+    },
+    {
+      "id": "CPN-154",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "A request for organ procurement is received. What should be checked before proceeding?",
+      "options": [
+        "The authorized pathway and applicable procurement and transplantation procedures",
+        "Only the next scheduled case",
+        "Only the surgical count sheet",
+        "Only a vendor's preference"
+      ],
+      "answer": 0,
+      "explanation": "CNA calls for compliance with applicable procurement and transplantation requirements."
+    },
+    {
+      "id": "CPN-155",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "Why should a suspected malignant hyperthermia response be rehearsed by the OR team?",
+      "options": [
+        "Rapid coordinated action depends on knowing the protocol and resources",
+        "Only the surgeon needs to know the protocol",
+        "The event can be resolved by documentation alone",
+        "It makes anesthesia monitoring unnecessary"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint expects recognition and response under the MH protocol."
+    },
+    {
+      "id": "CPN-156",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "Two urgent cases need the same image intensifier. What should the charge nurse do?",
+      "options": [
+        "Resolve competing priorities through team communication and clinical urgency",
+        "Allocate it to whoever asks loudest",
+        "Hide its location from one team",
+        "Assume both rooms can use it simultaneously"
+      ],
+      "answer": 0,
+      "explanation": "CNA names competing equipment priorities as a resource conflict."
+    },
+    {
+      "id": "CPN-157",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "Which set is explicitly within resource planning?",
+      "options": [
+        "Staffing, equipment, implants, rooms, time and supplies",
+        "Only surgeon preference",
+        "Only patient meals",
+        "Only vehicle parking"
+      ],
+      "answer": 0,
+      "explanation": "The CNA resource domain lists these planning elements."
+    },
+    {
+      "id": "CPN-158",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "Which practice aligns with the resource sustainability competency?",
+      "options": [
+        "Reduce unnecessary waste and reuse or recycle where safe and allowed",
+        "Reuse single-use items without approval",
+        "Skip sterile processing to save energy",
+        "Open every tray before determining need"
+      ],
+      "answer": 0,
+      "explanation": "CNA includes reduce, reuse and recycle while patient safety remains essential."
+    },
+    {
+      "id": "CPN-159",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "A new device is offered for trial. What is a sound nursing contribution?",
+      "options": [
+        "Participate in structured evaluation of safety, usability and outcomes",
+        "Accept marketing claims as the only evidence",
+        "Use it before training",
+        "Avoid reporting problems during the trial"
+      ],
+      "answer": 0,
+      "explanation": "CNA includes product and equipment trial evaluation."
+    },
+    {
+      "id": "CPN-160",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "A recurring delay is traced to missing instruments. What is the improvement response?",
+      "options": [
+        "Identify the process cause and recommend a measurable change",
+        "Blame one staff member without review",
+        "Order every tray for every case",
+        "Stop documenting delays"
+      ],
+      "answer": 0,
+      "explanation": "CNA includes recognizing inefficiency and continuous quality improvement."
+    },
+    {
+      "id": "CASE-001",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "The initial sponge count is correct. A cavity is being closed, but the closing count is short one sponge. What is the first safety response?",
+      "options": [
+        "Pause closure, recount and notify the surgeon",
+        "Record the expected number as correct",
+        "Search only after skin closure",
+        "Skip documentation because the initial count was correct"
+      ],
+      "answer": 0,
+      "explanation": "CNA's discrepancy process includes recount and surgeon notification.",
+      "case": "C1"
+    },
+    {
+      "id": "CASE-002",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "The team cannot resolve the sponge discrepancy after recount. Which next action fits the blueprint?",
+      "options": [
+        "Follow the imaging and documentation pathway",
+        "Accept the initial count as final",
+        "Ask the patient after recovery",
+        "Replace the missing sponge with another counted sponge"
+      ],
+      "answer": 0,
+      "explanation": "Imaging and documentation are part of discrepancy resolution.",
+      "case": "C1"
+    },
+    {
+      "id": "CASE-003",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "The count discrepancy is resolved, but the event affected care. How should it appear in the record?",
+      "options": [
+        "Accurately and contemporaneously according to policy",
+        "Not at all because it was resolved",
+        "Only in a personal notebook",
+        "As a normal count without context"
+      ],
+      "answer": 0,
+      "explanation": "Count events and actions belong in accurate documentation.",
+      "case": "C1"
+    },
+    {
+      "id": "CASE-004",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "At Sign Out, which statement should be verbally confirmed?",
+      "options": [
+        "Instrument, sponge and needle count completion",
+        "Only the patient's discharge address",
+        "Only the time of the next operation",
+        "Only the final dressing brand"
+      ],
+      "answer": 0,
+      "explanation": "The WHO Sign Out requires count confirmation.",
+      "case": "C1"
+    },
+    {
+      "id": "CASE-005",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "In holding, the nurse finds that the patient's consent specifies left knee but the list says right knee. What is the priority?",
+      "options": [
+        "Stop progression and reconcile site and consent",
+        "Follow the schedule because it was printed last",
+        "Ask the device representative to choose",
+        "Mark both knees and proceed"
+      ],
+      "answer": 0,
+      "explanation": "Preoperative verification includes consent and surgical site.",
+      "case": "C2"
+    },
+    {
+      "id": "CASE-006",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "Before anesthesia induction, which WHO Sign In confirmation involves the patient?",
+      "options": [
+        "Identity, site, procedure and consent",
+        "Completion of the closing count",
+        "Specimen label readback",
+        "Postoperative equipment problems"
+      ],
+      "answer": 0,
+      "explanation": "These patient confirmations are in Sign In.",
+      "case": "C2"
+    },
+    {
+      "id": "CASE-007",
+      "category": "Safety",
+      "source": "W",
+      "prompt": "After the discrepancy is resolved, what should the team verbally reconfirm just before incision?",
+      "options": [
+        "Patient name, procedure and incision site",
+        "Only the room number",
+        "Only the surgeon's initials",
+        "Only the patient transport route"
+      ],
+      "answer": 0,
+      "explanation": "The WHO Time Out repeats the critical patient and site confirmation.",
+      "case": "C2"
+    },
+    {
+      "id": "CASE-008",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "If the discrepancy revealed a system error that nearly led to wrong-site surgery, what should occur?",
+      "options": [
+        "Report and review it through the appropriate process",
+        "Delete the erroneous schedule with no report",
+        "Discuss it only outside the hospital",
+        "Wait until the next credential renewal"
+      ],
+      "answer": 0,
+      "explanation": "CNA names reporting situations requiring disclosure and quality improvement.",
+      "case": "C2"
+    },
+    {
+      "id": "CASE-009",
+      "category": "Infection prevention",
+      "source": "B",
+      "prompt": "A wrapped instrument set arrives with a torn barrier. What should the scrub team do?",
+      "options": [
+        "Reject it and obtain verified sterile instruments",
+        "Open it because the tray looks clean",
+        "Place a sterile towel over the tear",
+        "Rinse the instruments with saline"
+      ],
+      "answer": 0,
+      "explanation": "A compromised package cannot support an aseptic field.",
+      "case": "C3"
+    },
+    {
+      "id": "CASE-010",
+      "category": "Infection prevention",
+      "source": "D",
+      "prompt": "A replacement critical instrument is heat stable. Which processing category is required?",
+      "options": [
+        "Sterilization, with steam when compatible and validated",
+        "Low-level surface disinfection",
+        "Only a water rinse",
+        "No processing if it is new"
+      ],
+      "answer": 0,
+      "explanation": "Critical instruments entering sterile tissue require sterilization.",
+      "case": "C3"
+    },
+    {
+      "id": "CASE-011",
+      "category": "Infection prevention",
+      "source": "D",
+      "prompt": "The internal chemical indicator suggests inadequate processing. What is the correct disposition?",
+      "options": [
+        "Do not use the set; investigate and reprocess appropriately",
+        "Use it because the external tape changed",
+        "Repeat the colour check after the incision",
+        "Place the indicator beside the patient"
+      ],
+      "answer": 0,
+      "explanation": "An unsatisfactory internal indicator means the set should not be used.",
+      "case": "C3"
+    },
+    {
+      "id": "CASE-012",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "The missing sterile set threatens case readiness. What should be coordinated?",
+      "options": [
+        "A safe alternative, timing and team communication",
+        "Use the failed set without informing anyone",
+        "Move the patient before the equipment plan is resolved",
+        "Change the implant plan alone"
+      ],
+      "answer": 0,
+      "explanation": "Resource planning must preserve the verified sterile supply.",
+      "case": "C3"
+    },
+    {
+      "id": "CASE-013",
+      "category": "Safety",
+      "source": "F",
+      "prompt": "A head and neck case uses supplemental oxygen, alcohol prep and electrosurgery. Which combination creates fire risk?",
+      "options": [
+        "Oxidizer, fuel and ignition source together",
+        "Three forms of monitoring",
+        "Three types of sterile supplies",
+        "Three patient identifiers"
+      ],
+      "answer": 0,
+      "explanation": "Oxygen, prep and electrosurgery map to the fire triangle.",
+      "case": "C4"
+    },
+    {
+      "id": "CASE-014",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Before electrosurgery near the prepared field, what check matters?",
+      "options": [
+        "The alcohol prep has dried according to instructions",
+        "The room lights are dimmed",
+        "The count sheet is blank",
+        "The oxygen flow is increased automatically"
+      ],
+      "answer": 0,
+      "explanation": "Prep dry time and flammability are ESU safety considerations.",
+      "case": "C4"
+    },
+    {
+      "id": "CASE-015",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Where should the inactive electrosurgical pencil be kept?",
+      "options": [
+        "In its designated holster",
+        "Under the drapes",
+        "On the patient's gown",
+        "Beside pooled prep solution"
+      ],
+      "answer": 0,
+      "explanation": "Active-electrode isolation reduces inadvertent ignition or injury.",
+      "case": "C4"
+    },
+    {
+      "id": "CASE-016",
+      "category": "Exceptional clinical events",
+      "source": "F",
+      "prompt": "The team identifies a near fire during setup. What is the best immediate action?",
+      "options": [
+        "Pause and control oxygen, ignition and fuel hazards together",
+        "Proceed because no flame appeared",
+        "Add more dry gauze",
+        "Ignore the concern after Time Out"
+      ],
+      "answer": 0,
+      "explanation": "Fire prevention is coordinated control of the triangle.",
+      "case": "C4"
+    },
+    {
+      "id": "CASE-017",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "A bariatric patient is scheduled for a prolonged laparoscopic procedure. What should the preoperative plan include?",
+      "options": [
+        "Individualized positioning and safe transfer equipment",
+        "Only the surgeon's preferred instruments",
+        "Only the case start time",
+        "No extra assessment if anesthesia is planned"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint addresses bariatric considerations and safe positioning and transfer.",
+      "case": "C5"
+    },
+    {
+      "id": "CASE-018",
+      "category": "Safety",
+      "source": "B",
+      "prompt": "Which factor increases this patient's intraoperative pressure injury risk?",
+      "options": [
+        "Prolonged time in one position",
+        "The printed date on the schedule",
+        "The room's wall colour",
+        "The brand of surgical marker"
+      ],
+      "answer": 0,
+      "explanation": "Case duration and positioning devices are recognized risks.",
+      "case": "C5"
+    },
+    {
+      "id": "CASE-019",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "The laparoscopy converts to open surgery. What should the circulator anticipate?",
+      "options": [
+        "Additional instruments, supplies and updated care plan",
+        "Fewer safety checks",
+        "Cancellation of the closing count",
+        "No change to documentation"
+      ],
+      "answer": 0,
+      "explanation": "CNA explicitly describes conversion requiring adaptation.",
+      "case": "C5"
+    },
+    {
+      "id": "CASE-020",
+      "category": "Perioperative phases & anesthesia",
+      "source": "B",
+      "prompt": "Before transfer to recovery, what should be assessed and communicated?",
+      "options": [
+        "Skin, thermoregulation, pain and transfer needs",
+        "Only the procedure's billing code",
+        "Only the instrument tray inventory",
+        "Only the next case's start time"
+      ],
+      "answer": 0,
+      "explanation": "Postoperative assessment and safe transfer needs follow the patient.",
+      "case": "C5"
+    },
+    {
+      "id": "CASE-021",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "During anesthesia a patient develops an unexpected severe dysrhythmia. What should guide the response?",
+      "options": [
+        "Rapid team communication and the cardiac event protocol",
+        "Only the regular Sign Out checklist",
+        "The next case's equipment plan",
+        "A delayed note after transfer"
+      ],
+      "answer": 0,
+      "explanation": "CNA names cardiac events and protocol-based response.",
+      "case": "C6"
+    },
+    {
+      "id": "CASE-022",
+      "category": "Managing resources",
+      "source": "B",
+      "prompt": "The response needs extra personnel and emergency equipment. What should the circulator coordinate?",
+      "options": [
+        "Staff, equipment and room resources by clinical priority",
+        "Only the scheduled break coverage",
+        "Only new specimen labels",
+        "Only the next patient transport"
+      ],
+      "answer": 0,
+      "explanation": "Resource planning includes staffing and equipment availability.",
+      "case": "C6"
+    },
+    {
+      "id": "CASE-023",
+      "category": "Ethical & professional",
+      "source": "B",
+      "prompt": "Once stabilized, how should the event be handed off?",
+      "options": [
+        "Provide a structured account of what happened and ongoing concerns",
+        "Say only that surgery is over",
+        "Leave the receiving team to discover it in the chart",
+        "Wait for a family member to explain it"
+      ],
+      "answer": 0,
+      "explanation": "Care transitions require relevant information and accountability.",
+      "case": "C6"
+    },
+    {
+      "id": "CASE-024",
+      "category": "Exceptional clinical events",
+      "source": "B",
+      "prompt": "What should be entered in the nursing record?",
+      "options": [
+        "The event, interventions and relevant times accurately",
+        "A reconstructed normal course",
+        "Only the surgeon's diagnosis",
+        "Nothing if the patient survives"
+      ],
+      "answer": 0,
+      "explanation": "Complete, contemporaneous event documentation supports continuity.",
+      "case": "C6"
+    }
+  ],
+  "cases": {
+    "C1": "During an abdominal operation, the initial count is correct. The team is preparing to close a body cavity.",
+    "C2": "An adult patient arrives in holding for a unilateral knee operation. The consent and schedule disagree about the side.",
+    "C3": "A patient is scheduled for surgery requiring a heat-stable critical instrument. A wrapped set arrives with a damaged barrier.",
+    "C4": "A head and neck case uses supplemental oxygen, alcohol-based skin preparation and an electrosurgical pencil.",
+    "C5": "A bariatric patient is scheduled for a prolonged laparoscopic procedure that may require conversion to an open approach.",
+    "C6": "A patient develops a severe unexpected dysrhythmia during an operation and needs an urgent team response."
+  },
+  "sources": {
+    "B": {
+      "name": "CNA Perioperative Nursing Exam Blueprint and Competencies (2020)",
+      "url": "https://hl-prod-ca-oc-download.s3-ca-central-1.amazonaws.com/CNA/2f975e7e-4a40-45ca-863c-5ebf0a138d5e/UploadedImages/documents/perioperative_blueprint_and_competencies_e.pdf",
+      "note": "Competency and exam coverage source; some scenarios are reasoned applications of its competencies."
+    },
+    "W": {
+      "name": "WHO Surgical Safety Checklist (2009)",
+      "url": "https://www.who.int/docs/default-source/patient-safety/9789241598590-eng-checklist.pdf"
+    },
+    "D": {
+      "name": "CDC Guideline for Disinfection and Sterilization in Healthcare Facilities",
+      "url": "https://www.cdc.gov/infection-control/media/pdfs/guideline-disinfection-h.pdf"
+    },
+    "H": {
+      "name": "CDC Clinical Safety: Hand Hygiene for Healthcare Workers",
+      "url": "https://www.cdc.gov/clean-hands/hcp/clinical-safety/"
+    },
+    "I": {
+      "name": "WHO Infection Prevention and Control: Surgical Site Infections",
+      "url": "https://www.who.int/news-room/questions-and-answers/item/surgical-site-infections"
+    },
+    "F": {
+      "name": "AHRQ PSNet: Operating Room Fires",
+      "url": "https://psnet.ahrq.gov/issue/operating-room-fires"
+    }
+  },
+  "categories": [
+    "Ethical & professional",
+    "Safety",
+    "Infection prevention",
+    "Perioperative phases & anesthesia",
+    "Exceptional clinical events",
+    "Managing resources"
+  ],
+  "blueprintWeights": {
+    "Ethical & professional": 12.5,
+    "Safety": 25,
+    "Infection prevention": 22.5,
+    "Perioperative phases & anesthesia": 20,
+    "Exceptional clinical events": 12.5,
+    "Managing resources": 7.5
+  }
+}
