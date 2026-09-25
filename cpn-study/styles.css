@@ -33,6 +33,7 @@
 .feedback.needs-review strong{display:inline-block;background:#b00020;color:#fff8f0;padding:6px 10px;border-radius:5px}
 .feedback>a{display:inline-block;margin:2px 0 3px}
 .answer-option.correct{background:#1b435f;border-color:var(--accent)}
+.answer-option{appearance:none;-webkit-appearance:none}
 .answer-option.incorrect{background:#b00020;border-color:var(--orange)}
 .answer-option.incorrect .option-key,.answer-option.incorrect .option-check{color:#fff8f0}
 .answer-option.incorrect .option-key{border-color:#f7a8b0}
