@@ -199,8 +199,7 @@ function answer(index) {
   p.missed = !correct;
   saveProgress();
   [...$("#answer-options").children].forEach((button, i) => {
-    button.setAttribute("aria-disabled", "true");
-    button.tabIndex = -1;
+    button.disabled = true;
     if (i === q.correctIndex) {button.classList.add("correct"); button.querySelector(".option-check").textContent = "✓";}
     else if (i === index) {button.classList.add("incorrect"); button.querySelector(".option-check").textContent = "×";}
     else button.classList.add("dimmed");
