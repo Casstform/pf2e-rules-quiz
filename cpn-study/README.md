@@ -1,29 +1,31 @@
 # Perioperative Study Site
 
-An independent, static question bank for CNA CPN(C) exam preparation, published at
-`https://casstform.github.io/pf2e-rules-quiz/cpn-study/`.
+A static, independent CPN(C) practice site at
+https://casstform.github.io/pf2e-rules-quiz/cpn-study/.
 
-The site has no build step or external service. It loads `bank.json` and stores
-attempts, missed status, and bookmarks in the visitor's browser. The six study
-domains and approximate session weights follow CNA's perioperative blueprint.
-This is not affiliated with CNA or ORNAC and contains no official exam items.
+The current bank has 304 original multiple-choice questions based on the
+user-supplied ORNAC *Guidelines for Perioperative Practice in Canada*, 17th
+edition (April 2025). It covers every numbered subsection, with 60 questions
+in 15 four-part cases. CNA's 2020 perioperative exam blueprint informs the
+six domain weights and case proportion. No ORNAC PDF or extracted text is
+published in this repository.
 
 ## Maintain the bank
 
-Edit `questions.tsv`, `cases.tsv`, and `case-contexts.json`. Each question
-has a source code, four answer choices (the correct choice first), and a brief
-explanation. `learning.tsv` supplies a specific reason for each of the three
-incorrect choices and maps each question to a note in
-`learning-concepts.json`. Run `python3 build-bank.py` to regenerate `bank.json`.
-The site shuffles answer choices at display time. The script checks field
-counts, categories, sources, distinct choices, duplicate prompts and IDs, and
-complete teaching notes for every question.
+Edit `ornac-questions.txt` and `case-groups.json`, then run
+`python3 build-bank.py`. The pipe-delimited question fields are:
 
-The source-code mapping and exact links are in `build-bank.py`. The source
-link shown after each answer is a starting point for study, not a replacement
-for local policy or the current edition of a standard.
+`section|domain|prompt|correct|wrong1|wrong2|wrong3|rationale`
 
-When the owner supplies the ORNAC Standards PDF, review its edition and
-licence, add original scenario questions with section-specific citations,
-then update the source list and bank version. Do not paste large portions of
-the standards into the public repository.
+Domains are `E` (ethical/professional), `S` (safety), `I` (infection
+prevention), `P` (perioperative phases/anesthesia), `X` (exceptional events),
+and `M` (resources). Each item has four distinct choices and a reference to
+its ORNAC subsection. The build script checks field counts, unique prompts,
+case groups, source sections, and the generated explanation fields. The site
+shuffles answer choices and keeps attempts, missed status, and saved items in
+browser storage under a 17th-edition key.
+
+The source link on the site leads to ORNAC's information page. Readers need
+their own access to the full guideline. Questions and learning notes are
+original paraphrases, not copied guideline passages or official exam items.
+This project is not endorsed by CNA or ORNAC.

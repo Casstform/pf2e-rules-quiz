@@ -1,5 +1,5 @@
 const $ = (selector) => document.querySelector(selector);
-const STORAGE_KEY = "perioperative-study-lab-v1";
+const STORAGE_KEY = "perioperative-ornac17-v1";
 const THEME_KEY = "perioperative-study-lab-theme";
 const icons = ["✧", "⊕", "✳", "◌", "⌁", "◈"];
 const state = {
@@ -213,7 +213,7 @@ function answer(index) {
   const source = document.createElement("a");
   source.href = state.bank.sources[q.source].url;
   source.target = "_blank"; source.rel = "noopener";
-  source.textContent = `Read source: ${state.bank.sources[q.source].name} ↗`;
+  source.textContent = `Guideline reference: ${state.bank.sources[q.source].name} · Access information ↗`;
   feedback.append(title, explanation, source);
 
   const why = document.createElement("details");
@@ -243,11 +243,11 @@ function answer(index) {
   const basicsBody = document.createElement("p");
   basicsBody.textContent = concept.text;
   basics.append(basicsSummary, basicsBody);
-  if (concept.source !== q.source) {
+  if (concept.source && concept.source !== q.source) {
     const basicsSource = document.createElement("a");
     basicsSource.href = state.bank.sources[concept.source].url;
     basicsSource.target = "_blank"; basicsSource.rel = "noopener";
-    basicsSource.textContent = `Explore: ${state.bank.sources[concept.source].name} ↗`;
+    basicsSource.textContent = `Reference: ${state.bank.sources[concept.source].name} ↗`;
     basics.append(basicsSource);
   }
 
@@ -321,7 +321,7 @@ function bind() {
 async function init() {
   bind();
   try {
-    const response = await fetch("./bank.json");
+    const response = await fetch("./bank.json?v=ORNAC-17-2025");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.bank = await response.json();
     if (!Array.isArray(state.bank.questions) || !state.bank.questions.length) throw new Error("Question bank is empty");
