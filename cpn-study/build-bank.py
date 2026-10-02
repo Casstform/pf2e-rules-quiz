@@ -80,19 +80,58 @@ def concept_for(section):
     return 'pandemic'
 
 def wrong_reason(wrong, correct, rationale):
-    low = wrong.lower()
-    if any(x in low for x in ('wait ', 'after ', 'later', 'until ')):
-        lead = 'Waiting or delaying this step misses the point at which the risk must be controlled.'
-    elif any(x in low for x in ('only ', 'solely', 'alone ', 'just ')):
-        lead = 'That single measure leaves part of the required assessment or control unaddressed.'
-    elif any(x in low for x in ('assume ', 'guess ', 'rely ', 'automatically')):
-        lead = 'An assumption does not replace verification in this situation.'
-    elif any(x in low for x in ('ignore ', 'skip ', 'omit ', 'no ', 'without ')):
-        lead = 'This bypasses a safety check or control the situation calls for.'
-    elif any(x in low for x in ('untrained', 'unapproved', 'unlabeled', 'unverified')):
-        lead = 'The unverified or unauthorized approach cannot establish safe care.'
-    else:
-        lead = 'This action does not meet the safer approach for the situation.'
+    first = wrong.split()[0].lower().rstrip(',')
+    leads = {
+        'assume': 'The assumption is unverified and could miss the relevant risk.',
+        'only': 'Focusing on just one detail omits other needed checks or controls.',
+        'use': 'The proposed substitute does not establish the required safe process.',
+        'wait': 'Waiting delays a step that is needed before the risk develops.',
+        'ignore': 'Ignoring the finding leaves the possible problem unassessed.',
+        'treat': 'That applies the wrong classification or care process.',
+        'leave': 'Leaving the condition unresolved allows the hazard to persist.',
+        'skip': 'Skipping the step removes an important check or safeguard.',
+        'remove': 'Removing it in this way loses a needed barrier, record, or control.',
+        'rely': 'Relying on that alone cannot verify the actual condition.',
+        'discard': 'Discarding it in this way loses needed traceability or safe handling.',
+        'ask': 'That person or step cannot replace the responsible clinical process.',
+        'let': 'Allowing that to continue leaves the safety issue uncorrected.',
+        'keep': 'Keeping the current practice preserves the risk rather than addressing it.',
+        'place': 'That placement can compromise the barrier, patient, or equipment.',
+        'move': 'Moving it this way bypasses separation or verification controls.',
+        'continue': 'Continuing before assessment may expose the patient to further harm.',
+        'cover': 'Covering a problem does not restore sterility or correct its cause.',
+        'open': 'Opening at that point can extend exposure or compromise sterility.',
+        'increase': 'Increasing the setting before evaluation can amplify the hazard.',
+        'allow': 'Unrestricted access or activity does not maintain the needed controls.',
+        'proceed': 'Proceeding before reconciliation leaves a known discrepancy unresolved.',
+        'give': 'Giving treatment without the preceding checks can create a new risk.',
+        'avoid': 'Avoiding this step omits relevant patient care or communication.',
+        'tell': 'This does not ensure that the responsible team addresses the finding.',
+        'document': 'Documentation alone cannot replace the required clinical action.',
+        'choose': 'That choice does not account for the patient or procedure factors.',
+        'apply': 'Applying it without the required checks can compromise safety.',
+        'reuse': 'Reuse requires a validated and authorized process, not an informal decision.',
+        'omit': 'Omitting it leaves a required concern uncommunicated or unverified.',
+        'dismiss': 'Dismissing the concern prevents its assessment and resolution.',
+        'share': 'Sharing beyond those who need the information can breach privacy.',
+        'replace': 'Substitution must be verified rather than assumed equivalent.',
+        'assign': 'Assignment must account for competence and patient needs.',
+        'record': 'A record must reflect observed facts rather than a prediction.',
+        'stop': 'Stopping without a coordinated plan can leave care incomplete.',
+        'change': 'Changing a record or setting without verification hides the actual issue.',
+        'send': 'Sending it before verification or safe handling can propagate an error.',
+        'erase': 'Erasing the entry destroys an accurate audit trail.',
+        'silence': 'Silencing a warning does not correct its underlying cause.',
+    }
+    lead = leads.get(first)
+    if lead is None:
+        low = wrong.lower()
+        if any(x in low for x in ('only ', 'solely', 'alone ', 'just ')):
+            lead = 'That single measure leaves other necessary controls unaddressed.'
+        elif any(x in low for x in ('untrained', 'unapproved', 'unlabeled', 'unverified')):
+            lead = 'An unverified or unauthorized approach cannot establish safe care.'
+        else:
+            lead = 'That choice does not address the central safety requirement.'
     return f'{lead} {rationale}'
 
 questions = []
